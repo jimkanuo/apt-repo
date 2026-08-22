@@ -1,15 +1,15 @@
 Package: com.mlgm.pulloverx
-Version: 1.3.3
+Version: 1.3.4
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Filename: debs/PullOverX-融合版-已修复.deb
-Size: 285574
-MD5sum: 0adeaa4d8ad194a7f3c393c4183ffa39
-SHA1: a24176f687dfff6c0c7e67f93bd86a5e5b5d21c2
-SHA256: 4a9ce58a95b407cf2a9b261c0b998827a537405e808c3083d8078c412c180202
+Size: 286106
+MD5sum: d174e02f86b5e80163484e36f90471df
+SHA1: b5dda86d0e66fcabff35f97ce4c7bd83e027349c
+SHA256: 1fd1549a974866af9121d73ab8722b92ca2d23b6e8c210a5eb66692de7177b2a
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 二次开发
@@ -18,6 +18,7 @@ Description: 悬浮多任务窗口工具，基于 Pullover Pro 二次开发
  2. 窗口比例可自行调整，输入法弹出时自动放大
  3. 相机已修复
  4. 点击卡片外部自动缩回卡片，优化键盘交互
+ 5. 把手透明度调整
 Author: kanuo
 Dev: kanuo
 Icon: https://mlgm66.github.io/icon/pullover.png
