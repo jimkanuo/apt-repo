@@ -2,15 +2,17 @@ Origin: apt-repo
 Label: apt-repo
 Suite: stable
 Version: 1.0
-Codename: stable
-Architectures: iphoneos-arm64e
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
 Description: 自用 iOS 越狱插件源，兼容 Sileo
 MD5Sum:
- 3d61db08bead9c14aae93bb5c2a537c4 684 Packages
- 62e3dbc70a5d51fd33e19862e85da37e 530 Packages.gz
+ 02db3c483e559983c12462708484ea32 865 Packages
+ c75a94fcaf9f158851a36b4f02c8af37 666 Packages.gz
 SHA1:
- e392baf973971282db26c9d0ddcf3891cb5045cf 684 Packages
- 0660bf15f0a64c61d46432a5d5cd25e4d4b83cf3 530 Packages.gz
+ 68a91dd86e78e0c881adef4023b86a58b27d009d 865 Packages
+ 07079f10743c7f2d4abcfbd20cfcdc8b7f951c61 666 Packages.gz
 SHA256:
- 04979a0d0269a9e742cce28f3971b040630d6b3921a75b66591e12bd574f3e67 684 Packages
- 8895535e9a679c790d61ce79a88a126beef7e0b7d7db7669570e02736e1a46ba 530 Packages.gz
+ 47a31308d3c5d776a186738fe9d9771c6f8547ac831b8b970948aa72d1c6bfd7 865 Packages
+ cda830e66a56f2f66625e77182aab20975012b4ad09ca5a84388f3c1658623c8 666 Packages.gz
+
