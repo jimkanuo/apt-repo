@@ -1,0 +1,20 @@
+Package: com.mlgm.pulloverx
+Version: 1.3.1
+Architecture: iphoneos-arm64e
+Maintainer: mlgm
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/PullOverX-融合版-已修复.deb
+Size: 284784
+MD5sum: 9b31b0cc4de55f85ef3261853dea8797
+SHA1: e5dd23364a8f27ae6af0df51b2c206052b2354d5
+SHA256: 5a355290878246d1794d5ae1cfaddd01dbd29c9702bafddd8c5c26aef2d95556
+Section: Tweaks
+Priority: optional
+Description: 悬浮多任务窗口工具，基于 Pullover Pro 进行修改
+Author: mlgm
+Dev: mlgm
+Icon: https://mlgm66.github.io/icon/pullover.png
+Name: PullOver X
+
