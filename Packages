@@ -1,15 +1,15 @@
 Package: com.mlgm.pulloverx
-Version: 1.5.0
+Version: 1.5.1
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.5.0_iphoneos-arm64e.deb
-Size: 282334
-MD5sum: 3f1ccfe419d8689adca0a74c71dfc56f
-SHA1: 78724cdd9b236226fe131ebe8eafd7fe3efa417c
-SHA256: f3c461fba22cc7a78124bbceabcf5a06bb2e1293ed75d62d7be2c419e81d97fd
+Filename: debs/com.mlgm.pulloverx_1.5.1_iphoneos-arm64e.deb
+Size: 289612
+MD5sum: 600b202614a4eba1e2e730a9292ea02f
+SHA1: b80c56cbdb89c7e0e0048eec747e247d8f3ab012
+SHA256: 90a9dad5af4f3883c2600ff5d0380ea8ff52ab155a7dbb1d9d3c3740f7a6fb47
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 二次开发
@@ -17,6 +17,7 @@ Description: 悬浮多任务窗口工具，基于 Pullover Pro 二次开发
  1. 新增横屏竖屏比例单独设置
  2. 优化键盘逻辑，使用全屏键盘不影响输入框显示
  3. 优化横屏模式键盘分离
+ 4. 新增键盘避让功能，用于调整输入框无法正常显示的问题
 Author: kanuo
 Dev: kanuo
 Icon: https://mlgm66.github.io/icon/pullover.png
