@@ -1,48 +1,46 @@
 Package: com.mlgm.pulloverx
-Version: 1.6.0
-Architecture: iphoneos-arm64e
-Maintainer: kanuo
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.6.0_iphoneos-arm64e.deb
-Size: 291522
-MD5sum: d1c6d5efce8569371e8b94bae8bb96fa
-SHA1: 3515b97dad6782add821afed62da4b56044ae1af
-SHA256: edfdb9a72666ecccdfaf6911f324bf878a925399acaaa9b628b9e8219a978fd7
-Section: Tweaks
-Priority: optional
-Description: 悬浮多任务窗口工具，基于 Pullover Pro 二次开发
- 优化 UI 动画效果，聊天界面翻转已解决。
- 优化卡片弹出时卡片自动隐藏。
- 新增卡片弹出动画效果，可以在设置中自行选择。
- 新增收藏栏左边设置项，可以自定义收藏栏显示的位置。
-Author: kanuo
-Dev: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
-Name: PullOver X
-
-Package: com.mlgm.pulloverx
-Version: 1.6.0
+Version: 1.61
 Architecture: iphoneos-arm64
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.6.0_iphoneos-arm64.deb
-Size: 295070
-MD5sum: 6b6f182a9580815e42ed41691a4c0cd4
-SHA1: 40115709fac29610df778dfe8809d59192949453
-SHA256: 5611da5e8b12e175d9a90d57630b57b47bc9cd4ffc4b07d2bfa0deae56aa7791
+Filename: debs/com.mlgm.pulloverx_1.61_iphoneos-arm64.deb
+Size: 294896
+MD5sum: 1c9322ecfc99df940690e822095227ef
+SHA1: d381e85cb71add7bea366a8710a49ef360653e09
+SHA256: 72cfb3390c9f2223cc5b250ba216d169bca18dc205284acd815979a73974dba0
 Section: Tweaks
 Priority: optional
-Description: 悬浮多任务窗口工具，基于 Pullover Pro 二次开发
- 优化 UI 动画效果，聊天界面翻转已解决。
- 优化卡片弹出时卡片自动隐藏。
- 新增卡片弹出动画效果，可以在设置中自行选择。
- 新增收藏栏左边设置项，可以自定义收藏栏显示的位置。
+Description: Pullover-X窗口调度版
+ 设置项新增 App 显示比例问题排除选项。
+ 勾选的 App 自动以原始比例显示。
+ 未勾选的 App 自动切换为设置好的卡片比例。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
-Name: PullOver X
+Name: Pullover-X窗口调度版
+
+Package: com.mlgm.pulloverx
+Version: 1.61
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.mlgm.pulloverx_1.61_iphoneos-arm64e.deb
+Size: 291438
+MD5sum: 33b7030033e9f14a61e232df08ef96ff
+SHA1: 818d9dbca393df8c5db7252b3b731aa29c3076fc
+SHA256: 2e9fb4e1626065b154ee3ea32395a3bea32401271ebdd9e58f96e5b3842cb974
+Section: Tweaks
+Priority: optional
+Description: Pullover-X窗口调度版
+ 设置项新增 App 显示比例问题排除选项。
+ 勾选的 App 自动以原始比例显示。
+ 未勾选的 App 自动切换为设置好的卡片比例。
+Author: kanuo
+Dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
+Name: Pullover-X窗口调度版
 
