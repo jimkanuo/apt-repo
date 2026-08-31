@@ -1,48 +1,48 @@
 Package: com.mlgm.pulloverx
-Version: 1.5.5
-Architecture: iphoneos-arm64
-Maintainer: mlgm
+Version: 1.6.0
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.5.5_iphoneos-arm64.deb
-Size: 287250
-MD5sum: 6444962ebf610b3950a2a425733dc6aa
-SHA1: 4b9c8543b2f0df279d409f35d4a770b95ba41752
-SHA256: 92b61c724cbee21028774a4cf6e32c93e00a89a30325603c583d75a8c13af790
+Filename: debs/com.mlgm.pulloverx_1.6.0_iphoneos-arm64e.deb
+Size: 291522
+MD5sum: d1c6d5efce8569371e8b94bae8bb96fa
+SHA1: 3515b97dad6782add821afed62da4b56044ae1af
+SHA256: edfdb9a72666ecccdfaf6911f324bf878a925399acaaa9b628b9e8219a978fd7
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 二次开发
- 更新日志：
- 1. 固定把手开启时，固定收藏栏位置，app数量过多时启用滑轮上下滑动。
- 2. 双击收藏栏app实现全屏切换。
- 3. 优化横屏键盘显示位置，以免遮挡住灵动岛。
-Author: mlgm
-Dev: mlgm
-Icon: https://mlgm66.github.io/icon/pullover.png
+ 优化 UI 动画效果，聊天界面翻转已解决。
+ 优化卡片弹出时卡片自动隐藏。
+ 新增卡片弹出动画效果，可以在设置中自行选择。
+ 新增收藏栏左边设置项，可以自定义收藏栏显示的位置。
+Author: kanuo
+Dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: PullOver X
 
 Package: com.mlgm.pulloverx
-Version: 1.5.5
-Architecture: iphoneos-arm64e
-Maintainer: mlgm
+Version: 1.6.0
+Architecture: iphoneos-arm64
+Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.5.5_iphoneos-arm64e.deb
-Size: 283916
-MD5sum: 7089204a155649a51fa0b80dc9934052
-SHA1: 935320003bb9eef56ceac67ecb2afd762206ab9f
-SHA256: d44112a9cea9dfdb6ce639293f45b94afebf15243b106df9bc067885381ab6dc
+Filename: debs/com.mlgm.pulloverx_1.6.0_iphoneos-arm64.deb
+Size: 295070
+MD5sum: 6b6f182a9580815e42ed41691a4c0cd4
+SHA1: 40115709fac29610df778dfe8809d59192949453
+SHA256: 5611da5e8b12e175d9a90d57630b57b47bc9cd4ffc4b07d2bfa0deae56aa7791
 Section: Tweaks
 Priority: optional
 Description: 悬浮多任务窗口工具，基于 Pullover Pro 二次开发
- 更新日志：
- 1. 固定把手开启时，固定收藏栏位置，app数量过多时启用滑轮上下滑动。
- 2. 双击收藏栏app实现全屏切换。
- 3. 优化横屏键盘显示位置，以免遮挡住灵动岛。
-Author: mlgm
-Dev: mlgm
-Icon: https://mlgm66.github.io/icon/pullover.png
+ 优化 UI 动画效果，聊天界面翻转已解决。
+ 优化卡片弹出时卡片自动隐藏。
+ 新增卡片弹出动画效果，可以在设置中自行选择。
+ 新增收藏栏左边设置项，可以自定义收藏栏显示的位置。
+Author: kanuo
+Dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: PullOver X
 
