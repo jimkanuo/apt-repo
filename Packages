@@ -1,44 +1,44 @@
 Package: com.mlgm.pulloverx
-Version: 1.6.3
+Version: 1.6.5
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.6.3_iphoneos-arm64e.deb
-Size: 317750
-MD5sum: 7f093b477c4211e0369416b8b583c281
-SHA1: 7afdee5431fa45e93dd665ee38e288b4b42476e6
-SHA256: 0a0012ce7a08dba92a435e9d0c0955297165540bd3813528b10236a3471f48ca
+Filename: debs/com.mlgm.pulloverx_1.6.5_iphoneos-arm64e.deb
+Size: 347830
+MD5sum: dcefa91ea1a6db97b0cb978ea752d31f
+SHA1: 06c820f8f86218c04a02eff259e6578dccfc54e3
+SHA256: 5e5ad7a6311b9753aa4846a4305ddf42e426ffa96af837eb61f86e17cd2dbfca
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
- 新增自定义浮窗比例。
- 优化键盘全屏。
- 去除动画过度。
+ 收藏栏长按第二个 app 可自由移动位置。
+ 收藏栏新增横屏窗口呼出功能（放在第一个位置）。
+ 点击视频 app 全屏播放，再点击收藏栏第一个 app 立即新分一个窗口，可横竖切换。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: Pullover-X窗口调度版
 
 Package: com.mlgm.pulloverx
-Version: 1.6.3
+Version: 1.6.5
 Architecture: iphoneos-arm64
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.6.3_iphoneos-arm64.deb
-Size: 321206
-MD5sum: 3a7a9ea1a990d9bbb1909dc291bb8f3c
-SHA1: bd1a18efcaa09db25f9905e334bf6cac98c32832
-SHA256: 47c30f29b8781d150350b4de02db81dc867278ce564b3977a4bd2a317c292ab4
+Filename: debs/com.mlgm.pulloverx_1.6.5_iphoneos-arm64.deb
+Size: 351334
+MD5sum: be50c5a87bfc562a06bfdddc1ff0ef3a
+SHA1: 7fc0717d5ed6a8475212bf8d02826f390fff4e04
+SHA256: 0f31372d485750c112160a8b446bbf7499e46907233ebdd0a3c0e192012c6073
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
- 新增自定义浮窗比例。
- 优化键盘全屏。
- 去除动画过度。
+ 收藏栏长按第二个 app 可自由移动位置。
+ 收藏栏新增横屏窗口呼出功能（放在第一个位置）。
+ 点击视频 app 全屏播放，再点击收藏栏第一个 app 立即新分一个窗口，可横竖切换。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
