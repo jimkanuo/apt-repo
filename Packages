@@ -1,44 +1,44 @@
 Package: com.mlgm.pulloverx
-Version: 1.6.2
-Architecture: iphoneos-arm64
+Version: 1.6.3
+Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.6.2_iphoneos-arm64.deb
-Size: 298638
-MD5sum: 0c0e2cea0d8dba4799d57418d561ec10
-SHA1: 9a1932c1d94675d9efb401d92c42c912bdef5f53
-SHA256: a5efc51e38ca930f8b177895ca62fb9e4dee53ce9832edebb22228b24e1139e1
+Filename: debs/com.mlgm.pulloverx_1.6.3_iphoneos-arm64e.deb
+Size: 317750
+MD5sum: 7f093b477c4211e0369416b8b583c281
+SHA1: 7afdee5431fa45e93dd665ee38e288b4b42476e6
+SHA256: 0a0012ce7a08dba92a435e9d0c0955297165540bd3813528b10236a3471f48ca
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
- 键盘改成内置全屏。
- 键盘不受卡片比例影响。
- 键盘错位问题已解决。
+ 新增自定义浮窗比例。
+ 优化键盘全屏。
+ 去除动画过度。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: Pullover-X窗口调度版
 
 Package: com.mlgm.pulloverx
-Version: 1.6.2
-Architecture: iphoneos-arm64e
+Version: 1.6.3
+Architecture: iphoneos-arm64
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.6.2_iphoneos-arm64e.deb
-Size: 295442
-MD5sum: 92f129fb2110184a994cfaa609e0d77c
-SHA1: 4368c1d8bb3329554e0b6248293d35b3694ee444
-SHA256: 39d63eeae654a1236d7b77a74aae4c4aa8bf7292d5cf9a36c3cc2bbe760a3c23
+Filename: debs/com.mlgm.pulloverx_1.6.3_iphoneos-arm64.deb
+Size: 321206
+MD5sum: 3a7a9ea1a990d9bbb1909dc291bb8f3c
+SHA1: bd1a18efcaa09db25f9905e334bf6cac98c32832
+SHA256: 47c30f29b8781d150350b4de02db81dc867278ce564b3977a4bd2a317c292ab4
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
- 键盘改成内置全屏。
- 键盘不受卡片比例影响。
- 键盘错位问题已解决。
+ 新增自定义浮窗比例。
+ 优化键盘全屏。
+ 去除动画过度。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
