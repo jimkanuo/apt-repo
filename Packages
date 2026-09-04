@@ -1,44 +1,48 @@
 Package: com.mlgm.pulloverx
-Version: 1.6.5
-Architecture: iphoneos-arm64e
+Version: 1.7.0
+Architecture: iphoneos-arm64
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.6.5_iphoneos-arm64e.deb
-Size: 347830
-MD5sum: dcefa91ea1a6db97b0cb978ea752d31f
-SHA1: 06c820f8f86218c04a02eff259e6578dccfc54e3
-SHA256: 5e5ad7a6311b9753aa4846a4305ddf42e426ffa96af837eb61f86e17cd2dbfca
+Filename: debs/com.mlgm.pulloverx_1.7.0_iphoneos-arm64.deb
+Size: 255908
+MD5sum: 149e8c923c2f0f7013ba6a147377058c
+SHA1: 9f0867c31ac5e2b44f4623290111a309083078a0
+SHA256: 6562240a22873fd99a5e268881a64019eb5b8830d146b2d4d758b12380f1fb4f
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
- 收藏栏长按第二个 app 可自由移动位置。
- 收藏栏新增横屏窗口呼出功能（放在第一个位置）。
- 点击视频 app 全屏播放，再点击收藏栏第一个 app 立即新分一个窗口，可横竖切换。
+ 1、新增副窗口横幅控制栏，支持全屏、横竖屏切换、吸附边缘等。
+ 2、优化过场动画与卡片效果。
+ 3、优化副窗口弹出方式：长按收藏栏图标自动弹窗，副窗口与主卡运行不同 App。
+ 4、快捷操作：主卡双击收藏栏转全屏；长按 App 跳转副窗口；副窗口底部两角拖拽缩放；顶部多功能键快捷切换场景。
+ 5、本次插件开发暂告一段落。插件完全免费开放使用，如遇 BUG 或体验瑕疵，还请大家多多包涵。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: Pullover-X窗口调度版
 
 Package: com.mlgm.pulloverx
-Version: 1.6.5
-Architecture: iphoneos-arm64
+Version: 1.7.0
+Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.6.5_iphoneos-arm64.deb
-Size: 351334
-MD5sum: be50c5a87bfc562a06bfdddc1ff0ef3a
-SHA1: 7fc0717d5ed6a8475212bf8d02826f390fff4e04
-SHA256: 0f31372d485750c112160a8b446bbf7499e46907233ebdd0a3c0e192012c6073
+Filename: debs/com.mlgm.pulloverx_1.7.0_iphoneos-arm64e.deb
+Size: 254736
+MD5sum: 51d27423b6d40703efeb40c460bcc76d
+SHA1: ce82a91ae5464e1a6bef94b7c569cf5c45dfa369
+SHA256: c8cf012df9b86fd8480c3da12bf536e9f433c998c160722154adf613845f7f09
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
- 收藏栏长按第二个 app 可自由移动位置。
- 收藏栏新增横屏窗口呼出功能（放在第一个位置）。
- 点击视频 app 全屏播放，再点击收藏栏第一个 app 立即新分一个窗口，可横竖切换。
+ 1、新增副窗口横幅控制栏，支持全屏、横竖屏切换、吸附边缘等。
+ 2、优化过场动画与卡片效果。
+ 3、优化副窗口弹出方式：长按收藏栏图标自动弹窗，副窗口与主卡运行不同 App。
+ 4、快捷操作：主卡双击收藏栏转全屏；长按 App 跳转副窗口；副窗口底部两角拖拽缩放；顶部多功能键快捷切换场景。
+ 5、本次插件开发暂告一段落。插件完全免费开放使用，如遇 BUG 或体验瑕疵，还请大家多多包涵。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
