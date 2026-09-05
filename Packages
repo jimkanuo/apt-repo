@@ -1,15 +1,15 @@
 Package: com.mlgm.pulloverx
-Version: 1.7.0
+Version: 1.7.1
 Architecture: iphoneos-arm64
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.7.0_iphoneos-arm64.deb
-Size: 255908
-MD5sum: 149e8c923c2f0f7013ba6a147377058c
-SHA1: 9f0867c31ac5e2b44f4623290111a309083078a0
-SHA256: 6562240a22873fd99a5e268881a64019eb5b8830d146b2d4d758b12380f1fb4f
+Filename: debs/com.mlgm.pulloverx_1.7.1_iphoneos-arm64.deb
+Size: 256516
+MD5sum: bc959bc8b7f9dd420e8b6c2800ff2d05
+SHA1: 1516903ea62a56ad87373159cd6568f257980d6e
+SHA256: 0f3e4e0dd4bac87f6895c622cde5cf884aac3cbfda4fd875e264f47682cbcb9d
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
@@ -18,23 +18,24 @@ Description: Pullover-X窗口调度版
  3、优化副窗口弹出方式：长按收藏栏图标自动弹窗，副窗口与主卡运行不同 App。
  4、快捷操作：主卡双击收藏栏转全屏；长按 App 跳转副窗口；副窗口底部两角拖拽缩放；顶部多功能键快捷切换场景。
  5、本次插件开发暂告一段落。插件完全免费开放使用，如遇 BUG 或体验瑕疵，还请大家多多包涵。
+ 6、优化键盘闪屏问题，调整悬浮框图标显示。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: Pullover-X窗口调度版
 
 Package: com.mlgm.pulloverx
-Version: 1.7.0
+Version: 1.7.1
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.7.0_iphoneos-arm64e.deb
-Size: 254736
-MD5sum: 51d27423b6d40703efeb40c460bcc76d
-SHA1: ce82a91ae5464e1a6bef94b7c569cf5c45dfa369
-SHA256: c8cf012df9b86fd8480c3da12bf536e9f433c998c160722154adf613845f7f09
+Filename: debs/com.mlgm.pulloverx_1.7.1_iphoneos-arm64e.deb
+Size: 254988
+MD5sum: 1314032aad33d72121d7e843e8245621
+SHA1: 6eea9f60e3b8cf0769fbced3e838375ec32c2220
+SHA256: fbc2b4601b71245b5ff6697908d367c501a1174a9cebd4093b24817cdb85dcec
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
@@ -43,6 +44,7 @@ Description: Pullover-X窗口调度版
  3、优化副窗口弹出方式：长按收藏栏图标自动弹窗，副窗口与主卡运行不同 App。
  4、快捷操作：主卡双击收藏栏转全屏；长按 App 跳转副窗口；副窗口底部两角拖拽缩放；顶部多功能键快捷切换场景。
  5、本次插件开发暂告一段落。插件完全免费开放使用，如遇 BUG 或体验瑕疵，还请大家多多包涵。
+ 6、优化键盘闪屏问题，调整悬浮框图标显示。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
