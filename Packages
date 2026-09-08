@@ -1,50 +1,40 @@
 Package: com.mlgm.pulloverx
-Version: 1.7.1
+Version: 1.7.5
 Architecture: iphoneos-arm64
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.7.1_iphoneos-arm64.deb
-Size: 256516
-MD5sum: bc959bc8b7f9dd420e8b6c2800ff2d05
-SHA1: 1516903ea62a56ad87373159cd6568f257980d6e
-SHA256: 0f3e4e0dd4bac87f6895c622cde5cf884aac3cbfda4fd875e264f47682cbcb9d
+Filename: debs/com.mlgm.pulloverx_1.7.5_iphoneos-arm64.deb
+Size: 387424
+MD5sum: d2bc6100e704637f1a8feb097dc46088
+SHA1: 0c1ce8b410d41e9fba2484b608cbc83b26a5c18c
+SHA256: 9e3a81eb7b036553d8c4beb7f98203d9edd7943f71a5aab8bc77617be1ea39fd
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
- 1、新增副窗口横幅控制栏，支持全屏、横竖屏切换、吸附边缘等。
- 2、优化过场动画与卡片效果。
- 3、优化副窗口弹出方式：长按收藏栏图标自动弹窗，副窗口与主卡运行不同 App。
- 4、快捷操作：主卡双击收藏栏转全屏；长按 App 跳转副窗口；副窗口底部两角拖拽缩放；顶部多功能键快捷切换场景。
- 5、本次插件开发暂告一段落。插件完全免费开放使用，如遇 BUG 或体验瑕疵，还请大家多多包涵。
- 6、优化键盘闪屏问题，调整悬浮框图标显示。
+ 新增半屏模式，优化功能按键图标，优化流畅度。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: Pullover-X窗口调度版
 
 Package: com.mlgm.pulloverx
-Version: 1.7.1
+Version: 1.7.5
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.7.1_iphoneos-arm64e.deb
-Size: 254988
-MD5sum: 1314032aad33d72121d7e843e8245621
-SHA1: 6eea9f60e3b8cf0769fbced3e838375ec32c2220
-SHA256: fbc2b4601b71245b5ff6697908d367c501a1174a9cebd4093b24817cdb85dcec
+Filename: debs/com.mlgm.pulloverx_1.7.5_iphoneos-arm64e.deb
+Size: 383818
+MD5sum: 37973155f2d474d4dcd30c82328fe142
+SHA1: 7f71e7c73bfc117507668000f55add6c63a0b795
+SHA256: 5c6cb30b42af30293ce96d6d31c9a6fd7d3600c083e92fa967d4f21ac10b3d4a
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
- 1、新增副窗口横幅控制栏，支持全屏、横竖屏切换、吸附边缘等。
- 2、优化过场动画与卡片效果。
- 3、优化副窗口弹出方式：长按收藏栏图标自动弹窗，副窗口与主卡运行不同 App。
- 4、快捷操作：主卡双击收藏栏转全屏；长按 App 跳转副窗口；副窗口底部两角拖拽缩放；顶部多功能键快捷切换场景。
- 5、本次插件开发暂告一段落。插件完全免费开放使用，如遇 BUG 或体验瑕疵，还请大家多多包涵。
- 6、优化键盘闪屏问题，调整悬浮框图标显示。
+ 新增半屏模式，优化功能按键图标，优化流畅度。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
