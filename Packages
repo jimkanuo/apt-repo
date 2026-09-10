@@ -1,40 +1,40 @@
 Package: com.mlgm.pulloverx
-Version: 1.7.5
-Architecture: iphoneos-arm64
+Version: 1.8.0
+Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.7.5_iphoneos-arm64.deb
-Size: 387424
-MD5sum: d2bc6100e704637f1a8feb097dc46088
-SHA1: 0c1ce8b410d41e9fba2484b608cbc83b26a5c18c
-SHA256: 9e3a81eb7b036553d8c4beb7f98203d9edd7943f71a5aab8bc77617be1ea39fd
+Filename: debs/com.mlgm.pulloverx_1.8.0_iphoneos-arm64e.deb
+Size: 396256
+MD5sum: 081ca5df7496bcb021d23e4a2ac889c1
+SHA1: a0a3d8d3a3fb46a8fe0380da86ac0fdfe157898e
+SHA256: 656b1339e902f19ae93dac07d16b89947209ef57b13d49d757035668bf69e3ba
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
- 新增半屏模式，优化功能按键图标，优化流畅度。
+ 全新 UI 精修：矢量图标统一、选 App 面板重做、横条质感升级、比例吸附、触觉反馈、无障碍适配。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: Pullover-X窗口调度版
 
 Package: com.mlgm.pulloverx
-Version: 1.7.5
-Architecture: iphoneos-arm64e
+Version: 1.8.0
+Architecture: iphoneos-arm64
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.7.5_iphoneos-arm64e.deb
-Size: 383818
-MD5sum: 37973155f2d474d4dcd30c82328fe142
-SHA1: 7f71e7c73bfc117507668000f55add6c63a0b795
-SHA256: 5c6cb30b42af30293ce96d6d31c9a6fd7d3600c083e92fa967d4f21ac10b3d4a
+Filename: debs/com.mlgm.pulloverx_1.8.0_iphoneos-arm64.deb
+Size: 399764
+MD5sum: fd5bf0ac8fbc184afa1745aacff43a7b
+SHA1: 901c799cbe8ac5aab3e82a5ab53e24cf25817bb9
+SHA256: 1e8f07ca92a99a49137d5cc02e902cb414630acd7d58e60e1727a8355e1b93f3
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
- 新增半屏模式，优化功能按键图标，优化流畅度。
+ 全新 UI 精修：矢量图标统一、选 App 面板重做、横条质感升级、比例吸附、触觉反馈、无障碍适配。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
