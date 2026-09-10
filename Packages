@@ -1,40 +1,40 @@
 Package: com.mlgm.pulloverx
-Version: 1.8.0
-Architecture: iphoneos-arm64e
+Version: 1.8.14
+Architecture: iphoneos-arm64
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.8.0_iphoneos-arm64e.deb
-Size: 396256
-MD5sum: 081ca5df7496bcb021d23e4a2ac889c1
-SHA1: a0a3d8d3a3fb46a8fe0380da86ac0fdfe157898e
-SHA256: 656b1339e902f19ae93dac07d16b89947209ef57b13d49d757035668bf69e3ba
+Filename: debs/com.mlgm.pulloverx_1.8.14_iphoneos-arm64.deb
+Size: 409754
+MD5sum: 246ed23e5e71991e8a8347c43ce73141
+SHA1: a4a2cce0e3442c276cc627c9719f1173a028ae48
+SHA256: aa373c5440a294ebc9b1310fcee5f466e0d04f1a628f35ad453789d84122ffd5
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
- 全新 UI 精修：矢量图标统一、选 App 面板重做、横条质感升级、比例吸附、触觉反馈、无障碍适配。
+ 优化UI界面。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: Pullover-X窗口调度版
 
 Package: com.mlgm.pulloverx
-Version: 1.8.0
-Architecture: iphoneos-arm64
+Version: 1.8.14
+Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.8.0_iphoneos-arm64.deb
-Size: 399764
-MD5sum: fd5bf0ac8fbc184afa1745aacff43a7b
-SHA1: 901c799cbe8ac5aab3e82a5ab53e24cf25817bb9
-SHA256: 1e8f07ca92a99a49137d5cc02e902cb414630acd7d58e60e1727a8355e1b93f3
+Filename: debs/com.mlgm.pulloverx_1.8.14_iphoneos-arm64e.deb
+Size: 406518
+MD5sum: 85bc4078625b67d80b07450e2946f4c7
+SHA1: bbcc157e584d9e852016e66ebbbe8974b1f820cf
+SHA256: 8d471b5a599e3150181a7e92c399791dc0dd783402bb044fd2ac86909c1c9377
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
- 全新 UI 精修：矢量图标统一、选 App 面板重做、横条质感升级、比例吸附、触觉反馈、无障碍适配。
+ 优化UI界面。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
