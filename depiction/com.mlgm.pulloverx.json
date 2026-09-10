@@ -1,0 +1,60 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/icon/pullover-banner.png",
+  "tintColor": "#4A92FF",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**PullOver-X 窗口调度版** — 为越狱设备打造的窗口管理与分屏调度插件。\n\n支持上下垂直分屏、悬浮卡片、视频画中画框、收藏栏快速切换，并将整体视觉精修至液态玻璃质感。"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            { "url": "https://jimkanuo.github.io/apt-repo/screenshots/pulloverx-1.jpg", "accessibilityText": "悬浮卡片与收藏栏" },
+            { "url": "https://jimkanuo.github.io/apt-repo/screenshots/pulloverx-2.jpg", "accessibilityText": "设置面板 - 卡片尺寸与比例" },
+            { "url": "https://jimkanuo.github.io/apt-repo/screenshots/pulloverx-3.jpg", "accessibilityText": "上下分屏 + 副窗口功能键" },
+            { "url": "https://jimkanuo.github.io/apt-repo/screenshots/pulloverx-4.jpg", "accessibilityText": "半屏模式与比例调节" }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "<hr/>"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "### 版本 1.8.19 更新日志\n\n**1、快捷方式**\n\n主卡双击收藏栏转全屏，长按 app 跳转第二副窗口；副窗口底部按住可以移动位置，两个角拖拉可放大缩小以及调整合适的尺寸；副窗口顶部有多个功能键，方便切换你想要的场景。长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。\n\n**2、注意事项**\n\n左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。\n\n**3、本次插件开发暂告一段落**\n\n后续大幅迭代优化的空间较小。插件完全免费开放使用，如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "兼容版本",
+          "text": "iOS 14.0 及以上"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持架构",
+          "text": "roothide (arm64e) / rootless (arm64)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "kanuo"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "反馈与交流",
+          "action": "https://jimkanuo.github.io/apt-repo/"
+        }
+      ]
+    }
+  ]
+}

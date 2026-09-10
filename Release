@@ -7,12 +7,12 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: 自用 iOS 越狱插件源，兼容 Sileo
 MD5Sum:
- eae33f87a18633c2436cf5d2f4d2042f 1414 Packages
- b4252cc8bc86cf5f19d761b08098c64d 607 Packages.gz
+ 2ad10c3d1180d59a56732e53e9ebb02c 3135 Packages
+ a3a042fe47e049695e07cc90ad7d5ee1 1235 Packages.gz
 SHA1:
- f3f40420e805faddeff4f7231b2c9efeeab3d2be 1414 Packages
- 7ddc018cc87c2dbad3dc6b5abbc74a43c51c9212 607 Packages.gz
+ 080750d74d20350543f2ef438b3a92ee4152ab89 3135 Packages
+ 87b0d9bd27bf19bcb49587281ce7a433fe1effdc 1235 Packages.gz
 SHA256:
- 60b43fb57d8656ca89568c435a494d4d4fef52197552bcf59231aa96dcb7fadb 1414 Packages
- 0b7a5d329cc711b850beebe4bd99bc2f9fcd400444a183267dc0e5d83fd5cf5c 607 Packages.gz
+ ca7e614d1645d8fd3d1c179f2510aaa789239adf50ebc6354ef50b06e4663a5f 3135 Packages
+ d54ad94a0c990174a6ac2bbedf0c3d7a888a1adc49d8c6397648f17e99703838 1235 Packages.gz
 

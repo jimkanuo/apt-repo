@@ -1,42 +1,55 @@
 Package: com.mlgm.pulloverx
-Version: 1.8.14
-Architecture: iphoneos-arm64
-Maintainer: kanuo
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.8.14_iphoneos-arm64.deb
-Size: 409754
-MD5sum: 246ed23e5e71991e8a8347c43ce73141
-SHA1: a4a2cce0e3442c276cc627c9719f1173a028ae48
-SHA256: aa373c5440a294ebc9b1310fcee5f466e0d04f1a628f35ad453789d84122ffd5
-Section: Tweaks
-Priority: optional
-Description: Pullover-X窗口调度版
- 优化UI界面。
-Author: kanuo
-Dev: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
-Name: Pullover-X窗口调度版
-
-Package: com.mlgm.pulloverx
-Version: 1.8.14
+Version: 1.8.19
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.8.14_iphoneos-arm64e.deb
-Size: 406518
-MD5sum: 85bc4078625b67d80b07450e2946f4c7
-SHA1: bbcc157e584d9e852016e66ebbbe8974b1f820cf
-SHA256: 8d471b5a599e3150181a7e92c399791dc0dd783402bb044fd2ac86909c1c9377
+Filename: debs/com.mlgm.pulloverx_1.8.19_iphoneos-arm64e.deb
+Size: 407194
+MD5sum: dbd971f6101b3d8987ee5c676d02841d
+SHA1: 58fa5dfaf9bfa46ce36f43e3120a2f33fa710044
+SHA256: e8c417add0f35a05f80c8515701c8c6e3860e7775072d086760f4654e2d625a3
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
- 优化UI界面。
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
 Author: kanuo
 Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: Pullover-X窗口调度版
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
+Package: com.mlgm.pulloverx
+Version: 1.8.19
+Architecture: iphoneos-arm64
+Maintainer: kanuo
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
+Filename: debs/com.mlgm.pulloverx_1.8.19_iphoneos-arm64.deb
+Size: 410426
+MD5sum: 9f54e170dbd3f1c2b32118076b30f823
+SHA1: 8c18057dc816da4cfbf7a3ff33463436d35de8ef
+SHA256: 2485b2692e1548f9b3e5ae69d7d51ccc32a98fe14db4001ab1eea804153ba420
+Section: Tweaks
+Priority: optional
+Description: Pullover-X窗口调度版
+ 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
+ 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
+ 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
+ 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
+ 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
+ 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
+ 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
+Author: kanuo
+Dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
+Name: Pullover-X窗口调度版
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
