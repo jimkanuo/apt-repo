@@ -1,15 +1,15 @@
 Package: com.mlgm.pulloverx
-Version: 1.8.19
+Version: 1.8.20
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.8.19_iphoneos-arm64e.deb
-Size: 407194
-MD5sum: dbd971f6101b3d8987ee5c676d02841d
-SHA1: 58fa5dfaf9bfa46ce36f43e3120a2f33fa710044
-SHA256: e8c417add0f35a05f80c8515701c8c6e3860e7775072d086760f4654e2d625a3
+Filename: debs/com.mlgm.pulloverx_1.8.20_iphoneos-arm64e.deb
+Size: 408788
+MD5sum: 0826aec0e4a0613b731a8059396caa14
+SHA1: f70665399f6da32bd1425e18e16d620566fd87d3
+SHA256: f03420dd17e1df8e6fbc40a4983e2eef2d8ec1ddf9466c661b8c6890e936ade9
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
@@ -27,17 +27,17 @@ Name: Pullover-X窗口调度版
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
 Package: com.mlgm.pulloverx
-Version: 1.8.19
+Version: 1.8.20
 Architecture: iphoneos-arm64
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.8.19_iphoneos-arm64.deb
-Size: 410426
-MD5sum: 9f54e170dbd3f1c2b32118076b30f823
-SHA1: 8c18057dc816da4cfbf7a3ff33463436d35de8ef
-SHA256: 2485b2692e1548f9b3e5ae69d7d51ccc32a98fe14db4001ab1eea804153ba420
+Filename: debs/com.mlgm.pulloverx_1.8.20_iphoneos-arm64.deb
+Size: 412376
+MD5sum: a6b8739ee688fc23ed03d3452d8a1cd2
+SHA1: 134e5d07dc21f0422fbc1e88e202981075d01ad9
+SHA256: 9701d61927e16bae5aff153762a8aada9c1537c68d7c0ee4433f09016477b031
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
