@@ -53,3 +53,79 @@ Dev: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: Pullover-X窗口调度版
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
+
+Package: com.snapbackup
+Version: 3.4.9
+Architecture: iphoneos-arm64
+Maintainer: kanuo
+Installed-Size: 812
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.snapbackup_3.4.9_iphoneos-arm64.deb
+Size: 892670
+MD5sum: 2467b3d6c0a3eaa35c0f6ac1e2e144d2
+SHA1: 3de37fc5a67617c4c0de613de5bf0b00f5f483f2
+SHA256: 89e9dfb920736cc637fd97dd1354ab4431a22c6c0206f17f12157f9da81f89df
+Section: Tweaks
+Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
+ 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
+ .
+ 【核心功能】
+ - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
+ - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
+ - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
+ - 恢复配置一键完成（plist 恢复到 /var/mobile/Library/Preferences，本地执行，无需 root）
+ .
+ 【恢复难易度说明】
+ - 恢复配置：★☆☆ 简单 —— App 内一键恢复，本地执行，无需 root 权限
+ - 恢复插件：★★★ 较难 —— 需 root 权限，通过「Filza 显示」跳转 Filza，手动安装 debs/ 下的 deb（或 dpkg -i），装完注销/重启生效
+ .
+ 【操作流程】
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包 → 自动恢复 plist（无需 root）
+ ③ 恢复插件：备份包卡片 →「Filza 显示」→ 进入 debs/ 文件夹 → 逐个点 deb 安装 → 注销/重启 SpringBoard 生效
+ .
+ RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
+ 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
+Author: kanuo
+Dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
+Name: SnapBackup 备份恢复
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
+
+Package: com.snapbackup
+Version: 3.4.9
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 812
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/com.snapbackup_3.4.9_iphoneos-arm64e.deb
+Size: 893014
+MD5sum: fc70dd745fb13d9cbf9eb26f67ae12ba
+SHA1: 5e3748c60b9bc66b8ef22c565c11eeaae0fb9a92
+SHA256: 9ad13b111199a9bf2f3b6b5c6931e4bc180fc31ea1e3e35c63f36777387a8f1f
+Section: Tweaks
+Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
+ 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
+ .
+ 【核心功能】
+ - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
+ - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
+ - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
+ - 恢复配置一键完成（plist 恢复到 /var/mobile/Library/Preferences，本地执行，无需 root）
+ .
+ 【恢复难易度说明】
+ - 恢复配置：★☆☆ 简单 —— App 内一键恢复，本地执行，无需 root 权限
+ - 恢复插件：★★★ 较难 —— 需 root 权限，通过「Filza 显示」跳转 Filza，手动安装 debs/ 下的 deb（或 dpkg -i），装完注销/重启生效
+ .
+ 【操作流程】
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ② 恢复配置：主页 →「恢复配置」→ 选备份包 → 自动恢复 plist（无需 root）
+ ③ 恢复插件：备份包卡片 →「Filza 显示」→ 进入 debs/ 文件夹 → 逐个点 deb 安装 → 注销/重启 SpringBoard 生效
+ .
+ RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
+ 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
+Author: kanuo
+Dev: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
+Name: SnapBackup 备份恢复
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json

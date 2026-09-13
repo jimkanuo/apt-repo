@@ -1,0 +1,109 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/icon/snapbackup-banner.png",
+  "tintColor": "#4A92FF",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionImageView",
+          "URL": "https://jimkanuo.github.io/apt-repo/icon/snapbackup-hero.png",
+          "width": 390,
+          "height": 196,
+          "cornerRadius": 0,
+          "alignment": 1,
+          "xPadding": 0
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**SnapBackup 备份恢复**\n\n轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。支持 rootless 与 RootHide 隐根环境，一键把已装插件现场重打包成 .deb，同时备份软件源列表和插件偏好配置。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "恢复难易度说明"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**恢复配置：★☆☆ 简单**\nApp 内一键恢复 plist 到 `/var/mobile/Library/Preferences/`，本地执行，**无需 root 权限**。\n\n**恢复插件：★★★ 较难**\n需要 root 权限。通过「Filza 显示」跳转 Filza，手动安装 debs/ 下的 deb（或用 dpkg -i），装完注销/重启生效。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "操作流程"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "① 备份",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成。备份保存在 `/var/mobile/Documents/SnapBackup/`。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "② 恢复配置",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "主页 →「恢复配置」→ 选备份包 → 自动把 plist 恢复到原位置（无需 root）。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "③ 恢复插件（需 root）",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "备份包卡片 →「Filza 显示」→ 进入 `debs/` 文件夹 → 逐个点 deb 安装（或 dpkg -i）→ 注销/重启 SpringBoard 生效。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "3.4.9"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "兼容系统",
+          "text": "iOS 15.0 及以上"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持架构",
+          "text": "roothide (arm64e) · rootless (arm64)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "kanuo"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "价格",
+          "text": "完全免费"
+        }
+      ]
+    }
+  ]
+}
