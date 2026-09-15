@@ -83,14 +83,15 @@ sha256_pkgs=$(shasum -a 256 Packages | awk '{print $1}')
 sha256_gz=$(shasum -a 256 Packages.gz | awk '{print $1}')
 
 cat > Release <<EOF
-Origin: apt-repo
-Label: apt-repo
+Origin: 卡诺的专用源
+Label: 卡诺的专用源
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 自用 iOS 越狱插件源，兼容 Sileo
+Description: 卡诺的专用源 - 常用越狱插件备份
+Icon: https://jimkanuo.github.io/apt-repo/icon/source-icon.png
 MD5Sum:
  $md5_pkgs $size_pkgs Packages
  $md5_gz $size_gz Packages.gz
