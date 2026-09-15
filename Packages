@@ -57,38 +57,6 @@ Icon: https://axs66.github.io/pro/icon/snapper.png
 Name: Snapper3 Expand
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper3expand/js.json
 
-Package: com.charlieleung.bargesture
-Version: 0.0.4
-Architecture: iphoneos-arm64e
-Maintainer: charlieleung
-Installed-Size: 1224
-Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: debs/备份源/com.charlieleung.bargesture_0.0.4_iphoneos-arm64e.deb
-Size: 414168
-MD5sum: 0b164ff152fe6c3c52e2cd0565de0aab
-SHA1: f96606b62b07d05e66453371ec0f79f22e17a0dd
-SHA256: 5c39116cd88a08b1c5840da658bdfca9ef100af9abf730ff6f49c4b014408254
-Section: Tweaks
-Description: homebar 的手势插件。
-Author: charlieleung
-Name: BarGesture
-
-Package: com.charlieleung.trollopenjb
-Version: 1.5.2
-Architecture: iphoneos-arm64e
-Maintainer: Charlie Leung
-Installed-Size: 55468
-Depends: firmware (>= 15.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist, com.opa334.libsandy
-Filename: debs/备份源/com.charlieleung.trollopenjb_1.5.2_iphoneos-arm64e.deb
-Size: 26753530
-MD5sum: 5aebe790cdefbe96dbe3ab97bbd2c311
-SHA1: 1de4606de66130b7ae9e6e8352005caa17b0385e
-SHA256: 7e9ae4e844505dad9ff0e22b422b398754ea5c7d42edf4f41ca704e390e15501
-Section: Tweaks
-Description: TrollOpen 的越狱版本，自带分屏功能，支持 ios15 及以上。
-Author: Charlie Leung
-Name: TrollOpen
-
 Package: com.colorblack.bottomx.ios17
 Version: 1.0
 Architecture: iphoneos-arm64e
