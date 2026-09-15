@@ -29,7 +29,7 @@ text = open(pkgs_path, encoding='utf-8').read()
 # 收集每个 deb 的额外字段（Sileo 专属字段会被 dpkg-scanpackages 丢弃）
 extra = {}   # package+version+arch -> {field: value}
 wanted = ('SileoDepiction', 'Depiction', 'SileoIcon', 'ModernDepiction', 'Tag')
-for deb in glob.glob(os.path.join(repo, 'debs', '*.deb')):
+for deb in glob.glob(os.path.join(repo, 'debs', '**', '*.deb'), recursive=True):
     out = subprocess.run(['dpkg-deb', '-f', deb], capture_output=True, text=True).stdout
     fields = {}
     for line in out.splitlines():
