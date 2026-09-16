@@ -57,6 +57,23 @@ Icon: https://axs66.github.io/pro/icon/snapper.png
 Name: Snapper3 Expand
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper3expand/js.json
 
+Package: com.colorblack.bottomx.floatingball
+Version: 6.37
+Architecture: iphoneos-arm64e
+Maintainer: Color Black
+Installed-Size: 604
+Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 17.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.37_iphoneos-arm64e.deb
+Size: 243094
+MD5sum: 985929a2bd15cd30bedd5bff0047081c
+SHA1: a61a9b17bcf0827be4ece9225aa50ecb8af7a03a
+SHA256: 9bd2f3e57cd3b224d9e480ad760e2a49f42f0094ed86c754957b705b6d629359
+Section: Tweaks
+Description: Bottom-x 扩展：关闭辅助悬浮球，仅适配 Bottom-x 原始球，设置统一作用到依赖插件；内置修仙灵环法阵自定义图标
+Author: Color Black
+Name: Bottom-x FloatingBall
+
 Package: com.colorblack.bottomx.ios17
 Version: 1.0
 Architecture: iphoneos-arm64e
