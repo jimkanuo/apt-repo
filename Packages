@@ -58,17 +58,17 @@ Name: Snapper3 Expand
 Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper3expand/js.json
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.37
+Version: 6.40
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Installed-Size: 804
 Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 17.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.37_iphoneos-arm64e.deb
-Size: 446068
-MD5sum: 3b83e4c38ccdebe26f1a1973e5543355
-SHA1: 8801469a8281eb98675e157962c179e27ae05e31
-SHA256: 9955b48491666a42ee420d629497d68a01d2e09d8760843847e1b99939810dfd
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.40_iphoneos-arm64e.deb
+Size: 446888
+MD5sum: c7847a01684a4022a12c9789500692fc
+SHA1: 40c27df5f15041a389e1483db0bdfa051d16e685
+SHA256: f8a82528bb5fc0c408565a9155e729d09a363017f01d7b034625c8fe80b7cb9f
 Section: Tweaks
 Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
  依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
@@ -76,7 +76,8 @@ Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自
  【核心功能】
  - 单击悬浮球返回上一层，到达最底层时自动回到桌面
  - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动淡回低透明度，不遮挡界面
+ - 常亮版：悬浮球始终保持 100% 不透明，随时可见
+ - 点击光效加强：三重青白光圈向外扩散并带旋转流动感，球体同步亮度脉冲
  - 内置哆啦A梦圆形图标，支持从相册选择图片替换整个悬浮球外观
  .
  【使用说明】
@@ -91,7 +92,44 @@ Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自
  - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
 Author: kanuo
 Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
-Name: Bottom-x 悬浮球
+Name: Bottom-x 悬浮球 (常亮版)
+
+Package: com.colorblack.bottomx.floatingball
+Version: 6.41
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 804
+Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 17.0), firmware (<< 18.0)
+Conflicts: com.kanuo.floatballx
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.41_iphoneos-arm64e.deb
+Size: 446102
+MD5sum: 110da67ea2d6f8b7b5ea3ba9aadec8c9
+SHA1: ca14bb803f79fa45dccfbec21a1c13b391064ca8
+SHA256: b792a5ca626c84f7b1494f755a0bc2e22b5df86927e45e14b697c72ab3262472
+Section: Tweaks
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
+ .
+ 【核心功能】
+ - 单击悬浮球返回上一层，到达最底层时自动回到桌面
+ - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
+ - 半透明版：悬浮球平时保持 30% 半透明，兼顾可见与不遮挡
+ - 点击后高亮至 100%，2 秒后自动淡回 30%
+ - 内置哆啦A梦圆形图标，支持从相册选择图片替换整个悬浮球外观
+ .
+ 【使用说明】
+ - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
+ - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【已知问题】
+ - 桌面悬浮球暂无法去除（半透明版仍有一定可见度，有强迫症者请谨慎安装）
+ .
+ 【依赖】
+ - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+Author: kanuo
+Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
+Name: Bottom-x 悬浮球 (半透明版)
 
 Package: com.colorblack.bottomx.ios17
 Version: 1.0
