@@ -24,6 +24,30 @@
         },
         {
           "class": "DepictionHeaderView",
+          "title": "版本 3.6.5 更新日志"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **恢复插件更彻底**：直接把备份包内全部 deb 交给 Sileo 安装，不再按版本/插件过滤、不跳过已安装，避免「部分插件没装上」\n- **兼容旧版本备份**：早期版本 / 清单模式的备份（不含 deb）也能正常识别处理，不再直接放弃\n- **apt / dpkg 兼容**：适配不同 apt 版本的环境变量差异，插件列表读取更稳定，不再出现「列表为空 / 版本缺失」\n- **垃圾缓存清理**：安全扫描 Caches / Logs / tmp，逐项删除前打勾确认，不碰系统关键路径\n- **ipa 安装包列表**：扫描本地 ipa 文件并汇总\n- **手动重扫**：插件 / 配置 / deb / ipa 各板块可独立重新扫描",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "核心功能"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist\n- 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）\n- 选择性备份：可勾选要备份的插件、配置、本地 deb 与 ipa，自动标记「设置有界面」的插件\n- 恢复配置一键完成（plist 恢复到 /var/mobile/Library/Preferences，本地执行，无需 root）\n- RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "恢复难易度说明"
         },
         {
@@ -81,7 +105,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "3.4.9"
+          "text": "3.6.5"
         },
         {
           "class": "DepictionTableTextView",

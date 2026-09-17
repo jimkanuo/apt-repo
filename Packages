@@ -224,62 +224,6 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.pulloverx
-Version: 1.8.21
-Architecture: iphoneos-arm64
-Maintainer: kanuo
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.8.21_iphoneos-arm64.deb
-Size: 412462
-MD5sum: 90e49f707a028af58d051d0447ee5acc
-SHA1: 29ca2ddbfc1cf108dfbaef2f5b5e0761d7daf984
-SHA256: 54277afa8460ea82139999b29fb99ee9ade80ea44a1c4a7382c0ba555f758197
-Section: Tweaks
-Priority: optional
-Description: Pullover-X窗口调度版
- 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
- 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
- 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
- 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
- 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
- 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
- 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
-Dev: kanuo
-Name: Pullover-X窗口调度版
-Author: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
-
-Package: com.mlgm.pulloverx
-Version: 1.8.21
-Architecture: iphoneos-arm64e
-Maintainer: kanuo
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
-Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/com.mlgm.pulloverx_1.8.21_iphoneos-arm64e.deb
-Size: 408936
-MD5sum: 2cc99b7754a4a06d569c5cd488163633
-SHA1: 47ba99041e7f3cd04dcd0b276b3638403950ba2d
-SHA256: f0743bb02d824beb86ba3dbc85705e359b0fbd372fba84ee74bf7bc892ca5955
-Section: Tweaks
-Priority: optional
-Description: Pullover-X窗口调度版
- 1、快捷方式：主卡双击收藏栏转全屏，长按 app 跳转第二副窗口，副窗口底部按住可以移动位置，
- 两个角拖拉可放大缩小以及调整合适的尺寸，副窗口顶部有多个功能键，方便切换你想要的场景。
- 长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。
- 2、注意事项：左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，
- 按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
- 3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
- 如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
-Dev: kanuo
-Name: Pullover-X窗口调度版
-Author: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
-
-Package: com.mlgm.pulloverx
 Version: 1.8.40
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
@@ -342,16 +286,16 @@ Name: SB CPU Floating
 Author: MoWang
 
 Package: com.snapbackup
-Version: 3.4.9
+Version: 3.6.5
 Architecture: iphoneos-arm64
 Maintainer: kanuo
 Installed-Size: 812
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/com.snapbackup_3.4.9_iphoneos-arm64.deb
-Size: 892670
-MD5sum: 2467b3d6c0a3eaa35c0f6ac1e2e144d2
-SHA1: 3de37fc5a67617c4c0de613de5bf0b00f5f483f2
-SHA256: 89e9dfb920736cc637fd97dd1354ab4431a22c6c0206f17f12157f9da81f89df
+Filename: debs/备份源/com.snapbackup_3.6.5_iphoneos-arm64.deb
+Size: 1101480
+MD5sum: c7847e73066e69b9dfdc844e22bd4607
+SHA1: a9aa2d6392bf1f4ad33fc2662e2ffd3f7c25fdab
+SHA256: 96c73968b7f5a2d9ac2723670459fefd59106b7fcec6c5865680c273c9850081
 Section: Tweaks
 Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
  轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
@@ -359,7 +303,7 @@ Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐�
  【核心功能】
  - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
  - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
- - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
+ - 选择性备份：可勾选要备份的插件、配置、本地 deb 与 ipa，自动标记「设置有界面」的插件
  - 恢复配置一键完成（plist 恢复到 /var/mobile/Library/Preferences，本地执行，无需 root）
  .
  【恢复难易度说明】
@@ -367,7 +311,7 @@ Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐�
  - 恢复插件：★★★ 较难 —— 需 root 权限，通过「Filza 显示」跳转 Filza，手动安装 debs/ 下的 deb（或 dpkg -i），装完注销/重启生效
  .
  【操作流程】
- ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选内容 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
  ② 恢复配置：主页 →「恢复配置」→ 选备份包 → 自动恢复 plist（无需 root）
  ③ 恢复插件：备份包卡片 →「Filza 显示」→ 进入 debs/ 文件夹 → 逐个点 deb 安装 → 注销/重启 SpringBoard 生效
  .
@@ -380,16 +324,16 @@ Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
 
 Package: com.snapbackup
-Version: 3.4.9
+Version: 3.6.5
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Installed-Size: 812
 Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/com.snapbackup_3.4.9_iphoneos-arm64e.deb
-Size: 893014
-MD5sum: fc70dd745fb13d9cbf9eb26f67ae12ba
-SHA1: 5e3748c60b9bc66b8ef22c565c11eeaae0fb9a92
-SHA256: 9ad13b111199a9bf2f3b6b5c6931e4bc180fc31ea1e3e35c63f36777387a8f1f
+Filename: debs/备份源/com.snapbackup_3.6.5_iphoneos-arm64e.deb
+Size: 1100976
+MD5sum: d1b136eb318e0e79d78fa6c6fd0886c0
+SHA1: 42b43da21167fdcdd9b15a63e3ea09097baa08be
+SHA256: a5fcb2321bbde5d017cd52974d96305612d68be86d6cf8d58efa7801826f93d3
 Section: Tweaks
 Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
  轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
@@ -397,7 +341,7 @@ Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐�
  【核心功能】
  - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
  - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
- - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
+ - 选择性备份：可勾选要备份的插件、配置、本地 deb 与 ipa，自动标记「设置有界面」的插件
  - 恢复配置一键完成（plist 恢复到 /var/mobile/Library/Preferences，本地执行，无需 root）
  .
  【恢复难易度说明】
@@ -405,45 +349,7 @@ Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐�
  - 恢复插件：★★★ 较难 —— 需 root 权限，通过「Filza 显示」跳转 Filza，手动安装 debs/ 下的 deb（或 dpkg -i），装完注销/重启生效
  .
  【操作流程】
- ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
- ② 恢复配置：主页 →「恢复配置」→ 选备份包 → 自动恢复 plist（无需 root）
- ③ 恢复插件：备份包卡片 →「Filza 显示」→ 进入 debs/ 文件夹 → 逐个点 deb 安装 → 注销/重启 SpringBoard 生效
- .
- RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
- 备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
-Dev: kanuo
-Name: SnapBackup 备份恢复
-Author: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
-SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
-
-Package: com.snapbackup
-Version: 3.6.0
-Architecture: iphoneos-arm64e
-Maintainer: kanuo
-Installed-Size: 812
-Depends: firmware (>= 15.0), mobilesubstrate
-Filename: debs/备份源/com.snapbackup_3.6.0_iphoneos-arm64e.deb
-Size: 1035846
-MD5sum: 27c7365dbe85519a84c1c0c92b1cd7f4
-SHA1: 1b0b82547293e2a638d4212c9ef65a3d4823dac4
-SHA256: 5e03c3d5eca5233f9ef6aaa58a436d323f195b541efeb2d55c82d596a88d3c74
-Section: Tweaks
-Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
- 轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
- .
- 【核心功能】
- - 一键备份全部已安装插件（现场重打包为 .deb）+ 软件源列表 + 插件偏好配置 plist
- - 两种备份模式：轻量清单备份 / 完整离线备份（含 deb 安装包）
- - 选择性备份：可勾选要备份的插件与配置，自动标记「设置有界面」的插件
- - 恢复配置一键完成（plist 恢复到 /var/mobile/Library/Preferences，本地执行，无需 root）
- .
- 【恢复难易度说明】
- - 恢复配置：★☆☆ 简单 —— App 内一键恢复，本地执行，无需 root 权限
- - 恢复插件：★★★ 较难 —— 需 root 权限，通过「Filza 显示」跳转 Filza，手动安装 debs/ 下的 deb（或 dpkg -i），装完注销/重启生效
- .
- 【操作流程】
- ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
+ ① 备份：主页 →「一键备份」→ 选模式（全部插件 / 勾选内容 / 仅配置）→ 等待完成，备份存于 /var/mobile/Documents/SnapBackup/
  ② 恢复配置：主页 →「恢复配置」→ 选备份包 → 自动恢复 plist（无需 root）
  ③ 恢复插件：备份包卡片 →「Filza 显示」→ 进入 debs/ 文件夹 → 逐个点 deb 安装 → 注销/重启 SpringBoard 生效
  .
