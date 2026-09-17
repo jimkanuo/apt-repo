@@ -58,43 +58,37 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.50
+Version: 6.54
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 1048
-Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 17.0), firmware (<< 18.0)
+Installed-Size: 1052
+Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.50_iphoneos-arm64e.deb
-Size: 491040
-MD5sum: f085a44560cf52be70337b35c0fbcf48
-SHA1: d6845a8ea9213d728e7b6737608f4194d8963b41
-SHA256: 2b3e8249cff4813cefcaec6df6659d76fc616c5145579490dbb9d063c87fe5d9
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.54_iphoneos-arm64e.deb
+Size: 497294
+MD5sum: 784a901a32333c6b178feee14872e10a
+SHA1: 2d1f2f23d8173fa3465948f59c8503b6ff3d5d23
+SHA256: dd9839fba5f2e879c8877a7ba8b1da654bdcf8f165453ab9dcf2a80015bbef24
 Section: Tweaks
-Description: 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），为其新增一个完全可自定义的悬浮球，点击即可返回上一层。
- .
- 【已修复全部已知问题】
- - 修复桌面残留悬浮球：桌面不再生成悬浮球，桌面/设置页均已彻底隐藏
- - 修复键盘弹出误触发返回：输入框弹出键盘不再误返回
- - 修复设置项不生效：图标、大小、透明度调整现在即时生效，无需重启 App
- - 修复自定义图标比例失真：换图后自动裁圆铺满，绝不变形
- - 修复到底层无法回桌面：最底层点击自动回到桌面
- - 修复换图后不刷新：更换图片后立即生效，无需重开应用
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
  .
  【核心功能】
  - 单击悬浮球返回上一层，到达最底层时自动回到桌面
  - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置好的透明度
- - 贴边青蓝柔光 + 慢速流动动画，点击光圈扩散约 1.7 倍球直径
- .
- 【完全可自定义（设置 > 悬浮球）】
- - 自定义图标：从相册选择任意图片，替换整个悬浮球外观，自动裁圆铺满
- - 悬浮球大小：滑杆自由调节
- - 透明度：滑杆自由调节，最低可至 1%
- - 一键恢复默认大小、透明度与位置
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
  .
  【使用说明】
  - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
  - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.53 设置与分屏更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装�
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
  .
  【依赖】
  - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
@@ -104,43 +98,37 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.50
+Version: 6.54
 Architecture: iphoneos-arm64
 Maintainer: kanuo
 Installed-Size: 1048
-Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 17.0), firmware (<< 18.0)
+Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.50_iphoneos-arm64.deb
-Size: 490794
-MD5sum: 0af0ddba74ef61451148f86aff38c40b
-SHA1: 72e9a3a0e596b6b0070a2b20c6061d126d040f83
-SHA256: 4260cb0a1bfa507f307c078e15bcab4569140e6f8802faeb9df41c27df630cf5
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.54_iphoneos-arm64.deb
+Size: 497000
+MD5sum: d8cca2de902b8acabc7deca74081ee3d
+SHA1: db4be17f784cbc4bce170f8cf5a064af24736a98
+SHA256: b316e091cc9232c3c66e0cc27aaf691c6d4d425261f0833aaa18a6aa88c5b61f
 Section: Tweaks
-Description: 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），为其新增一个完全可自定义的悬浮球，点击即可返回上一层。
- .
- 【已修复全部已知问题】
- - 修复桌面残留悬浮球：桌面不再生成悬浮球，桌面/设置页均已彻底隐藏
- - 修复键盘弹出误触发返回：输入框弹出键盘不再误返回
- - 修复设置项不生效：图标、大小、透明度调整现在即时生效，无需重启 App
- - 修复自定义图标比例失真：换图后自动裁圆铺满，绝不变形
- - 修复到底层无法回桌面：最底层点击自动回到桌面
- - 修复换图后不刷新：更换图片后立即生效，无需重开应用
+Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
+ 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
  .
  【核心功能】
  - 单击悬浮球返回上一层，到达最底层时自动回到桌面
  - 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复
- - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置好的透明度
- - 贴边青蓝柔光 + 慢速流动动画，点击光圈扩散约 1.7 倍球直径
- .
- 【完全可自定义（设置 > 悬浮球）】
- - 自定义图标：从相册选择任意图片，替换整个悬浮球外观，自动裁圆铺满
- - 悬浮球大小：滑杆自由调节
- - 透明度：滑杆自由调节，最低可至 1%
- - 一键恢复默认大小、透明度与位置
+ - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
+ - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
  .
  【使用说明】
  - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
  - 设置路径：设置 > 悬浮球
+ - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.53 设置与分屏更新】
+ - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装�
+ - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
+ - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
+ - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
  .
  【依赖】
  - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）

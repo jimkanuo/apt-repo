@@ -24,13 +24,13 @@ python3 - "$PWD" <<'PYEOF'
 import re, sys, os, subprocess, glob
 repo = sys.argv[1]
 pkgs_path = os.path.join(repo, 'Packages')
-text = open(pkgs_path, encoding='utf-8').read()
+text = open(pkgs_path, encoding='utf-8', errors='replace').read()
 
 # 收集每个 deb 的额外字段（Sileo 专属字段会被 dpkg-scanpackages 丢弃）
 extra = {}   # package+version+arch -> {field: value}
 wanted = ('SileoDepiction', 'Depiction', 'SileoIcon', 'ModernDepiction', 'Tag', 'Icon', 'Author', 'Name')
 for deb in glob.glob(os.path.join(repo, 'debs', '**', '*.deb'), recursive=True):
-    out = subprocess.run(['dpkg-deb', '-f', deb], capture_output=True, text=True).stdout
+    out = subprocess.run(['dpkg-deb', '-f', deb], capture_output=True).stdout.decode('utf-8', 'replace')
     fields = {}
     for line in out.splitlines():
         if ':' in line and not line.startswith(' '):
@@ -40,7 +40,7 @@ for deb in glob.glob(os.path.join(repo, 'debs', '**', '*.deb'), recursive=True):
     if fields:
         # 用 Package/Version/Architecture 定位对应段落
         meta = subprocess.run(['dpkg-deb', '-f', deb, 'Package', 'Version', 'Architecture'],
-                              capture_output=True, text=True).stdout
+                              capture_output=True).stdout.decode('utf-8', 'replace')
         m = dict(l.split(':', 1) for l in meta.splitlines() if ':' in l)
         key = (m.get('Package','').strip(), m.get('Version','').strip(), m.get('Architecture','').strip())
         extra[key] = fields
