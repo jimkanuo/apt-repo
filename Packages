@@ -52,10 +52,10 @@ Description: Snapper3 功能扩展，目前包含：截图标记 + 长截图 + O
  * 需自备阿里云 API Key。
  * 七、【长按音量-冻结】
  * 开启后，长按音量减键约0.2秒即可调出Snapper3冻结模式，适合无手势（不开启悬浮球/手势）的用户，用物理按键直接使用本插件全部标注功能。
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper3expand/js.json
+Name: Snapper3 Expand
 Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
-Name: Snapper3 Expand
-Sileodepiction: https://axs66.github.io/pro/sileodepiction/snapper3expand/js.json
 
 Package: com.colorblack.bottomx.floatingball
 Version: 6.50
@@ -65,10 +65,10 @@ Installed-Size: 1048
 Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 17.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
 Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.50_iphoneos-arm64e.deb
-Size: 491018
-MD5sum: 417eadba098b186af75847a3ffcf704a
-SHA1: df53ef2bb1133c9e9ec5559e6c682055a2d39a00
-SHA256: a4c2fe6cbd21708d4bed8e740e340b238393f50197234acd3b6f8517049dbf13
+Size: 491040
+MD5sum: f085a44560cf52be70337b35c0fbcf48
+SHA1: d6845a8ea9213d728e7b6737608f4194d8963b41
+SHA256: 2b3e8249cff4813cefcaec6df6659d76fc616c5145579490dbb9d063c87fe5d9
 Section: Tweaks
 Description: 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），为其新增一个完全可自定义的悬浮球，点击即可返回上一层。
  .
@@ -98,9 +98,10 @@ Description: 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），
  .
  【依赖】
  - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
-Author: kanuo
-Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
 Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
 Version: 6.50
@@ -110,10 +111,10 @@ Installed-Size: 1048
 Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 17.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
 Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.50_iphoneos-arm64.deb
-Size: 490766
-MD5sum: 7d2fee1ba6bdd5bd2897932bc681d387
-SHA1: 8a9e39939838de337c8ad4dc60e17a8fdfa2dd91
-SHA256: 04ff1601f50217cf8c9c8c3a66d0c8bf55d085dd71d4cad164fb279128143a1e
+Size: 490794
+MD5sum: 0af0ddba74ef61451148f86aff38c40b
+SHA1: 72e9a3a0e596b6b0070a2b20c6061d126d040f83
+SHA256: 4260cb0a1bfa507f307c078e15bcab4569140e6f8802faeb9df41c27df630cf5
 Section: Tweaks
 Description: 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），为其新增一个完全可自定义的悬浮球，点击即可返回上一层。
  .
@@ -143,9 +144,10 @@ Description: 依赖 Bottom-x 底部横条返回插件（感谢大佬开发），
  .
  【依赖】
  - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
-Author: kanuo
-Icon: file:///Library/PreferenceBundles/BottomxFloatingBallPrefs.bundle/icon.png
 Name: Bottom-x 悬浮球
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.ios17
 Version: 1.0
@@ -162,8 +164,8 @@ SHA1: 75c023f0b7f25a015205572bbc144c8555d918e1
 SHA256: 07d16e08044d78dae993ad4118c1fe475392df7f66ee2aded3939c67c1c047e0
 Section: Tweaks
 Description: Bottom-x iOS 17 专用版，兼容 Relaxin RootHide；点击底部小白条逐级返回，到 App 最顶层返回桌面，保留学习返回与视觉返回。; QQ 群 2059 28931
-Author: Color Black
 Name: Bottom-x iOS17 Relaxin
+Author: Color Black
 
 Package: com.flex2areo.appprotect
 Version: 2.4.6
@@ -179,8 +181,8 @@ SHA1: f5622fd0c9bb4d65137295145ba3173426712c38
 SHA256: f0c1365c687a9864c1202f710b2deeb920fdd15a8630bd585e6c048f9a127b49
 Section: Tweaks
 Description: App 隐私保护
-Author: aReo
 Name: AppProtect(Roothide)
+Author: aReo
 
 Package: com.hk.settingsrevamp.cn.rl
 Version: 3.0.1
@@ -194,8 +196,8 @@ SHA1: 83732626b15c46f544d551fcf95337f79729443a
 SHA256: be14199fec1b08aad7e58b74ab9b4e41e723962b4764fb6e257f04cf14dc7dea
 Section: 嗨-汉化
 Description: SettingsRevamp 简体中文包(RootHide)。
-Author: 妖刀
 Name: SettingsRevamp 简体中文包(RootHide)
+Author: 妖刀
 
 Package: com.iosdump.trollcmtweak
 Version: 1.1.8
@@ -210,8 +212,8 @@ SHA1: df3cfb1c67817963fab6d05fb17ba0de749fb208
 SHA256: 2db452dd9bce502976056d65a1bda93452e14699e864e0ba01024ff3c2c7ad3f
 Section: Tweaks
 Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
-Author: iosdump
 Name: TrollCM
+Author: iosdump
 
 Package: com.mlgm.kayoko
 Version: 4.9
@@ -228,9 +230,9 @@ SHA1: dd43fac86a7b0aa9a30ccd1e83a966b6d88db0cf
 SHA256: 8d521118cadc7815cc94c693e35f78ab502798b5f8817e2cb98ad33898689176
 Section: Tweaks
 Description: 功能丰富的剪切板管理器，基于 Kayoko (乌龙版本) 进行修改
+Name: Kayoko
 Author: mlgm
 Icon: https://mlgm66.github.io/icon/kayoko.png
-Name: Kayoko
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.pulloverx
@@ -255,10 +257,10 @@ Description: Pullover-X窗口调度版
  按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
  3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
  如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
-Author: kanuo
 Dev: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: Pullover-X窗口调度版
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
 Package: com.mlgm.pulloverx
@@ -283,10 +285,10 @@ Description: Pullover-X窗口调度版
  按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
  3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
  如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
-Author: kanuo
 Dev: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: Pullover-X窗口调度版
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
 Package: com.mlgm.pulloverx
@@ -311,10 +313,10 @@ Description: Pullover-X窗口调度版
  按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。
  3、本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，
  如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。
-Author: kanuo
 Dev: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 Name: Pullover-X窗口调度版
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
 Package: com.opa334.crane
@@ -332,8 +334,8 @@ SHA1: 0f2f5861df121fcf90b86ecfe6ca1e15f7706ed8
 SHA256: 849a27692ba45ced197ce4c398e90b2a41909aaa95189f4145ccd309147b508c
 Section: Tweaks
 Description: Multiple containers for your applications!
-Author: opa334
 Name: Crane
+Author: opa334
 
 Package: com.sbcpu.floating
 Version: 3.7
@@ -348,8 +350,8 @@ SHA1: 7cf18001604cb30a50371beb0a9b50381ac2f897
 SHA256: d2da330ff84316534b8fd175f6201cc31c55266502e59b8d9f32c3c6cdd65c1d
 Section: Tweaks
 Description: 新增锁屏清理后台开关
-Author: MoWang
 Name: SB CPU Floating
+Author: MoWang
 
 Package: com.snapbackup
 Version: 3.4.9
@@ -383,10 +385,10 @@ Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐�
  .
  RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
  备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
-Author: kanuo
 Dev: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
 Name: SnapBackup 备份恢复
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
 
 Package: com.snapbackup
@@ -421,10 +423,10 @@ Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐�
  .
  RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
  备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
-Author: kanuo
 Dev: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
 Name: SnapBackup 备份恢复
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
 
 Package: com.snapbackup
@@ -459,10 +461,10 @@ Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐�
  .
  RootHide 隐根专门适配：正确读取隐根容器 apt 数据库、动态解析真实 jbroot、不受 .jbroot-xxxx 隔离目录干扰。
  备份目录：/var/mobile/Documents/SnapBackup/；后台不常驻，打开才执行，不耗电。
-Author: kanuo
 Dev: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
 Name: SnapBackup 备份恢复
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
 
 Package: com.wkk.settingsrevamp
@@ -480,8 +482,8 @@ SHA256: f07dacd8151634809a6759b36ecb6ed963fe697811f926fc0bed0dad763f5300
 Section: Tweaks
 Description: 设置归类插件.
 Author: SOPPPra
-Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 Name: SettingsRevamp
+Icon: https://s1.imagehub.cc/images/2025/12/26/29fda3e52ac78c6958ecf3b5dac18673.png
 
 Package: com.wxhbts.leftpan.roothide
 Version: 2.0-1
@@ -496,9 +498,9 @@ SHA1: 77e195be6e6fdab177700ec3591907226c8fd8ae
 SHA256: acec7971a4b43a730ae5d3df0615b87ab2f0b223edf01ff65b2f261b2356e16a
 Section: 常用插件
 Description: 左滑返回上一页面
+Name: 左滑返回-Roothide
 Author: Mao
 Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
-Name: 左滑返回-Roothide
 Depiction: https://apt.wxhbts.com/view/12030
 SileoDepiction: https://apt.wxhbts.com/sileo/12030
 
@@ -515,8 +517,8 @@ SHA256: f72f4b2ab34a17af1c63998c6230ffb8ee6d950dfbf304cce3888f51a1f25452
 Section: Tweaks
 Priority: optional
 Description: 电话助手授权版本,通话录音,通话记录合并,T9双卡选卡拨号键盘,短信双卡选卡,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
-Author: xybp888
 Name: 电话助手iOS17-正式版(Roothide)
+Author: xybp888
 Depiction: https://apt.htv123.com/view/942
 SileoDepiction: https://apt.htv123.com/sileo/942
 
@@ -533,6 +535,6 @@ SHA1: 2f1feaa5730686b7c7a6bd3b7057272575d83ec6
 SHA256: 539996405ea64046a49fe01f43f4c6f343bfa53610201cc078dca95e732f8129
 Section: System (Axs-Tweaks)
 Description: 状态栏信号/网络/电量三合一圆环图标。
+Name: DuoStatus
 Author: Axs <qiaozhani000@163.com>
 Icon: https://axs66.github.io/pro/icon/duostatus.png
-Name: DuoStatus

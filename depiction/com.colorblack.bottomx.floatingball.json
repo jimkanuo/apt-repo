@@ -1,0 +1,124 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/banner_header.png",
+  "tintColor": "#5AD8FF",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionImageView",
+          "URL": "https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/banner.png",
+          "width": 390,
+          "height": 208,
+          "cornerRadius": 12,
+          "alignment": 1,
+          "xPadding": 0
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Bottom-x 悬浮球**\\n\\n依赖 **Bottom-x 底部横条返回插件**（感谢大佬开发），在其基础上新增一个完全可自定义的悬浮球，点击即可返回上一层。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "已修复全部已知问题"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **桌面残留悬浮球** —— 桌面不再生成悬浮球，桌面与设置页均已彻底隐藏\\n- **键盘弹出误触发返回** —— 输入框弹出键盘不再误返回\\n- **设置项不生效** —— 图标、大小、透明度调整现在即时生效，无需重启 App\\n- **自定义图标比例失真** —— 换图后自动裁圆铺满，绝不变形\\n- **到底层无法回桌面** —— 最底层点击自动回到桌面\\n- **换图后不刷新** —— 更换图片后立即生效，无需重开应用",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "核心功能"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 单击悬浮球返回上一层，到达最底层时自动回到桌面\\n- 支持拖动到任意位置，位置全局记忆，切换 App 自动恢复\\n- 点击后悬浮球高亮至 100%，2 秒后自动恢复设置好的透明度\\n- 贴边青蓝柔光 + 慢速流动动画，点击光圈扩散约 1.7 倍球直径",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "完全可自定义"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "设置路径：**设置 > 悬浮球**\\n\\n- **自定义图标** —— 从相册选择任意图片，替换整个悬浮球外观，自动裁圆铺满\\n- **悬浮球大小** —— 滑杆自由调节（40 ~ 100）\\n- **静止透明度** —— 滑杆自由调节，最低可至 1%\\n- **一键恢复** —— 恢复默认大小、透明度与位置",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "效果预览"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            { "url": "https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/preview1.png", "accessibilityText": "悬浮球返回与点击光效" },
+            { "url": "https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/preview2.png", "accessibilityText": "设置面板 - 自定义图标与外观调节" }
+          ]
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "6.50"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "兼容系统",
+          "text": "iOS 17.0 ~ 17.x"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持架构",
+          "text": "roothide (arm64e) · rootless (arm64)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "kanuo"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "价格",
+          "text": "完全免费"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "安装说明"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "安装后请**手动 Respring 一次**，让 SpringBoard 重新加载插件。\\n\\n本插件依赖 **com.colorblack.bottomx.ios17**，请确保已安装 Bottom-x 底部横条返回插件。",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
