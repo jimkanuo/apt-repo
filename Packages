@@ -58,17 +58,17 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.55
-Architecture: iphoneos-arm64
+Version: 6.53
+Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Installed-Size: 1052
 Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.55_iphoneos-arm64.deb
-Size: 499986
-MD5sum: c60c847ea3be9292510e37234cb0c453
-SHA1: 938371da53611a1958de15286f3dfcc5fa153342
-SHA256: dfc2a54e7ea1243b3b128f91414520550d234a30803f124343b563ea94f9f3e7
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.53_iphoneos-arm64e.deb
+Size: 494638
+MD5sum: c52ce8806f2d548f82bdd4c99587616d
+SHA1: 187b916b52f60c908b41bf9d6a7ef6433146cc1f
+SHA256: 1ffe94395402d5ff0af0b0e21ec381e2bb1d96361375766624a454900abf84d9
 Section: Tweaks
 Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
  依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
@@ -98,17 +98,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.55
-Architecture: iphoneos-arm64e
+Version: 6.53
+Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 1052
+Installed-Size: 1048
 Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.55_iphoneos-arm64e.deb
-Size: 500222
-MD5sum: e521af80338964e66e72ee81f39a55ea
-SHA1: 54c37a15c56c7642b12181c1cc034aa96553b84e
-SHA256: 560d4e4324f48bc08b07674a73ab7dc8ea9e5462af8714c0146ebe8af34f66b5
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.53_iphoneos-arm64.deb
+Size: 494346
+MD5sum: 515372ac6ef89d62a6d5524c3352fac7
+SHA1: d24d045c526c87fa830bb541b06b6a5b6687286a
+SHA256: 38f94f47d4ef96d6b65d47bd651c84a481d69f2a6050312734bbe69b868a806f
 Section: Tweaks
 Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
  依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
