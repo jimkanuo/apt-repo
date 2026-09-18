@@ -84,7 +84,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.7.8"
+          "text": "0.7.11"
         },
         {
           "class": "DepictionTableTextView",
@@ -94,7 +94,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "支持架构",
-          "text": "roothide (arm64e)"
+          "text": "roothide (arm64e) · rootless (arm64)"
         },
         {
           "class": "DepictionTableTextView",
