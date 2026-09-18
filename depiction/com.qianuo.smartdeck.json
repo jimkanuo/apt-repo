@@ -56,7 +56,7 @@
         {
           "class": "DepictionScreenshotsView",
           "itemCornerRadius": 8,
-          "itemSize": "{160, 346}",
+          "itemSize": "{160, 332}",
           "screenshots": [
             { "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview1.png", "accessibilityText": "SmartDeck 桌面与九宫格" },
             { "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview2.png", "accessibilityText": "三窗口协同与键盘自适应" }
