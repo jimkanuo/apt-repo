@@ -362,34 +362,34 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/dyadaptive/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.dyadaptive.json
 
 Package: com.qianuo.smartdeck.app
-Version: 0.7.11
+Version: 0.7.12
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 1096
+Installed-Size: 1112
 Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
 Conflicts: com.qianuo.smartdeck
-Filename: debs/备份源/com.qianuo.smartdeck.app_0.7.11_iphoneos-arm64e.deb
-Size: 345506
-MD5sum: b309a1e7292c47ca16118a0cf8b0f721
-SHA1: 727a2a0cbb5605b69e572d872dd03991c5adc064
-SHA256: c662dfb4678528bca8cc781668056ef23ec5e1f657cb3c6368bd079e3f512615
+Filename: debs/备份源/com.qianuo.smartdeck.app_0.7.12_iphoneos-arm64e.deb
+Size: 207014
+MD5sum: 049bbf5ed9fa6f7064de8c75f2aa1d27
+SHA1: 7758372763d4c4b876a51de82086145dc094d76a
+SHA256: 15b8dad9c3d6ccfbef6c01847be6822d56e496a3b1b2bd8c0429b7a7e3d97d79
 Section: Applications
 Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
 Name: SmartDeck App
 Author: kanuo
 
 Package: com.qianuo.smartdeck.app
-Version: 0.7.11
+Version: 0.7.12
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 1096
+Installed-Size: 1112
 Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
 Conflicts: com.qianuo.smartdeck
-Filename: debs/备份源/com.qianuo.smartdeck.app_0.7.11_iphoneos-arm64.deb
-Size: 345654
-MD5sum: 55cd56f7acd04611fdb533b45e55d95d
-SHA1: 0fe4d227d5fe4947801153dae1920797c08d29d2
-SHA256: 3c945654dae05fd87e09e0807c3773426d57b31a6c693c82f860226fc6d785ab
+Filename: debs/备份源/com.qianuo.smartdeck.app_0.7.12_iphoneos-arm64.deb
+Size: 207048
+MD5sum: 6a0d0f499c140c339b31a1b13d20ffc9
+SHA1: fe112be24da9dd0c13466eb3035d3bad1d96b83e
+SHA256: f318f021e58863055258d39b27a23298bd4c359378e4ed5b2bab546b3927eb73
 Section: Applications
 Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
 Name: SmartDeck App

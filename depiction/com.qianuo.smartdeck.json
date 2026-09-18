@@ -1,7 +1,7 @@
 {
   "minVersion": "0.1",
   "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/banner_header.jpg",
-  "tintColor": "#FF4A2A",
+  "tintColor": "#E02A1A",
   "class": "DepictionTabView",
   "tabs": [
     {
@@ -19,7 +19,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**SmartDeck**\n\n独立桌面 + SpringBoard 场景托管（实验版）。通过 roothide 安装独立 SmartDeck 桌面，原生 iOS 桌面保留，真实 App 的托管区域覆盖整个九宫格，桌面顶部、翻页栏及底部圆形 Home 保留在外面。",
+          "markdown": "**SmartDeck 独立桌面**\n\n独立桌面 + SpringBoard 场景托管。原生 iOS 桌面保留，真实 App 的托管区域覆盖整个九宫格，桌面顶部、翻页栏及底部圆形 Home 保留在外面。",
           "useSpacing": true
         },
         {
@@ -36,6 +36,28 @@
         },
         {
           "class": "DepictionHeaderView",
+          "title": "兼容性"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "兼容系统",
+          "text": "iOS 16.0 – 17.3.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持架构",
+          "text": "roothide (arm64e) · rootless (arm64)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "依赖插件",
+          "text": "Bottom-x 悬浮球 6.59"
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "核心功能"
         },
         {
@@ -43,7 +65,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- **三窗口协同**：一个大主窗口 + 两个小副窗口，各自独立宿主会话，点击任意副窗切换为主窗，关闭/恢复一个不影响另外两个\n- **九宫格桌面**：整页纸张式翻页，双指捏合进入每页 36 入口总览，长按拖动排序\n- **键盘自适应**：键盘弹出时当前窗口临时全屏，另外两窗隐藏保持会话，收起后恢复一大两小\n- **外置键盘**：覆盖屏幕底部，收起后可操作圆形 Home\n- 点击图标内容从该位置展开铺满九宫格，无弹窗标题栏",
+          "markdown": "- **三窗口协同** —— 一个大主窗口 + 两个小副窗口，各自独立宿主会话；点击副窗切换为主窗，关闭或恢复一个不影响另外两个\n- **九宫格桌面** —— 整页纸张式翻页，双指捏合进入每页 36 入口总览，长按整行拖动排序\n- **拖出即全屏** —— 拖动窗口左上角图标到卡片以外的安全区，当前 App 临时全屏；轻点图标按原槽位与大小返回，不新建会话、不重启 App\n- **键盘自适应** —— 键盘弹出时当前窗口临时全屏，另外两窗隐藏并保持会话，收起后恢复一大两小；手动全屏与键盘全屏分开维护\n- **动态层级避让** —— 与其他插件浮窗重叠时自动降低层级让出画面，浮窗关闭后恢复\n- **外置键盘** —— 覆盖屏幕底部，收起后可操作圆形 Home",
           "useSpacing": true
         },
         {
@@ -58,8 +80,8 @@
           "itemCornerRadius": 8,
           "itemSize": "{160, 332}",
           "screenshots": [
-            { "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview1.png", "accessibilityText": "SmartDeck 桌面与九宫格" },
-            { "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview2.png", "accessibilityText": "三窗口协同与键盘自适应" }
+            { "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview1.png", "accessibilityText": "九宫桌面：22 个应用入口与纸张式翻页" },
+            { "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview2.png", "accessibilityText": "CoFrame 三窗口协同：文件管理 / 百度 / 信息" }
           ]
         },
         {
@@ -71,7 +93,19 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "1. 先安装 **Bottom-x 悬浮球 6.59**（同源）\n2. 安装 SmartDeck，正常注销一次，从多任务彻底关闭待测 App，再从 SmartDeck 打开\n3. 用右下角管理按钮从「已安装的 App」列表添加应用，首轮建议 Safari\n4. 首次验收不要让其他托管插件同时托管同一个 App",
+          "markdown": "1. 先安装 **Bottom-x 悬浮球 6.59**（同源）\n2. 安装 SmartDeck，按实际越狱环境选择 RootHide 或 Rootless 包，**不要混用**\n3. 安装后**正常注销一次**，再从多任务彻底关闭待测 App，改用 SmartDeck 打开\n4. 用右下角管理按钮从「已安装的 App」列表添加应用入口，首轮建议 Safari\n5. 首次验收**不要**让其他托管插件同时托管同一个 App",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "注意事项"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 本版为**实验版**：双实时 App、多场景、视频、相机、支付等尚未完成真机验证\n- 其他插件的系统场景层级需在真机确认，模拟器检查不能作为所有分屏插件的兼容保证\n- 出现异常可在 **设置 → 运行与退出 → 复制窗口诊断** 导出三槽状态、宿主层级与最近失败原因",
           "useSpacing": true
         },
         {
@@ -84,17 +118,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.7.11"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "兼容系统",
-          "text": "iOS 16.0 – 17.3.1"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "支持架构",
-          "text": "roothide (arm64e) · rootless (arm64)"
+          "text": "0.7.12"
         },
         {
           "class": "DepictionTableTextView",

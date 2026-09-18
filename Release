@@ -8,12 +8,12 @@ Components: main
 Description: 卡诺的专用源 - 常用越狱插件备份
 Icon: https://jimkanuo.github.io/apt-repo/icon/source-icon.png
 MD5Sum:
- 2c15b4a31d3dd828167e030e1a73f4cf 27136 Packages
- 171ef8c2e31c0e0cb5658fe18be29c4f 9216 Packages.gz
+ 984e4715edf1c73013a45e6aea3d51f8 27136 Packages
+ dbd556755d6e38005f9bee7e3396b889 9216 Packages.gz
 SHA1:
- 3538a10c02b61f492ce8f1a8989472266ed77111 27136 Packages
- 7492ed04ab5f8eb0971dc3fd151afe2b2d9ccb90 9216 Packages.gz
+ a188a2dc259163fc8fe7df7aaaeb80284f4d8a5c 27136 Packages
+ 9a7e932b8bee145bdc6e1423abe4127bc11f534e 9216 Packages.gz
 SHA256:
- 6867f93708519e63002e1d926e31a534fd0aeee62bb9c05f8ca059a8b3b2d0b3 27136 Packages
- 0d7a3ed4d82d64d776ab33c6c875780001a40521a5ba204a31a8586784257d0e 9216 Packages.gz
+ 6d957d832523b3eed693682bfde56db37447c9aff6877a546fdd491af9206926 27136 Packages
+ 5b1a0871d20ce00196c3649957de33437f8461bdefbbf3ec2955e3b7539cafd6 9216 Packages.gz
 
