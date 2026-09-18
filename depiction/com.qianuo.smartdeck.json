@@ -1,6 +1,6 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/banner_header.png",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/banner_header.jpg",
   "tintColor": "#FF4A2A",
   "class": "DepictionTabView",
   "tabs": [
@@ -10,7 +10,7 @@
       "views": [
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/banner.png",
+          "URL": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/banner.jpg",
           "width": 390,
           "height": 208,
           "cornerRadius": 12,
