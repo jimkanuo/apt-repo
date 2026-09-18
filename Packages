@@ -62,13 +62,13 @@ Version: 6.59
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Installed-Size: 1084
-Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
 Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.59_iphoneos-arm64e.deb
-Size: 508888
-MD5sum: 5457727f22a89607fb15b0224205f7fb
-SHA1: cb2abb1de7bfd791ba69c290b008dd12a6256560
-SHA256: 05cc46a4a13f2f9201bdb4c773fb732b43bcb692f525c07946fecb3bd6fe6497
+Size: 435568
+MD5sum: 6db87d3799b62e6af9544ba77326d79b
+SHA1: f03cdae61b07d15a8ce9b856aa8b2cf068a8e485
+SHA256: b6c3c02ec3f359f019fc74fb23c8a6022f233f6d46878e0b66b13ff8689f566d
 Section: Tweaks
 Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
  依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
