@@ -231,10 +231,10 @@ Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Filename: debs/备份源/com.mlgm.pulloverx_1.8.69~lockfavorites_iphoneos-arm64.deb
-Size: 470452
-MD5sum: 5cb77aba0a88941384fdf1fe05a2aee1
-SHA1: 9e1d3d2ebd9dd6c3a1d5372bdd184435e25671d0
-SHA256: 75840f0da40043e3d829f948dac8dfe4736d32695ffa0a77436ca0f644520afe
+Size: 470470
+MD5sum: e3c50c63ed6938b83d79acd3d4965144
+SHA1: 59cc9633d3f750e99022353455e4fceb007c0225
+SHA256: f73dae828c7fb9919601777ff48ad3c4101e604c2a0d577206f2f6c8df5b0b49
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
@@ -248,7 +248,7 @@ Description: Pullover-X窗口调度版
 Dev: kanuo
 Name: Pullover-X窗口调度版
 Author: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
+Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
 Package: com.mlgm.pulloverx
@@ -259,10 +259,10 @@ Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Filename: debs/备份源/com.mlgm.pulloverx_1.8.69~lockfavorites_iphoneos-arm64e.deb
-Size: 467366
-MD5sum: 2468f033f71611cbe1d95b3863c3ba28
-SHA1: 0ca0243787486543fc0b68f8a3e68fab4959f908
-SHA256: 9fbd2dfb777be4fbc2ed0fdaf736f5f85290dddf4dd4290b10e210f512ffdb1d
+Size: 467388
+MD5sum: c13f2ba913ef5478819eb4247bb83c89
+SHA1: 98f70b7d7265c5a1e6f7db21c43a9209a68af4e2
+SHA256: 4fa6af8324161238b062a451e57579b99d7c55e8ba16e55eaf0db6c1fb674def
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
@@ -276,7 +276,7 @@ Description: Pullover-X窗口调度版
 Dev: kanuo
 Name: Pullover-X窗口调度版
 Author: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/icon/pullover.png
+Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
 Package: com.opa334.crane

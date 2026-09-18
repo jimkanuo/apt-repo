@@ -161,7 +161,25 @@
         {
           "class": "DepictionTableTextView",
           "title": "价格",
-          "text": "完全免费"
+          "text": "完全免费",
+          "screenshots": [
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/preview1.png",
+              "accessibilityText": "设置页：把手大小 / 图标大小 / 透明度与比例档位"
+            },
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/preview2.png",
+              "accessibilityText": "设置页：卡片宽度 / 高度 / 圆角 / 收起隐藏比例"
+            },
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/preview3.png",
+              "accessibilityText": "小窗抖音：4:3 比例下的评论与播放"
+            },
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/preview4.png",
+              "accessibilityText": "分屏：抖音与后台 App 各自独立托管"
+            }
+          ]
         }
       ]
     }
