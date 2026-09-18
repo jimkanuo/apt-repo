@@ -308,6 +308,23 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
+Package: com.qianuo.smartdeck.app
+Version: 0.7.8
+Architecture: iphoneos-arm64
+Maintainer: kanuo
+Installed-Size: 1080
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Filename: debs/备份源/com.qianuo.smartdeck.app_0.7.8_iphoneos-arm64.deb
+Size: 335162
+MD5sum: 1763f729d0f1c8669824a499deb08ffb
+SHA1: 14a118093453f35ec66102042504835b874fd92a
+SHA256: ac621b8c55970584aa64d2996db4c27d139a3347280658a4a23175431fd2bb73
+Section: Applications
+Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
+Name: SmartDeck App
+Author: kanuo
+
 Package: com.sbcpu.floating
 Version: 3.7
 Architecture: iphoneos-arm64e
