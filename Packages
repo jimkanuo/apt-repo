@@ -272,14 +272,14 @@ Author: opa334
 Package: com.qianuo.smartdeck.app
 Version: 0.7.8
 Architecture: iphoneos-arm64e
-Maintainer: Qianuo
+Maintainer: kanuo
 Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
 Conflicts: com.qianuo.smartdeck
 Filename: debs/备份源/com.qianuo.smartdeck.app_0.7.8_iphoneos-arm64e.deb
-Size: 335752
-MD5sum: d7ecd19618e45c32f6cf83709f31ee78
-SHA1: f4aecd775acdbcb3882a6eafd2a6e4c78043aa02
-SHA256: 9c1d2a0e918e6282be66c9fe7bb82b25937a00336ebfd460193eac51c45a303b
+Size: 335760
+MD5sum: 8f80cc0921bf76338e4393877b376792
+SHA1: 45b425425aab1dce8d1b8fe673a36cde5acf30b1
+SHA256: 71394fc5cb64225b9a2ed4de683a6d8e5224f7ed807c5a5b8bfc08e8093a6fb4
 Section: Applications
 Description: 独立桌面 + SpringBoard 场景托管（实验版）
  通过 roothide 安装独立 SmartDeck 桌面，原生 iOS 桌面保留，真实 App 的托管区域覆盖整个九宫格，桌面顶部、翻页栏及底部圆形 Home 保留在外面。
@@ -304,7 +304,7 @@ Description: 独立桌面 + SpringBoard 场景托管（实验版）
  - iOS 16.0 – 17.3.1，roothide (arm64e)
  - 实验版：双实时 App、键盘、多场景、视频、相机、支付等未完成真机验证
 Name: SmartDeck
-Author: Qianuo
+Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
