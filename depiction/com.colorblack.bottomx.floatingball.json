@@ -84,12 +84,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "6.50"
+          "text": "6.59"
         },
         {
           "class": "DepictionTableTextView",
           "title": "兼容系统",
-          "text": "iOS 17.0 ~ 17.x"
+          "text": "iOS 16.0 及以上"
         },
         {
           "class": "DepictionTableTextView",
@@ -105,6 +105,18 @@
           "class": "DepictionTableTextView",
           "title": "价格",
           "text": "完全免费"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "可配合 SmartDeck 使用"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "本插件可作为 **SmartDeck（独立桌面）** 的托管返回键。安装 SmartDeck 后，其 App 的 Home 返回依赖本悬浮球，请确保两者同时安装。",
+          "useSpacing": true
         },
         {
           "class": "DepictionHeaderView",

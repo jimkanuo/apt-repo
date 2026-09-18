@@ -1,0 +1,112 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/banner_header.png",
+  "tintColor": "#FF4A2A",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionImageView",
+          "URL": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/banner.png",
+          "width": 390,
+          "height": 208,
+          "cornerRadius": 12,
+          "alignment": 1,
+          "xPadding": 0
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**SmartDeck**\n\n独立桌面 + SpringBoard 场景托管（实验版）。通过 roothide 安装独立 SmartDeck 桌面，原生 iOS 桌面保留，真实 App 的托管区域覆盖整个九宫格，桌面顶部、翻页栏及底部圆形 Home 保留在外面。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "⚠️ 必须配合 Bottom-x 悬浮球 6.59"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**SmartDeck 的托管返回依赖 Bottom-x 悬浮球 6.59，否则 Home 返回键不生效。**\n\n安装 SmartDeck 前请先确认已安装 **Bottom-x 悬浮球 6.59**（本仓库同源提供，可一键安装）。已安装的用户无需重复安装。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "核心功能"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **三窗口协同**：一个大主窗口 + 两个小副窗口，各自独立宿主会话，点击任意副窗切换为主窗，关闭/恢复一个不影响另外两个\n- **九宫格桌面**：整页纸张式翻页，双指捏合进入每页 36 入口总览，长按拖动排序\n- **键盘自适应**：键盘弹出时当前窗口临时全屏，另外两窗隐藏保持会话，收起后恢复一大两小\n- **外置键盘**：覆盖屏幕底部，收起后可操作圆形 Home\n- 点击图标内容从该位置展开铺满九宫格，无弹窗标题栏",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "效果预览"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            { "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview1.png", "accessibilityText": "SmartDeck 桌面与九宫格" },
+            { "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview2.png", "accessibilityText": "三窗口协同与键盘自适应" }
+          ]
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "使用说明"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 先安装 **Bottom-x 悬浮球 6.59**（同源）\n2. 安装 SmartDeck，正常注销一次，从多任务彻底关闭待测 App，再从 SmartDeck 打开\n3. 用右下角管理按钮从「已安装的 App」列表添加应用，首轮建议 Safari\n4. 首次验收不要让其他托管插件同时托管同一个 App",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "0.7.8"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "兼容系统",
+          "text": "iOS 16.0 – 17.3.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持架构",
+          "text": "roothide (arm64e)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "Qianuo"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "价格",
+          "text": "完全免费"
+        }
+      ]
+    }
+  ]
+}

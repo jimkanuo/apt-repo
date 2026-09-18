@@ -98,17 +98,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.56
+Version: 6.59
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 1052
+Installed-Size: 1084
 Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.56_iphoneos-arm64e.deb
-Size: 499470
-MD5sum: 082eec62f41ad4662e46423ba8e658e9
-SHA1: c6b21fe64af2ddfc9735ddfe54d14778bd9e3ede
-SHA256: d531f02ac28730eb3255520c56604a381c7225717dcc7facc00841ddcbb4592a
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.59_iphoneos-arm64e.deb
+Size: 508888
+MD5sum: 5457727f22a89607fb15b0224205f7fb
+SHA1: cb2abb1de7bfd791ba69c290b008dd12a6256560
+SHA256: 05cc46a4a13f2f9201bdb4c773fb732b43bcb692f525c07946fecb3bd6fe6497
 Section: Tweaks
 Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
  依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
@@ -124,11 +124,11 @@ Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
  .
- 【6.53 设置与分屏更新】
+ 【6.59 SmartDeck Home】
  - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装�
  - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
  - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
- - PullOver-X 展开卡片时切换显示位置；透明图标沿轮廓发光，恢复 6.40 三重扩散、呼吸与旋转
+ - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
  .
  【依赖】
  - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
@@ -268,6 +268,45 @@ Section: Tweaks
 Description: Multiple containers for your applications!
 Name: Crane
 Author: opa334
+
+Package: com.qianuo.smartdeck.app
+Version: 0.7.8
+Architecture: iphoneos-arm64e
+Maintainer: Qianuo
+Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
+Conflicts: com.qianuo.smartdeck
+Filename: debs/备份源/com.qianuo.smartdeck.app_0.7.8_iphoneos-arm64e.deb
+Size: 335752
+MD5sum: d7ecd19618e45c32f6cf83709f31ee78
+SHA1: f4aecd775acdbcb3882a6eafd2a6e4c78043aa02
+SHA256: 9c1d2a0e918e6282be66c9fe7bb82b25937a00336ebfd460193eac51c45a303b
+Section: Applications
+Description: 独立桌面 + SpringBoard 场景托管（实验版）
+ 通过 roothide 安装独立 SmartDeck 桌面，原生 iOS 桌面保留，真实 App 的托管区域覆盖整个九宫格，桌面顶部、翻页栏及底部圆形 Home 保留在外面。
+ .
+ 【重要：必须配合 Bottom-x 悬浮球 6.59】
+ - 托管返回继续使用 Bottom-x 悬浮球 6.59，否则 Home 返回键不生效
+ - 已安装 Bottom-x 悬浮球 6.59 的用户无需重复安�
+ .
+ 【核心功能】
+ - 三窗口协同：一个大主窗口 + 两个小副窗口，各自独立宿主会话，点击切换、互不影响
+ - 九宫格桌面：整页纸张式翻页，双指捏合进入每页 36 入口总览，长按拖动排序
+ - 键盘自适应：键盘弹出时当前窗口临时全屏，另外两窗隐藏保持会话，收起后恢复一大两小
+ - 外置键盘覆盖屏幕底部，收起后可操作圆形 Home
+ - 点击图标内容从该位置展开铺满九宫格，无弹窗标题栏
+ .
+ 【使用说明】
+ - 安装后正常注销一次，从多任务彻底关闭待测 App，再从 SmartDeck 打开
+ - 用右下角管理按钮从「已安装的 App」列表添加应用，首轮建议 Safari
+ - 首次验收不要让其他托管插件同时托管同一个 App
+ .
+ 【兼容性】
+ - iOS 16.0 – 17.3.1，roothide (arm64e)
+ - 实验版：双实时 App、键盘、多场景、视频、相机、支付等未完成真机验证
+Name: SmartDeck
+Author: Qianuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
 Package: com.sbcpu.floating
 Version: 3.7
