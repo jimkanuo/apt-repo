@@ -231,10 +231,10 @@ Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Filename: debs/备份源/com.mlgm.pulloverx_1.8.69~lockfavorites_iphoneos-arm64.deb
-Size: 470470
-MD5sum: e3c50c63ed6938b83d79acd3d4965144
-SHA1: 59cc9633d3f750e99022353455e4fceb007c0225
-SHA256: f73dae828c7fb9919601777ff48ad3c4101e604c2a0d577206f2f6c8df5b0b49
+Size: 470472
+MD5sum: b45a5ce58da06ce1a0c80844fce6df2a
+SHA1: dd5f7e3810b3ac8a3e48695bd61f2f86d5de0199
+SHA256: adc6cd5595ee1e6180c13837eb80ff7bc825d62b955b9270995ce4a58605f12b
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
@@ -248,7 +248,7 @@ Description: Pullover-X窗口调度版
 Dev: kanuo
 Name: Pullover-X窗口调度版
 Author: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon.png
+Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon-v2.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
 Package: com.mlgm.pulloverx
@@ -259,10 +259,10 @@ Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Filename: debs/备份源/com.mlgm.pulloverx_1.8.69~lockfavorites_iphoneos-arm64e.deb
-Size: 467388
-MD5sum: c13f2ba913ef5478819eb4247bb83c89
-SHA1: 98f70b7d7265c5a1e6f7db21c43a9209a68af4e2
-SHA256: 4fa6af8324161238b062a451e57579b99d7c55e8ba16e55eaf0db6c1fb674def
+Size: 467390
+MD5sum: 17e9baac26b3a81df39b19916a28cde8
+SHA1: 5b1c182cbd3dacef9a9913a4f205c53c5c727a11
+SHA256: 8619afdb0f9d8cae9a1708db479b2d6a46b4b822249e342ed0676b61e0bfea03
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
@@ -276,7 +276,7 @@ Description: Pullover-X窗口调度版
 Dev: kanuo
 Name: Pullover-X窗口调度版
 Author: kanuo
-Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon.png
+Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon-v2.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
 Package: com.opa334.crane
@@ -397,14 +397,16 @@ Installed-Size: 1112
 Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
 Conflicts: com.qianuo.smartdeck
 Filename: debs/备份源/com.qianuo.smartdeck.app_0.7.12_iphoneos-arm64e.deb
-Size: 207014
-MD5sum: 049bbf5ed9fa6f7064de8c75f2aa1d27
-SHA1: 7758372763d4c4b876a51de82086145dc094d76a
-SHA256: 15b8dad9c3d6ccfbef6c01847be6822d56e496a3b1b2bd8c0429b7a7e3d97d79
+Size: 353774
+MD5sum: 828355c5b7b8c9b9f9ee93f123c0232f
+SHA1: 985bec6945e2fd692ac2b1b9d59f85977dc2df93
+SHA256: fc0e0e437772b8d80b564aff3c4afce608a274bb26cd75cf6778a32366e8e01d
 Section: Applications
 Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
 Name: SmartDeck App
 Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v2.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
 Package: com.qianuo.smartdeck.app
 Version: 0.7.12
@@ -414,14 +416,16 @@ Installed-Size: 1112
 Depends: uikittools, mobilesubstrate, firmware (>= 16.0), firmware (<< 17.3.2)
 Conflicts: com.qianuo.smartdeck
 Filename: debs/备份源/com.qianuo.smartdeck.app_0.7.12_iphoneos-arm64.deb
-Size: 207048
-MD5sum: 6a0d0f499c140c339b31a1b13d20ffc9
-SHA1: fe112be24da9dd0c13466eb3035d3bad1d96b83e
-SHA256: f318f021e58863055258d39b27a23298bd4c359378e4ed5b2bab546b3927eb73
+Size: 353946
+MD5sum: 737e04aa01e53c762e08c9be2b5763e7
+SHA1: d34ea3dd6b4d450634c4ad4082c46d7f30d4c9be
+SHA256: 7bd1cff21effa7c96ac3bff9e99ff6dad588f24e322bc8f8c1bbaa2024e9be21
 Section: Applications
 Description: Experimental standalone desktop with a SpringBoard scene-hosting companion. Does not replace the native Home screen. Device validation required.
 Name: SmartDeck App
 Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v2.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
 Package: com.sbcpu.floating
 Version: 3.7

@@ -1,6 +1,6 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/banner_header.jpg",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/banner_header-v2.jpg",
   "tintColor": "#E02A1A",
   "class": "DepictionTabView",
   "tabs": [
@@ -10,7 +10,7 @@
       "views": [
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/banner.jpg",
+          "URL": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/banner-v2.jpg",
           "width": 390,
           "height": 208,
           "cornerRadius": 12,
@@ -80,8 +80,8 @@
           "itemCornerRadius": 8,
           "itemSize": "{160, 332}",
           "screenshots": [
-            { "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview1.png", "accessibilityText": "九宫桌面：22 个应用入口与纸张式翻页" },
-            { "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview2.png", "accessibilityText": "CoFrame 三窗口协同：文件管理 / 百度 / 信息" }
+            { "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview1-v2.png", "accessibilityText": "九宫桌面：22 个应用入口与纸张式翻页" },
+            { "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview2-v2.png", "accessibilityText": "CoFrame 三窗口协同：文件管理 / 百度 / 信息" }
           ]
         },
         {
