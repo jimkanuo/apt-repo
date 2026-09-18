@@ -1,7 +1,7 @@
 {
   "minVersion": "0.1",
   "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/banner_header.jpg",
-  "tintColor": "#FF4A2A",
+  "tintColor": "#4A6B34",
   "class": "DepictionTabView",
   "tabs": [
     {
@@ -19,19 +19,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**PullOver-X 窗口调度版**\n\n为越狱设备打造的窗口管理与分屏调度插件。支持上下垂直分屏、悬浮卡片、视频画中画框、收藏栏快速切换，整体视觉精修为液态玻璃质感。",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "支持系统"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "**iOS 16.0 – iOS 17.3.1**\n\n提供 **RootHide（arm64e）** 与 **标准无根 rootless（arm64）** 两种安装包，Sileo 会按你的设备自动匹配。",
+          "markdown": "**PullOver-X 窗口调度版**\n\n为越狱设备打造的窗口管理与分屏调度插件。主卡与副窗口各自独立托管会话，支持上下分屏、悬浮卡片、收藏栏快速切换，整体视觉精修为液态玻璃质感。",
           "useSpacing": true
         },
         {
@@ -48,14 +36,55 @@
         },
         {
           "class": "DepictionHeaderView",
-          "title": "核心功能"
+          "title": "兼容性"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "兼容系统",
+          "text": "iOS 16.0 – 17.3.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持架构",
+          "text": "roothide (arm64e) · rootless (arm64)"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "快捷方式"
         },
         {
           "class": "DepictionSeparatorView"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- **上下垂直分屏**：主卡与副窗口独立托管会话，可自由调整比例\n- **悬浮卡片**：副窗口底部按住可移动位置，两角拖拉放大缩小，顶部多功能键快速切换场景\n- **收藏栏快速切换**：主卡双击收藏栏转全屏，长按 App 跳转第二副窗口\n- **半屏模式**：点击第一个图标进入，可调比例\n- **液态玻璃质感**：整体视觉精修，边缘高光与柔和过渡",
+          "markdown": "- **主卡双击收藏栏** → 转全屏\n- **长按 App** → 跳转第二副窗口\n- **点击第一个图标** → 进入半屏模式\n- **副窗口底部按住** → 移动位置\n- **副窗口两角拖拉** → 放大缩小、调整比例\n- **副窗口顶部功能键** → 快速切换场景\n- **长按第二个 App** → 移动卡片位置",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "比例与尺寸"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "设置页提供两组独立比例选项，可分别调整主卡与副窗口：\n\n- **比例档位**：原始 / 16:9 / 5:3 / 4:3 / 自定义\n- **把手大小**：40pt（滑杆可调）\n- **应用图标大小**：35pt\n- **把手透明度**：20%\n- **卡片宽度 / 高度**：405pt / 575pt\n- **圆角半径**：23pt\n- **收起隐藏比例**：47%\n- **空闲后清理**：10min",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "行为"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **横屏时隐藏** —— 横屏自动收起卡片与把手\n- **键盘避让应用** —— 逐 App 勾选需要键盘避让的应用",
           "useSpacing": true
         },
         {
@@ -70,21 +99,23 @@
           "itemCornerRadius": 8,
           "itemSize": "{160, 332}",
           "screenshots": [
-            { "url": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/preview1.png", "accessibilityText": "九宫桌面与收藏栏" },
-            { "url": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/preview2.png", "accessibilityText": "三窗口协同 · 文件管理 / 浏览器 / 信息" }
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/preview1.png",
+              "accessibilityText": "设置页：把手大小 / 图标大小 / 透明度与比例档位"
+            },
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/preview2.png",
+              "accessibilityText": "小窗抖音：4:3 比例下的评论与播放"
+            },
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/preview3.png",
+              "accessibilityText": "设置页：卡片宽度 / 高度 / 圆角 / 收起隐藏比例"
+            },
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/preview4.png",
+              "accessibilityText": "分屏：抖音与后台 App 各自独立托管"
+            }
           ]
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "使用说明"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "1. 先安装 **Bottom-x 悬浮球 6.59**（同源）\n2. **左手模式必须开启**，**固定把手必须开启**\n3. **键盘避让应用必须全勾选** —— 不要问为什么，按要求设置即可\n4. 安装后正常注销一次，从多任务彻底关闭待测 App 再重新打开\n5. 若半屏模式出现灰色阴影或无法回到桌面，注销一次手机即可",
-          "useSpacing": true
         },
         {
           "class": "DepictionHeaderView",
@@ -95,7 +126,19 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "插件**完全免费开放使用**。如果遇到 BUG 或体验瑕疵，还请大家多多包涵。\n\n不要与其他窗口托管类插件同时托管同一个 App。",
+          "markdown": "- **左手模式必须开启**\n- **固定把手必须开启**\n- **键盘避让应用必须全勾选** —— 不要问为什么，按要求设置即可\n- 若半屏模式出现灰色阴影或无法回到桌面，**注销一次手机**即可\n- 不要与其他窗口托管类插件同时托管同一个 App",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "安装说明"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 先安装 **Bottom-x 悬浮球 6.59**（同源）\n2. 安装 PullOver-X，按实际越狱环境选择 RootHide 或 Rootless 包，**不要混用**\n3. 安装后**手动 Respring / 注销一次**\n4. 按上面「注意事项」完成设置项\n\n本插件**完全免费开放使用**，如遇 BUG 或体验瑕疵还请多多包涵。",
           "useSpacing": true
         },
         {
@@ -109,16 +152,6 @@
           "class": "DepictionTableTextView",
           "title": "版本",
           "text": "1.8.40"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "兼容系统",
-          "text": "iOS 16.0 – 17.3.1"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "支持架构",
-          "text": "roothide (arm64e)"
         },
         {
           "class": "DepictionTableTextView",
