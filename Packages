@@ -224,17 +224,17 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.pulloverx
-Version: 1.8.40
+Version: 1.8.69~lockfavorites
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/备份源/com.mlgm.pulloverx_1.8.40_iphoneos-arm64e.deb
-Size: 434560
-MD5sum: 04ddce6648ede6f3bde24c7d0050cbdc
-SHA1: cc2e3e09ca3eae42f65f4b56ceaa5d193361fe81
-SHA256: a932c70d61e513a41768eb076af604d49686fa1cf9c27972e5f700fa53105e7f
+Filename: debs/备份源/com.mlgm.pulloverx_1.8.69~lockfavorites_iphoneos-arm64e.deb
+Size: 467366
+MD5sum: 2468f033f71611cbe1d95b3863c3ba28
+SHA1: 0ca0243787486543fc0b68f8a3e68fab4959f908
+SHA256: 9fbd2dfb777be4fbc2ed0fdaf736f5f85290dddf4dd4290b10e210f512ffdb1d
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
