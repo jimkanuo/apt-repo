@@ -49,7 +49,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "支持架构",
-          "text": "roothide (arm64e)"
+          "text": "roothide (arm64e) · rootless (arm64)"
         },
         {
           "class": "DepictionTableTextView",
