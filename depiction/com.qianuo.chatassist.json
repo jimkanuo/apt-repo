@@ -1,0 +1,144 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/chatassist/banner_header.jpg",
+  "tintColor": "#00958D",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionImageView",
+          "URL": "https://jimkanuo.github.io/apt-repo/depiction/chatassist/banner.jpg",
+          "width": 390,
+          "height": 208,
+          "cornerRadius": 12,
+          "alignment": 1,
+          "xPadding": 0
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**聊伴 ChatAssist**\n\n框选屏幕上的聊天内容，本机 OCR 识别文字，再通过**你自备的 AI 接口**生成多条候选回复。\n\n**点击候选回复只复制，不代替你发送。** 不读取聊天数据库，不需要为微信 / QQ / Soul 等 App 单独适配消息结构。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "⚠️ 请文明使用"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "本插件**仅供个人学习与效率辅助使用**。\n\n- 请勿用于**骚扰、诈骗、冒充他人、批量营销**或其他违法违规用途\n- **使用本插件产生的一切不良行为与后果，由使用者自行承担，作者概不负责**\n- 请遵守你所在地区的法律法规及相关平台的服务条款",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "兼容性"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "兼容系统",
+          "text": "iOS 15.0 – 17.3.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持架构",
+          "text": "roothide (arm64e)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "0.1.33"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "kanuo"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "价格",
+          "text": "完全免费"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "核心功能"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **屏幕选区 OCR** —— 框选聊天区域，支持拖动移动、四角缩放，也可在选区外拖出新区域\n- **三种识别模式** —— 本机 Vision OCR / 模型 OCR / 本机失败后用模型\n- **候选回复** —— 可选 1 / 3 / 10 条，内置 46 套提示词模板，可自行新增、编辑、复制、排序\n- **只复制不发送** —— 点击候选回复仅写入剪贴板，不代替用户发送、不改写草稿\n- **悬浮窗口** —— 液态玻璃质感，可拖动、贴边收起，宽高 65%～98% / 38%～85%，不透明度 10%～100%\n- **边缘标签** —— 点击展开；向内横滑超过约 60 点展开；上下拖动移位；拖到另一边换边\n- **持续扫描** —— 默认 5 秒间隔（可设 3～30 秒），需连续两次 OCR 结果一致才提交，画面不变不重复请求\n- **智能清理杂项** —— 去掉群标题、通知横幅、独立时间、输入栏等界面文字，保留聊天正文\n- **联网查询（可选）** —— 按百度、必应、360 依次尝试获取摘要，全部失败会明确说明原因，不伪造结果\n- **主动问答** —— 输入文字或粘贴图片直接提问，支持「聊天模式 / 生图模式」切换\n- **截图模式** —— 从剪贴板粘贴截图，默认不上传图片，仅把文字发给 API",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "API 配置"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "使用 **HTTPS + Bearer API Key + OpenAI 兼容 Chat Completions** 协议。\n\n内置预设：\n\n| 服务 | 接口地址 |\n| --- | --- |\n| DeepSeek | `api.deepseek.com/chat/completions` |\n| OpenAI | `api.openai.com/v1/chat/completions` |\n| Gemini 兼容入口 | `generativelanguage.googleapis.com/v1beta/openai/...` |\n| Kimi | `api.moonshot.cn/v1/chat/completions` |\n| 豆包 / 火山方舟 | `ark.cn-beijing.volces.com/api/v3/chat/completions` |\n| 百度千帆 v2 | `qianfan.baidubce.com/v2/chat/completions` |\n\n也可填写任意自定义兼容服务地址。「手动获取模型」会向 `/models` 发送请求拉取可用模型列表。\n\n**密钥保存在系统钥匙串，设置文件不保存密钥。**",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "隐私说明"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 默认**本机 OCR**，不上传图片；启用模型 OCR 并授权后才发送裁切后的选区图片\n- 选区图片仅留在内存，退出、清空会话、切换 App 或锁屏时清除，**不写磁盘**\n- **不读取聊天数据库**，不记录 API 响应正文、聊天文字或密钥日志\n- 不累积历史记录，仅使用当前可见区域；不会自动滚屏读取历史或点击发送\n- 网络使用临时 session，不写 URLCache，不保存 Cookie\n- 复制内容设置 5 分钟过期，不开启通用剪贴板同步",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "呼出方式"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**边缘标签**：首次主动打开后出现，退出后隐藏。\n\n**URL 绑定**（可填在其他插件的「打开 URL」动作里）：\n\n| 动作 | 地址 |\n| --- | --- |\n| 打开助手窗口 | `chatassist://open` |\n| 展开 / 收起切换 | `chatassist://toggle` |\n| 打开 API 与提示词设置 | `chatassist://settings` |\n| 收起并暂停 | `chatassist://hide` |\n| 退出并隐藏边缘图标 | `chatassist://exit` |\n\n设置 → Tweaks → 聊伴 ChatAssist → 手势 / URL 呼出 可一键复制这些地址。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "已知边界"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **本版为实验版，尚未完成真机验收**：SpringBoard 跨 App 取屏、跨 App 置顶、真机键盘、实际 API 账号及与其他插件共存仍需真机验证\n- 首次仅面向**竖屏**；横屏、受保护内容、多屏、多场景、视频画面、复杂群聊及其他插件叠层不保证支持\n- 同一 App 内切换聊天对象、页面或分屏内容时，通用 OCR **不能可靠识别**，切换后需点清空会话并重新框选\n- 仅提供 roothide 安装包，不是通用 IPA\n- 若插件导致 SpringBoard 异常，请在越狱环境禁用或进入安全模式卸载",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "安装说明"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 安装后**正常注销一次**（本插件注入 SpringBoard）\n2. 进入 **设置 → Tweaks → 聊伴 ChatAssist**，确认「启用聊伴」已开启\n3. 打开 **API 与提示词设置**，选择预设或填写自定义地址，填入自己的 API Key 并测试连接\n4. 回到聊天 App，通过边缘标签或 URL 呼出助手窗口\n\n**卸载前建议先在窗口设置中点「删除全部 API 密钥」**，再通过包管理器卸载 `com.qianuo.chatassist` 并注销。",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
