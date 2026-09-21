@@ -204,16 +204,16 @@ Name: TrollCM
 Author: iosdump
 
 Package: com.minis.rainbowkeyboard
-Version: 1.0.19~samsung11
+Version: 1.0.20~samsung12
 Architecture: iphoneos-arm64
 Maintainer: MoWang
 Installed-Size: 904
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.19~samsung11_iphoneos-arm64.deb
-Size: 614224
-MD5sum: b2339309fe2ebb662bc0cf1a7102153c
-SHA1: 5fdd966ed7b0ac4d62b2f000314691c30adb4d23
-SHA256: 67fbe7c45f3d6409fad88684a1bef4446b040eb202f276acd43cb7854626980f
+Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.20~samsung12_iphoneos-arm64.deb
+Size: 614336
+MD5sum: 0d38dd1cd5a07f6cabfda4e99b8cd235
+SHA1: 970326aba5b8f06890c9656e3ee520dae65fb736
+SHA256: 8cbbc1de7e2830f57fe4645c6296a3cd24c232274523587aa6d89353f62cdbdc
 Section: Tweaks
 Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
  自定义键盘底色、键帽颜色、霓虹亮度与浓淡。
@@ -226,16 +226,16 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
 
 Package: com.minis.rainbowkeyboard
-Version: 1.0.19~samsung11
+Version: 1.0.20~samsung12
 Architecture: iphoneos-arm64e
 Maintainer: MoWang
 Installed-Size: 900
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.19~samsung11_iphoneos-arm64e.deb
-Size: 615116
-MD5sum: bda9f2c64ca81646c152d58fe6aa6b74
-SHA1: 9a10f3ae07a9110cac326c939ab630b956fd4545
-SHA256: 3bc828eeeb899c7d3471dbbfee6dea9e8e0d36e5f941842c294320bb62279ec8
+Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.20~samsung12_iphoneos-arm64e.deb
+Size: 615240
+MD5sum: e1af68705dca1b3935c50e7c91d0a4ec
+SHA1: a5debb30ae9e8d303872d530e55bcc256017dd39
+SHA256: faaf434f82c4ac03455050a87907d19d7648bfcdbd1c101d5ceb732cdcc4588d
 Section: Tweaks
 Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
  自定义键盘底色、键帽颜色、霓虹亮度与浓淡。
