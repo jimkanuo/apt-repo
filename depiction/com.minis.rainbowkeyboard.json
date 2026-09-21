@@ -1,0 +1,140 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/banner_header.jpg",
+  "tintColor": "#8A4BD0",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionImageView",
+          "URL": "https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/banner.jpg",
+          "width": 390,
+          "height": 208,
+          "cornerRadius": 12,
+          "alignment": 1,
+          "xPadding": 0
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**让每一次输入，都有光。**\n\n为 iOS **原生键盘**与**微信输入法**带来纯黑键帽、彩色粗边框和沿键缝传播的霓虹光效。保留键盘本身的输入与候选操作，不改变打字逻辑。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "兼容性"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "适配系统",
+          "text": "iOS 17.0（重点适配）"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持架构",
+          "text": "roothide (arm64e) · rootless (arm64)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.0.19~samsung11"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "MoWang"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "价格",
+          "text": "完全免费"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "提供 **RootHide (iphoneos-arm64e)** 和 **Rootless (iphoneos-arm64)** 两个独立安装包，**请只安装符合当前越狱环境的版本**。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "主要功能"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **霓虹扩散** —— 彩色键框与背景光随输入向周围传播\n- **纯黑与自定义配色** —— 分别设置键盘底色和键帽颜色\n- **灯光调节** —— 独立调整亮度、颜色浓淡、速度、范围及同时显示的光效数量\n- **候选词渐变** —— 原生与微信输入法独立开关，支持自定义起止颜色\n- **效果切换** —— 保留三星风格键位扩散与经典圆环\n- **键缝背光** —— 粗彩色键框，光效从键缝之间透出\n- **跨 App 配色同步** —— 各 App 内设置保持一致\n- **每个滑条附说明** —— 14 项设置均注明作用、低值/高值与生效条件",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "效果预览"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{160, 213}",
+          "screenshots": [
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/preview1.png",
+              "accessibilityText": "纯黑键帽与霓虹扩散"
+            },
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/preview2.png",
+              "accessibilityText": "键帽与底色自定义"
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "预览图来自插件在 iOS 模拟器中的实际渲染。画面仅展示效果，布局与效果随系统和输入法版本变化。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "安装与设置"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 安装或更新后**重新载入界面**，再**重新打开使用键盘的应用**\n2. 进入 **设置 → 彩虹键盘光效** 调整效果\n3. 键盘底色、键帽颜色**都选择黑色**即可获得纯黑效果\n4. 开启候选词渐变时，还需开启**对应输入法的独立开关**\n\n⚠️ 避免与修改同一键盘背景或键帽的其他主题**同时启用**。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "更新记录"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**1.0.19~samsung11 · 2026-09-21**\n针对**点击设置入口闪退**的兼容修订：恢复原有列表加载方式，不再运行时重组设置项；14 项说明改为配置文件内的原生分组页脚。保留颜色、开关、预设、图标和离线预览，不修改键盘渲染与跨 App 同步。仍需 iOS 17.0 真机确认。\n\n**1.0.18~samsung10**\n修订设置里配色生效、App 内读不到配色的问题。14 个滑条分别增加名称和调节说明，注明低值、高值及生效条件。包含设置图标、Sileo 图标、两张预览和离线详情。\n\n**1.0.17~samsung9.1**\n新增图标、详情和发布素材，键盘效果保持不变。\n\n**1.0.17~samsung9**\n修订原生键盘按下与松开时被系统重新着色的问题，保留功能键图标；微信输入法实现保持不变。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "隐私与说明"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 诊断只包含构建版本、系统版本、接口状态、设置开关和处理数量，**不记录输入文字、候选内容或按键图像**\n- 预览图来自插件在 iOS 模拟器中的实际渲染\n- **「三星风格」仅用于描述视觉效果，本插件并非三星官方产品**\n- 原项目作者信息保留为 MoWang\n\n**已验证边界**：适配重点为 iOS 17.0 的原生键盘与微信输入法。同步修订已通过独立进程测试，仍需 iOS 17.0 真机确认；**其他系统和输入法版本未全面验证**。",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}

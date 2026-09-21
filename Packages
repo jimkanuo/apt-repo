@@ -203,6 +203,50 @@ Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
 Name: TrollCM
 Author: iosdump
 
+Package: com.minis.rainbowkeyboard
+Version: 1.0.19~samsung11
+Architecture: iphoneos-arm64
+Maintainer: MoWang
+Installed-Size: 904
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.19~samsung11_iphoneos-arm64.deb
+Size: 614224
+MD5sum: b2339309fe2ebb662bc0cf1a7102153c
+SHA1: 5fdd966ed7b0ac4d62b2f000314691c30adb4d23
+SHA256: 67fbe7c45f3d6409fad88684a1bef4446b040eb202f276acd43cb7854626980f
+Section: Tweaks
+Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
+ 自定义键盘底色、键帽颜色、霓虹亮度与浓淡。
+ 支持粗彩色键框、键缝背光、候选词渐变及独立开关。
+ 设置内含离线详情与效果预览。
+ 支持跨 App 配色同步，每个滑条附有作用与调节说明。
+Name: 彩虹键盘光效
+Author: MoWang
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
+
+Package: com.minis.rainbowkeyboard
+Version: 1.0.19~samsung11
+Architecture: iphoneos-arm64e
+Maintainer: MoWang
+Installed-Size: 900
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.19~samsung11_iphoneos-arm64e.deb
+Size: 615116
+MD5sum: bda9f2c64ca81646c152d58fe6aa6b74
+SHA1: 9a10f3ae07a9110cac326c939ab630b956fd4545
+SHA256: 3bc828eeeb899c7d3471dbbfee6dea9e8e0d36e5f941842c294320bb62279ec8
+Section: Tweaks
+Description: 纯黑键帽与霓虹扩散，支持原生键盘和微信输入法
+ 自定义键盘底色、键帽颜色、霓虹亮度与浓淡。
+ 支持粗彩色键框、键缝背光、候选词渐变及独立开关。
+ 设置内含离线详情与效果预览。
+ 支持跨 App 配色同步，每个滑条附有作用与调节说明。
+Name: 彩虹键盘光效
+Author: MoWang
+Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
+
 Package: com.mlgm.kayoko
 Version: 4.9
 Architecture: iphoneos-arm64e
