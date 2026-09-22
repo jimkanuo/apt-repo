@@ -204,16 +204,16 @@ Name: TrollCM
 Author: iosdump
 
 Package: com.minis.rainbowkeyboard
-Version: 1.0.26~lite1
+Version: 1.0.26~lite2
 Architecture: iphoneos-arm64
 Maintainer: MoWang
-Installed-Size: 316
+Installed-Size: 668
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.26~lite1_iphoneos-arm64.deb
-Size: 95708
-MD5sum: 7213e08b0ec0abd2443a51a3c5551a00
-SHA1: 4f95b275c5e234cd8731e16298fd19f553997a01
-SHA256: 89a6c789f3639c32995e37a032021e27bbf115fd872fff9bc125aa0728f2cd97
+Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.26~lite2_iphoneos-arm64.deb
+Size: 184514
+MD5sum: a77bf218cb046abff5adb6e119990912
+SHA1: 17f20034fa116986a3f080ce95baacfa18477e5d
+SHA256: 9a0db35221c9afb28eee0fa9a578873e8d9e43792857ce882502435afedc1a3e
 Section: Tweaks
 Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
  四种固定预设、三星风格扩散与霓虹圆环两种样式。
@@ -226,16 +226,16 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
 
 Package: com.minis.rainbowkeyboard
-Version: 1.0.26~lite1
+Version: 1.0.26~lite2
 Architecture: iphoneos-arm64e
 Maintainer: MoWang
 Installed-Size: 332
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.26~lite1_iphoneos-arm64e.deb
-Size: 96376
-MD5sum: d8f406d11896f0e1b12d74292c49da0c
-SHA1: 674045af1f654d5f0ebe07f73aaec1e5035c2480
-SHA256: 4374fa69e983bcb3027a3a313938bb9a5d0527397fb452ec7068b4327a88bf06
+Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.26~lite2_iphoneos-arm64e.deb
+Size: 97596
+MD5sum: 233a3058017d1530de15a1cbe572a0b5
+SHA1: 6017a34b0e3299abf5c40d219811f29b4d127547
+SHA256: 38e97f0c510e059f547380dc34af695ec66e22c91fcaa8872faf5a307c10c278
 Section: Tweaks
 Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
  四种固定预设、三星风格扩散与霓虹圆环两种样式。
