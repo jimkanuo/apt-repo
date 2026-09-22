@@ -204,21 +204,22 @@ Name: TrollCM
 Author: iosdump
 
 Package: com.minis.rainbowkeyboard
-Version: 1.0.26~lite3
-Architecture: iphoneos-arm64e
+Version: 1.0.26~lite4
+Architecture: iphoneos-arm64
 Maintainer: MoWang
-Installed-Size: 364
+Installed-Size: 672
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.26~lite3_iphoneos-arm64e.deb
-Size: 113570
-MD5sum: c9b0ecb8c7d2345a41b2ebc4ef59058a
-SHA1: ee291cf2304996a9479974a235f1c9b6a0afca13
-SHA256: 3e0b9c538ed3a949af835455ddfef2a192735f8866180353174dce29378e5736
+Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.26~lite4_iphoneos-arm64.deb
+Size: 225424
+MD5sum: 1e6d3275a236824f542b95cc2100559c
+SHA1: daf4dd79c68a82e489eda2501efbdbe83076e8fe
+SHA256: 26573a92ff0440dc9b3f2d43cd188b5919ad8658826b8731c102a53045fc4414
 Section: Tweaks
 Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
  四种固定预设、三星风格扩散与霓虹圆环两种样式。
  自定义键盘底色和键帽颜色，保留按下态及跨 App 配色兼容。
- 键盘配色与搜索词蓝紫渐变分别开关，九宫格及全键盘切换实时刷新粗霓虹边框。
+ 键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。
+ 九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。
  最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。
  移除键帽弹跳、调节滑条、诊断写盘和内置大预览图。
 Name: 彩虹键盘 · 轻量版
@@ -227,21 +228,22 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
 
 Package: com.minis.rainbowkeyboard
-Version: 1.0.26~lite3
-Architecture: iphoneos-arm64
+Version: 1.0.26~lite4
+Architecture: iphoneos-arm64e
 Maintainer: MoWang
-Installed-Size: 732
+Installed-Size: 384
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.26~lite3_iphoneos-arm64.deb
-Size: 214704
-MD5sum: 86ed617e0b36f8ff70032c3339f32f04
-SHA1: 9149f4c5be2280bd0eff205e207b115ee44736d6
-SHA256: 26bcf5cc2088a754cf57fe31d4d6122cf1865c773aa779c603264019bfb5935d
+Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.26~lite4_iphoneos-arm64e.deb
+Size: 124734
+MD5sum: 26b35aa0240f3ab061251dd0cce1abd4
+SHA1: 8c7f3369411365a479874d5b379fb76efde50cb3
+SHA256: c1176b28963ec36da8914c5cc75d6f1e29f7189381e340647280a7b997a0dd20
 Section: Tweaks
 Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
  四种固定预设、三星风格扩散与霓虹圆环两种样式。
  自定义键盘底色和键帽颜色，保留按下态及跨 App 配色兼容。
- 键盘配色与搜索词蓝紫渐变分别开关，九宫格及全键盘切换实时刷新粗霓虹边框。
+ 键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。
+ 九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。
  最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。
  移除键帽弹跳、调节滑条、诊断写盘和内置大预览图。
 Name: 彩虹键盘 · 轻量版
