@@ -24,6 +24,18 @@
         },
         {
           "class": "DepictionHeaderView",
+          "title": "⚠️ 必须配合 Bottom-x 悬浮球 6.59"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**SmartDeck 的托管返回依赖 Bottom-x 悬浮球 6.59，否则 Home 返回键不生效。**\n\n安装 SmartDeck 前请先确认已安装 **Bottom-x 悬浮球 6.59**（本仓库同源提供，可一键安装）。已安装的用户无需重复安装。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "兼容性"
         },
         {
@@ -38,6 +50,11 @@
           "class": "DepictionTableTextView",
           "title": "支持架构",
           "text": "roothide (arm64e) · rootless (arm64)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "依赖插件",
+          "text": "Bottom-x 悬浮球 6.59"
         },
         {
           "class": "DepictionHeaderView",
@@ -75,14 +92,8 @@
           "itemCornerRadius": 8,
           "itemSize": "{160, 332}",
           "screenshots": [
-            {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview1-v2.png",
-              "accessibilityText": "九宫桌面：22 个应用入口与纸张式翻页"
-            },
-            {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview2-v2.png",
-              "accessibilityText": "CoFrame 三窗口协同：文件管理 / 百度 / 信息"
-            }
+            { "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview1-v2.png", "accessibilityText": "九宫桌面：22 个应用入口与纸张式翻页" },
+            { "url": "https://jimkanuo.github.io/apt-repo/depiction/smartdeck/preview2-v2.png", "accessibilityText": "CoFrame 三窗口协同：文件管理 / 百度 / 信息" }
           ]
         },
         {
@@ -95,6 +106,18 @@
         {
           "class": "DepictionMarkdownView",
           "markdown": "**0.8.19 · 当前版本**\n图标铺满与名称避让：统一图标样式里，图标大小最右端改为「铺满格子」，按单格实际可用区域等比例放大；App 名称随图片下移保留在格子底部，缩回原大小时恢复原位。底座大小保持独立。\n\n**0.8.18**\n扩大图标底座：底座大小不再受 1.3 倍和名称上方区域限制，最右端「铺满格子」覆盖单个格子。\n\n**0.8.17 · 新增图标底座**\n加入独立图标底座：可选原样、自定义颜色或透明；底座大小 0.3–1.3 倍，底色不透明度 0–100%，支持系统颜色选择器。\n\n**0.8.12**\n集中图标样式设置：统一图标样式，先预览再批量应用，真实进度显示。\n\n**0.8.7 · 新增主题设置**\n主题设置与自定义图片：内置 11 套主题，可从相册/文件导入九宫格背景和逐个应用图标，按主题独立保存。\n\n**0.8.0**\n加入经典黑玻璃 / 经典白玻璃两套外框主题，主题外观即时应用并保存。\n\n**0.7.x 里程碑**\n0.7.13 九宫格点击图标全屏 · 0.7.12 多屏手动全屏 · 0.7.11 动态层级避让 · 0.7.4 键盘自适应",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "使用说明"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 先安装 **Bottom-x 悬浮球 6.59**（同源）\n2. 安装 SmartDeck，按实际越狱环境选择 RootHide 或 Rootless 包，**不要混用**\n3. 安装后**正常注销一次**，再从多任务彻底关闭待测 App，改用 SmartDeck 打开\n4. 用右下角管理按钮从「已安装的 App」列表添加应用入口，首轮建议 Safari\n5. 进入 **设置 → 主题设置** 自定义主题、图标、底座、背景与翻页特效\n6. 首次验收**不要**让其他托管插件同时托管同一个 App",
           "useSpacing": true
         },
         {
