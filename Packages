@@ -272,17 +272,17 @@ Icon: https://mlgm66.github.io/icon/kayoko.png
 SileoDepiction: https://mlgm66.github.io/depictions/com.mlgm.kayoko/depiction.json
 
 Package: com.mlgm.pulloverx
-Version: 1.8.69~lockfavorites
+Version: 1.8.76~panelanimation
 Architecture: iphoneos-arm64
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/备份源/com.mlgm.pulloverx_1.8.69~lockfavorites_iphoneos-arm64.deb
-Size: 470472
-MD5sum: b45a5ce58da06ce1a0c80844fce6df2a
-SHA1: dd5f7e3810b3ac8a3e48695bd61f2f86d5de0199
-SHA256: adc6cd5595ee1e6180c13837eb80ff7bc825d62b955b9270995ce4a58605f12b
+Filename: debs/备份源/com.mlgm.pulloverx_1.8.76~panelanimation_iphoneos-arm64.deb
+Size: 480172
+MD5sum: cc9051eb332602c48044b010d4c41873
+SHA1: ca1c99f895467872cc7e1d16db52a16d4eb14aca
+SHA256: 76515f05f1d53135471d836ba489fe78637db1d14f2e67ec646c4fcd2b5cc8c4
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版
@@ -300,17 +300,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon-v2.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
 Package: com.mlgm.pulloverx
-Version: 1.8.69~lockfavorites
+Version: 1.8.76~panelanimation
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
 Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
 Conflicts: com.dao.pulloverpro, com.c1d3r.pulloverpro
 Replaces: com.dao.pulloverpro, com.c1d3r.pulloverpro
-Filename: debs/备份源/com.mlgm.pulloverx_1.8.69~lockfavorites_iphoneos-arm64e.deb
-Size: 467390
-MD5sum: 17e9baac26b3a81df39b19916a28cde8
-SHA1: 5b1c182cbd3dacef9a9913a4f205c53c5c727a11
-SHA256: 8619afdb0f9d8cae9a1708db479b2d6a46b4b822249e342ed0676b61e0bfea03
+Filename: debs/备份源/com.mlgm.pulloverx_1.8.76~panelanimation_iphoneos-arm64e.deb
+Size: 476998
+MD5sum: 6b1760baf02903495ed54e3161096c1b
+SHA1: 43b42bb245a8dda75110c2eb5e45ca29335b7771
+SHA256: 54877fc09c55e991bf8351faef29f5cb00091f7ef4e046ea75c0bdc248351336
 Section: Tweaks
 Priority: optional
 Description: Pullover-X窗口调度版

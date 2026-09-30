@@ -143,6 +143,18 @@
         },
         {
           "class": "DepictionHeaderView",
+          "title": "更新日志"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**1.8.76~panelanimation**\n- 优化流畅度\n- 增加弹出动画效果\n\n**1.8.69~lockfavorites**\n- 收藏栏锁定逻辑优化\n- 半屏模式退出时释放上屏 App 托管\n\n**1.8.70~splitrails · 1.8.71~faintrails**\n- 分屏导轨与淡出轨迹视觉调整\n\n**1.8.72~topvideo**\n- 上屏视频黑边铺满（aspectFill）\n\n**1.8.73~smooth · 1.8.74~smooth · 1.8.75~smooth**\n- 持续流畅度优化（触摸派发 / 副窗口渲染）",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
           "title": "详细信息"
         },
         {
@@ -151,7 +163,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.8.69~lockfavorites"
+          "text": "1.8.76~panelanimation"
         },
         {
           "class": "DepictionTableTextView",
@@ -161,25 +173,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "价格",
-          "text": "完全免费",
-          "screenshots": [
-            {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/preview1-v2.png",
-              "accessibilityText": "设置页：把手大小 / 图标大小 / 透明度与比例档位"
-            },
-            {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/preview2-v2.png",
-              "accessibilityText": "设置页：卡片宽度 / 高度 / 圆角 / 收起隐藏比例"
-            },
-            {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/preview3-v2.png",
-              "accessibilityText": "小窗抖音：4:3 比例下的评论与播放"
-            },
-            {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/pullover-x/preview4-v2.png",
-              "accessibilityText": "分屏：抖音与后台 App 各自独立托管"
-            }
-          ]
+          "text": "完全免费"
         }
       ]
     }
