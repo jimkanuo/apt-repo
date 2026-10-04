@@ -48,7 +48,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- **主卡双击收藏栏** → 转全屏\n- **长按 App** → 跳转第二副窗口\n- **点击第一个图标** → 进入半屏模式\n- **副窗口底部按住** → 移动位置\n- **副窗口两角拖拉** → 放大缩小、调整比例\n- **副窗口顶部功能键** → 快速切换场景\n- **长按第二个 App** → 移动卡片位置",
+          "markdown": "- **主卡双击收藏栏** → 转全屏\n- **长按 App** → 跳转第二副窗口\n- **点击第一个图标** → 进入半屏模式\n- **副窗口底部按住** → 移动位置\n- **副窗口两角拖拉** → 放大缩小、调整比例\n- **副窗口顶部功能键** → 快速切换场景\n- **长按第二个 App** → 移动卡片位置\n- **点击窗口左上角放大图标** → 可全屏和窗口切换，长按可隐藏和显示收藏栏",
           "useSpacing": true
         },
         {
@@ -126,7 +126,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**1.8.76~panelanimation**\n- 优化流畅度\n- 增加弹出动画效果\n\n**1.8.69~lockfavorites**\n- 收藏栏锁定逻辑优化\n- 半屏模式退出时释放上屏 App 托管\n\n**1.8.70~splitrails · 1.8.71~faintrails**\n- 分屏导轨与淡出轨迹视觉调整\n\n**1.8.72~topvideo**\n- 上屏视频黑边铺满（aspectFill）\n\n**1.8.73~smooth · 1.8.74~smooth · 1.8.75~smooth**\n- 持续流畅度优化（触摸派发 / 副窗口渲染）",
+          "markdown": "**1.8.80~cardposition**\n- 新增窗口全屏放大与缩小\n- 新增收藏栏隐藏与显示\n\n**1.8.76~panelanimation**\n- 优化流畅度\n- 增加弹出动画效果\n\n**1.8.69~lockfavorites**\n- 收藏栏锁定逻辑优化\n- 半屏模式退出时释放上屏 App 托管\n\n**1.8.70~splitrails · 1.8.71~faintrails**\n- 分屏导轨与淡出轨迹视觉调整\n\n**1.8.72~topvideo**\n- 上屏视频黑边铺满（aspectFill）\n\n**1.8.73~smooth · 1.8.74~smooth · 1.8.75~smooth**\n- 持续流畅度优化（触摸派发 / 副窗口渲染）",
           "useSpacing": true
         },
         {
@@ -139,7 +139,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.8.76~panelanimation"
+          "text": "1.8.80~cardposition"
         },
         {
           "class": "DepictionTableTextView",
