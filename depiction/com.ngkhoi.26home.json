@@ -1,0 +1,125 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/home26/banner_header.jpg",
+  "tintColor": "#3CC8B4",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionImageView",
+          "URL": "https://jimkanuo.github.io/apt-repo/depiction/home26/banner.jpg",
+          "width": 390,
+          "height": 208,
+          "cornerRadius": 12,
+          "alignment": 1,
+          "xPadding": 0
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**26Home（中文版）**\n\niOS 26 风格桌面美化套件。给主屏幕应用图标套上**实时液态玻璃**外观，支持自定义图标包、图标生成引擎与例外应用管理，桌面整体呈现通透的折射质感。本版为**中文汉化版**，并针对 **RootHide（隐根）** 与 **无根（rootless）** 环境分别构建。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "兼容性"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "兼容系统",
+          "text": "iOS 16.0 – 17.3.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持架构",
+          "text": "roothide (arm64e) · rootless (arm64)"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "核心功能"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **实时液态玻璃图标** —— 应用图标背后的液态玻璃折射实时渲染，随壁纸与聚焦状态变化\n- **图标包管理器** —— 内置 SolidGlass 基座（ClearDark / ClearLight / Dark / DarkNS / Light），可下载与切换第三方图标包\n- **图标生成引擎** —— 26 高光（45°）与 27 高光（90°）两种渲染风格，可一键批量生成整套图标\n- **例外应用列表** —— 逐个 App 决定是否套用玻璃效果；支持「保留透明和着色图标」「不处理图标」两种例外策略\n- **模糊半径可调** —— 应用图标模糊强度 0–20 实时可调\n- **玻璃质量可调** —— 实时玻璃层渲染分辨率 0.1–1.0（默认 0.35），越高越清晰、GPU 占用越大\n- **未聚焦隐藏** —— 未聚焦时自动隐藏玻璃层，降低渲染开销\n- **液态玻璃总开关** —— 可单独禁用应用图标的液态玻璃折射",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "效果预览"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{160, 332}",
+          "screenshots": [
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/home26/preview1.png",
+              "accessibilityText": "设置首页：主开关 / 图标包管理器 / 图标生成引擎 / 例外应用"
+            },
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/home26/preview2.png",
+              "accessibilityText": "液态玻璃参数：模糊半径 / 玻璃质量 / 效果开关"
+            }
+          ]
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "安装说明"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 按实际越狱环境选择安装包：**RootHide 选 arm64e**，**无根（Dopamine / palera1n rootless）选 arm64**，**不要混用**\n2. 安装后**手动注销一次**（设置页也会提示：修改后需要注销桌面才能生效）\n3. 进入 **设置 → 26Home** 启用并调整参数\n4. 图标包首次使用前，安装脚本会自动把内置 SolidGlass 复制到 `IconPacks/` 目录",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "注意事项"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 修改配置后**必须注销桌面**才会生效\n- **玻璃质量调高会显著增加 GPU 占用**，低电量或发热时建议保持默认 0.35\n- 首次套用图标后，图标缓存重建需要一点时间，属正常现象\n- 与其它**同样修改主屏幕图标**的插件同时使用可能冲突，建议只保留一个\n- 本版为中文汉化构建；原作者为 **ngkhoi**，汉化与双架构构建由本仓库维护",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.3.3-unlock-persist-zh"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "原作者",
+          "text": "ngkhoi"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "价格",
+          "text": "完全免费"
+        }
+      ]
+    }
+  ]
+}

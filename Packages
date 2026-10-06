@@ -327,6 +327,42 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon-v2.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
+Package: com.ngkhoi.26home
+Version: 1.3.3-unlock-persist-zh
+Architecture: iphoneos-arm64e
+Maintainer: ngkhoi
+Installed-Size: 29320
+Depends: mobilesubstrate | ellekit, preferenceloader
+Filename: debs/备份源/com.ngkhoi.26home_1.3.3-unlock-persist-zh_iphoneos-arm64e.deb
+Size: 26815660
+MD5sum: 80f5158b2405c2c6c058a2f95d2c7959
+SHA1: ab940303929ffbc38b94b6d6c7b6041f87d4ecd0
+SHA256: 7419f03c5b160578d38a7e320c43f988b8373f7f619f40f032357899488ad024
+Section: Tweaks
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（隐根 RootHide）
+Name: 26Home
+Author: ngkhoi
+Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+
+Package: com.ngkhoi.26home
+Version: 1.3.3-unlock-persist-zh
+Architecture: iphoneos-arm64
+Maintainer: ngkhoi
+Installed-Size: 29320
+Depends: mobilesubstrate | ellekit, preferenceloader
+Filename: debs/备份源/com.ngkhoi.26home_1.3.3-unlock-persist-zh_iphoneos-arm64.deb
+Size: 26820530
+MD5sum: 7e051c3bf8a1aacd92b12dcbf0d8821b
+SHA1: 51339f02217362d2de9b939e6e0298f8e2cac71b
+SHA256: b980544866c4352474582f58a7c527bea7ecfdd47b2a209fbc8e0eee457918d5
+Section: Tweaks
+Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（无根 rootless）
+Name: 26Home
+Author: ngkhoi
+Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
+
 Package: com.opa334.crane
 Version: 1.3.17-2
 Architecture: iphoneos-arm64e
