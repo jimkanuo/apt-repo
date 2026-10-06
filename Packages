@@ -328,16 +328,16 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/pullover-x/icon-v2.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.mlgm.pulloverx.json
 
 Package: com.ngkhoi.26home
-Version: 1.3.12-clear-top-highlight-control-zh
+Version: 1.3.14-launch-flicker-fix-zh
 Architecture: iphoneos-arm64
 Maintainer: ngkhoi
-Installed-Size: 29408
+Installed-Size: 29440
 Depends: mobilesubstrate | ellekit, preferenceloader
-Filename: debs/备份源/com.ngkhoi.26home_1.3.12-clear-top-highlight-control-zh_iphoneos-arm64.deb
-Size: 26863498
-MD5sum: 859472f970ae73424850bc4f11b7df5f
-SHA1: a145354bc5c83a50966d47802c427b8361440124
-SHA256: b350db8cc6220f913c56b7f40aa7043bac123b64162240fcf3bbf2cff05519f1
+Filename: debs/备份源/com.ngkhoi.26home_1.3.14-launch-flicker-fix-zh_iphoneos-arm64.deb
+Size: 26875184
+MD5sum: 9978b4361403fc3321b107c964e7e60e
+SHA1: 4e0227c57bd988530e0ea8a067afddf1017b4c3b
+SHA256: 806addd090b7aab5674875ad0756c03c1434377a1d39dab463c97126ce513c73
 Section: Tweaks
 Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（无根 rootless）
 Name: 26Home
@@ -346,16 +346,16 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/home26/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.ngkhoi.26home.json
 
 Package: com.ngkhoi.26home
-Version: 1.3.12-clear-top-highlight-control-zh
+Version: 1.3.14-launch-flicker-fix-zh
 Architecture: iphoneos-arm64e
 Maintainer: ngkhoi
-Installed-Size: 29408
+Installed-Size: 29440
 Depends: mobilesubstrate | ellekit, preferenceloader
-Filename: debs/备份源/com.ngkhoi.26home_1.3.12-clear-top-highlight-control-zh_iphoneos-arm64e.deb
-Size: 26858674
-MD5sum: fb02cea2fadc778e1bd37d80b5f264a4
-SHA1: e264f9c39464cfe14c440ec20f9c112655bf84ed
-SHA256: adae202cbcbd9cb69fa04349b87f65325e61fa6d7e09f9b1f9e78dded6c66853
+Filename: debs/备份源/com.ngkhoi.26home_1.3.14-launch-flicker-fix-zh_iphoneos-arm64e.deb
+Size: 26870346
+MD5sum: 7476c7f3c8e628dac6d5f99f71c3a390
+SHA1: fb43fba8572fa32e297d1a53497db0a01516ac2b
+SHA256: c998517c119de90550c201ab05af0d65ccc0a210467192c7cc6f42bc17dfad63
 Section: Tweaks
 Description: 26Home 中文版 —— iOS 26 风格液态玻璃桌面美化（隐根 RootHide）
 Name: 26Home
