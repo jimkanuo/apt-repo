@@ -641,10 +641,10 @@ Installed-Size: 528
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
 Filename: debs/备份源/com.quicklaunch.tweak_0.1.34_iphoneos-arm64e.deb
-Size: 154806
-MD5sum: 7e7523c22f8062edf7a07fe04b22669d
-SHA1: 14cbc98545115fff17a95cf217cae374aa7f0c4c
-SHA256: 8147ed381656acc263263e7a07a39d3e64ed9acdb68fdbfcb60761619f9b329b
+Size: 159138
+MD5sum: 49a45b9ea9f26aa2e9ac676964fc62ac
+SHA1: 97f57eea4b45f066b736188d6c09a9488c299aae
+SHA256: bb8d9dfab389e8b96ecb4d9c621955f193566a744b0205339fa28f7fe3cdbf5e
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
@@ -664,10 +664,10 @@ Maintainer: kanuo
 Installed-Size: 992
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Filename: debs/备份源/com.quicklaunch.tweak_0.1.34_iphoneos-arm64.deb
-Size: 255608
-MD5sum: ec1b423d5b42ccff75ec238b5d0871ea
-SHA1: 0a1799e7b1fc53a1810d75065e850d2818bd13b2
-SHA256: f0f5a65947f6bff88bad7f8829eb8b6dcd54e91ae2cb0555f107d7bce5272706
+Size: 259936
+MD5sum: 1a5f269451eaedd3c29b7755309edcbb
+SHA1: d7ca8a48d8c85171a4260e388dd356f0b0729936
+SHA256: a2d634eaba442c4adf8c111fe876feb1392d7d10ce18e05cf2ab43437a0448f8
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
