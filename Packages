@@ -634,19 +634,20 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.43
+Version: 0.1.44
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 1112
+Installed-Size: 1132
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.43_iphoneos-arm64.deb
-Size: 299028
-MD5sum: 9ffa5328a971119ec38c21b84d961972
-SHA1: 7dea79f1bf3e4d211e54c1b7813185e58e2ce2ee
-SHA256: 11714d568823400a5c21ecdd6dbd332c4dec13dabfb0086cb424b5b645d2d244
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.44_iphoneos-arm64.deb
+Size: 311808
+MD5sum: db735b6afbb7f46c01dd2ac9f9bbc3a3
+SHA1: 80ddcff548f287cc3aa242ac14c7aa81571a1e2e
+SHA256: ffc44d801ebf1f520d8a58eff79210e8aed00274173c6d81e2c16153687a07a9
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Optionally retain one to three empty Home Screen pages after existing pages.
  Keep two overlays with separate apps and settings, adapting to portrait and landscape.
  Tap notification apps to open and remove them; long-press for the full list.
  Both overlays share the lock-screen switch; the capsule hides while typing.
@@ -660,20 +661,21 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.43
+Version: 0.1.44
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 600
+Installed-Size: 604
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.43_iphoneos-arm64e.deb
-Size: 183124
-MD5sum: 07507e53d00ae09dce83d7b53c189b85
-SHA1: 3e61c28e93421ae93f2b8cb68afb9c2d2ded05b1
-SHA256: 40e100ec5278e524c009ecdc4d52f2be62903004f0db98b86fba509dd13668b2
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.44_iphoneos-arm64e.deb
+Size: 190348
+MD5sum: c810e6e5e6277e23c4272bf3df2169fb
+SHA1: 350744d8959f9165a0147b90028e618cd1cd6456
+SHA256: f99fb5ccfb2ce243c42e678abfab42f7c546164a4bdc9c98f1063badc1167163
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Optionally retain one to three empty Home Screen pages after existing pages.
  Keep two overlays with separate apps and settings, adapting to portrait and landscape.
  Tap notification apps to open and remove them; long-press for the full list.
  Both overlays share the lock-screen switch; the capsule hides while typing.
