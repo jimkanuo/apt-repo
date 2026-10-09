@@ -19,7 +19,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**QuickLaunch**\n\n快捷入口，留在屏幕边缘。\n\n为 **iOS 17 RootHide** 环境提供**原快捷栏**与**独立贴边胶囊**两套悬浮窗口。两个窗口可以同时显示，各自选择 App、调整外观与打开方式。胶囊把常用 App、待处理通知以及电量或温度进度贴在屏幕边缘。",
+          "markdown": "**QuickLaunch**\n\n快捷入口，留在屏幕边缘。\n\n为 **iOS 15.0 – 17.3.1** 环境提供**原快捷栏**与**独立贴边胶囊**两套悬浮窗口。两个窗口可以同时显示，各自选择 App、调整外观与打开方式。胶囊把常用 App、待处理通知以及电量或温度进度贴在屏幕边缘。",
           "useSpacing": true
         },
         {
@@ -32,12 +32,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "兼容系统",
-          "text": "iOS 17（RootHide）"
+          "text": "iOS 15.0 – 17.3.1"
         },
         {
           "class": "DepictionTableTextView",
           "title": "支持架构",
-          "text": "roothide (arm64e)"
+          "text": "roothide (arm64e) / rootless (arm64 + arm64e)"
         },
         {
           "class": "DepictionHeaderView",
@@ -109,7 +109,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**0.1.33 · 当前版本**\n- 通知 App 点击即从胶囊移除，支持自动补位和恢复默认列表\n- 修复键盘显示后因本地可见性轮询为假而使胶囊过早恢复的问题\n- 等待键盘退出完成事件，不再靠退出动画时长推断已收起\n- 新增原创 QuickLaunch 桌面 / 设置图标，以及内置详细使用说明\n- 保留固定四位置布局、1–48 图标大小、独立透明度、温度 / 电量边框",
+          "markdown": "**0.1.34 · 当前版本**\n- **新增支持 iOS 15.0 – 17.3.1**，安装依赖加入版本上下限\n- 插件、设置面板与桌面入口的部署目标统一下调到 **iOS 15.0**（旧包三个二进制的实际最低版本为 17.0）\n- 新增普通 **rootless 包**（`/var/jb` 安装前缀），三个组件同时包含 **arm64 与 arm64e**\n- RootHide 隐根包独立保留，两种包按实际越狱环境选择\n- 启用未保护 API 的可用性错误检查；iOS 16 旋转 API 增加版本分支\n\n**0.1.33**\n- 通知 App 点击即从胶囊移除，支持自动补位和恢复默认列表\n- 修复键盘显示后因本地可见性轮询为假而使胶囊过早恢复的问题\n- 等待键盘退出完成事件，不再靠退出动画时长推断已收起\n- 新增原创 QuickLaunch 桌面 / 设置图标，以及内置详细使用说明\n- 保留固定四位置布局、1–48 图标大小、独立透明度、温度 / 电量边框",
           "useSpacing": true
         },
         {
@@ -121,7 +121,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "1. 安装本版本 deb，完成 **SpringBoard 重载**\n2. 进入 **设置 → QuickLaunch**，分别启用原快捷栏与贴边胶囊\n3. 在「选择胶囊默认 App」中选择并排序最多 4 个 App\n4. 选择贴边方向、图标大小、透明度与通知停留时间\n5. 在「边框显示：温度 / 剩余电量」中选择需要的模式\n6. 使用实际通知检查行为；「查看通知与温度接口状态」可查看设备上的接口检测结果\n\n桌面 QuickLaunch 图标用于呼出原快捷栏。原有的 `quicklaunch://toggle`、`quicklaunch://show`、`quicklaunch://hide` 仍只控制原快捷栏。",
+          "markdown": "1. 按越狱环境选择安装包 —— **RootHide（隐根）** 装 `iphoneos-arm64e.deb`，**普通无根（rootless）** 装 `iphoneos-arm64.deb`，完成后 **SpringBoard 重载**\n2. 进入 **设置 → QuickLaunch**，分别启用原快捷栏与贴边胶囊\n3. 在「选择胶囊默认 App」中选择并排序最多 4 个 App\n4. 选择贴边方向、图标大小、透明度与通知停留时间\n5. 在「边框显示：温度 / 剩余电量」中选择需要的模式\n6. 使用实际通知检查行为；「查看通知与温度接口状态」可查看设备上的接口检测结果\n\n桌面 QuickLaunch 图标用于呼出原快捷栏。原有的 `quicklaunch://toggle`、`quicklaunch://show`、`quicklaunch://hide` 仍只控制原快捷栏。",
           "useSpacing": true
         },
         {
@@ -133,7 +133,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- 本包构建目标为 **iOS 17 + RootHide + arm64e**，未声明兼容其他越狱方案或其他系统版本\n- 胶囊只记录**启用后收到的新通知**，不导入通知中心历史；关闭胶囊或重载 SpringBoard 后临时通知记录会清空\n- 点击通知 App **不修改系统通知中心**，也不保证把 App 内未读消息标记为已读\n- 边框温度是**电池温度**，不是 CPU 或手机外壳温度；设备无法读取时显示「--」，不制造读数\n- 通知与键盘接入涉及系统接口，第三方键盘、不同 iOS 构建与其他悬浮窗插件的组合需要真机确认\n- 接口状态显示「已挂接」**不等于**实际通知链路已验证\n- 胶囊通知队列只保留 App 标识及本地计时，**不采集消息正文**；键盘监测不读取输入内容；默认 App、布局和外观保存在本机设置中\n- 本版本已完成编译、核心逻辑与模拟器回归测试，仍需在实际 iOS 17 RootHide 设备验证跨 App 行为",
+          "markdown": "- 本包支持 **iOS 15.0 – 17.3.1**，提供 **RootHide（隐根 arm64e）** 与 **rootless（arm64 + arm64e，/var/jb 前缀）** 两种包，请按越狱环境选择\n- 胶囊只记录**启用后收到的新通知**，不导入通知中心历史；关闭胶囊或重载 SpringBoard 后临时通知记录会清空\n- 点击通知 App **不修改系统通知中心**，也不保证把 App 内未读消息标记为已读\n- 边框温度是**电池温度**，不是 CPU 或手机外壳温度；设备无法读取时显示「--」，不制造读数\n- 通知与键盘接入涉及系统接口，第三方键盘、不同 iOS 构建与其他悬浮窗插件的组合需要真机确认\n- 接口状态显示「已挂接」**不等于**实际通知链路已验证\n- 胶囊通知队列只保留 App 标识及本地计时，**不采集消息正文**；键盘监测不读取输入内容；默认 App、布局和外观保存在本机设置中\n- 本版本已完成编译、核心逻辑与模拟器回归测试，仍需在实际 iOS 17 RootHide 设备验证跨 App 行为",
           "useSpacing": true
         },
         {
@@ -146,7 +146,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "0.1.33"
+          "text": "0.1.34"
         },
         {
           "class": "DepictionTableTextView",

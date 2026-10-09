@@ -634,20 +634,20 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.33
+Version: 0.1.34
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 516
-Depends: firmware (>= 17.0), mobilesubstrate, preferenceloader, uikittools
+Installed-Size: 528
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.33_iphoneos-arm64e.deb
-Size: 153324
-MD5sum: 959ec6972a983c50b1b624b7e9521cf2
-SHA1: 4650038eb621ec6ed56b90b5bc065005613ef66b
-SHA256: c67b6e438839c50536c5775e636346efdbc6ae4868626a49fff9d62d67110677
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.34_iphoneos-arm64e.deb
+Size: 154806
+MD5sum: 7e7523c22f8062edf7a07fe04b22669d
+SHA1: 14cbc98545115fff17a95cf217cae374aa7f0c4c
+SHA256: 8147ed381656acc263263e7a07a39d3e64ed9acdb68fdbfcb60761619f9b329b
 Section: Tweaks
 Priority: optional
-Description: Independent quick-launch rail and notification capsule for iOS 17 RootHide.
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
  Keep two overlay windows with separate apps and appearance settings.
  Tap notification apps to open and remove them; long-press for the full list.
  The edge capsule stays hidden while the keyboard is shown.
@@ -658,19 +658,19 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.33
+Version: 0.1.34
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 516
-Depends: firmware (>= 17.0), mobilesubstrate, preferenceloader, uikittools
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.33_iphoneos-arm64.deb
-Size: 153304
-MD5sum: 737b6b72e47ab913cbdb887c40991aa6
-SHA1: 01c6b64e239c3698c1cdeb71b3a9b53d75797a51
-SHA256: 7e39c2df9231ffed9f85ac6a6b1bcfdc174b73a2c086eb53a7c2b0f26189287d
+Installed-Size: 992
+Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.34_iphoneos-arm64.deb
+Size: 255608
+MD5sum: ec1b423d5b42ccff75ec238b5d0871ea
+SHA1: 0a1799e7b1fc53a1810d75065e850d2818bd13b2
+SHA256: f0f5a65947f6bff88bad7f8829eb8b6dcd54e91ae2cb0555f107d7bce5272706
 Section: Tweaks
 Priority: optional
-Description: Independent quick-launch rail and notification capsule for iOS 17 RootHide.
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
  Keep two overlay windows with separate apps and appearance settings.
  Tap notification apps to open and remove them; long-press for the full list.
  The edge capsule stays hidden while the keyboard is shown.
