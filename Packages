@@ -634,23 +634,25 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.34
-Architecture: iphoneos-arm64e
+Version: 0.1.43
+Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 528
+Installed-Size: 1112
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
-Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.34_iphoneos-arm64e.deb
-Size: 159138
-MD5sum: 49a45b9ea9f26aa2e9ac676964fc62ac
-SHA1: 97f57eea4b45f066b736188d6c09a9488c299aae
-SHA256: bb8d9dfab389e8b96ecb4d9c621955f193566a744b0205339fa28f7fe3cdbf5e
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.43_iphoneos-arm64.deb
+Size: 299028
+MD5sum: 9ffa5328a971119ec38c21b84d961972
+SHA1: 7dea79f1bf3e4d211e54c1b7813185e58e2ce2ee
+SHA256: 11714d568823400a5c21ecdd6dbd332c4dec13dabfb0086cb424b5b645d2d244
 Section: Tweaks
 Priority: optional
-Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
- Keep two overlay windows with separate apps and appearance settings.
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
  Tap notification apps to open and remove them; long-press for the full list.
- The edge capsule stays hidden while the keyboard is shown.
+ Both overlays share the lock-screen switch; the capsule hides while typing.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
  Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
 Name: QuickLaunch
 Author: kanuo
@@ -658,22 +660,26 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.34
-Architecture: iphoneos-arm64
+Version: 0.1.43
+Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 992
+Installed-Size: 600
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.34_iphoneos-arm64.deb
-Size: 259936
-MD5sum: 1a5f269451eaedd3c29b7755309edcbb
-SHA1: d7ca8a48d8c85171a4260e388dd356f0b0729936
-SHA256: a2d634eaba442c4adf8c111fe876feb1392d7d10ce18e05cf2ab43437a0448f8
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.43_iphoneos-arm64e.deb
+Size: 183124
+MD5sum: 07507e53d00ae09dce83d7b53c189b85
+SHA1: 3e61c28e93421ae93f2b8cb68afb9c2d2ded05b1
+SHA256: 40e100ec5278e524c009ecdc4d52f2be62903004f0db98b86fba509dd13668b2
 Section: Tweaks
 Priority: optional
-Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
- Keep two overlay windows with separate apps and appearance settings.
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Keep two overlays with separate apps and settings, adapting to portrait and landscape.
  Tap notification apps to open and remove them; long-press for the full list.
- The edge capsule stays hidden while the keyboard is shown.
+ Both overlays share the lock-screen switch; the capsule hides while typing.
+ The border turns green when charging and red below 20 percent battery.
+ Dock shapes restore their original safe-area spacing, with touch targets around the artwork.
+ Five adaptive dock shapes include a short bar, thermometer, dot and pill.
  Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
 Name: QuickLaunch
 Author: kanuo
