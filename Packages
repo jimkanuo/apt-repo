@@ -633,6 +633,30 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
+Package: com.quicklaunch.tweak
+Version: 0.1.33
+Architecture: iphoneos-arm64e
+Maintainer: QuickLaunch
+Installed-Size: 516
+Depends: firmware (>= 17.0), mobilesubstrate, preferenceloader, uikittools
+Conflicts: com.quicklaunch.tweak-rootful
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.33_iphoneos-arm64e.deb
+Size: 153322
+MD5sum: beb333887e28ba8872f1831231006d01
+SHA1: f7515c0f954c9155c6caedeb4556b9d976df2551
+SHA256: 15a3f101a018f8a1fc22c481b2ab13c78854dece49b2b8938f3b4185f719c3d7
+Section: Tweaks
+Priority: optional
+Description: Independent quick-launch rail and notification capsule for iOS 17 RootHide.
+ Keep two overlay windows with separate apps and appearance settings.
+ Tap notification apps to open and remove them; long-press for the full list.
+ The edge capsule stays hidden while the keyboard is shown.
+ Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
+Name: QuickLaunch
+Author: QuickLaunch
+Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
+
 Package: com.sbcpu.floating
 Version: 3.7
 Architecture: iphoneos-arm64e
