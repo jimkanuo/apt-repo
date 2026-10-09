@@ -636,15 +636,15 @@ SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartde
 Package: com.quicklaunch.tweak
 Version: 0.1.33
 Architecture: iphoneos-arm64e
-Maintainer: QuickLaunch
+Maintainer: kanuo
 Installed-Size: 516
 Depends: firmware (>= 17.0), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
 Filename: debs/备份源/com.quicklaunch.tweak_0.1.33_iphoneos-arm64e.deb
-Size: 153322
-MD5sum: beb333887e28ba8872f1831231006d01
-SHA1: f7515c0f954c9155c6caedeb4556b9d976df2551
-SHA256: 15a3f101a018f8a1fc22c481b2ab13c78854dece49b2b8938f3b4185f719c3d7
+Size: 153324
+MD5sum: 959ec6972a983c50b1b624b7e9521cf2
+SHA1: 4650038eb621ec6ed56b90b5bc065005613ef66b
+SHA256: c67b6e438839c50536c5775e636346efdbc6ae4868626a49fff9d62d67110677
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 17 RootHide.
@@ -653,7 +653,7 @@ Description: Independent quick-launch rail and notification capsule for iOS 17 R
  The edge capsule stays hidden while the keyboard is shown.
  Includes battery/temperature border modes, adjustable icons and a Chinese user guide.
 Name: QuickLaunch
-Author: QuickLaunch
+Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
