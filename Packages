@@ -58,17 +58,17 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.59
+Version: 6.59+screencore.2.user1012
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 1084
+Installed-Size: 1225
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.59_iphoneos-arm64e.deb
-Size: 435568
-MD5sum: 6db87d3799b62e6af9544ba77326d79b
-SHA1: f03cdae61b07d15a8ce9b856aa8b2cf068a8e485
-SHA256: b6c3c02ec3f359f019fc74fb23c8a6022f233f6d46878e0b66b13ff8689f566d
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.59+screencore.2.user1012_iphoneos-arm64e.deb
+Size: 521554
+MD5sum: 2e228d85d40037defbd633bd3c1c8c1f
+SHA1: fc73a27a942b3b7dde3ed18c10ad1ab76acaf269
+SHA256: 20a84891335c2e7011ecf0ec9c4320561584ebb6f17c1984032e6cfefe8bcf09
 Section: Tweaks
 Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
  依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
@@ -92,23 +92,25 @@ Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自
  .
  【依赖】
  - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+X-Screencore-Adapter: 10-12-exact-binary.1
+X-Screencore-Adapter-Input-Sha256: b6c3c02ec3f359f019fc74fb23c8a6022f233f6d46878e0b66b13ff8689f566d
 Name: Bottom-x 悬浮球
 Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.59
+Version: 6.59+screencore.2.user1012
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 1084
-Depends: mobilesubstrate | ellekit, preferenceloader, com.colorblack.bottomx.ios17, firmware (>= 16.0), firmware (<< 18.0)
+Installed-Size: 1225
+Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.59_iphoneos-arm64.deb
-Size: 508654
-MD5sum: 6c718ce523f404fcb59a080400352949
-SHA1: 0ee8af2199be211a58312fd9934436b786aca07f
-SHA256: c9464e4767d475a33b1262be2ad7b412c9b469d7dd7e9417e2d789f94563a9be
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.59+screencore.2.user1012_iphoneos-arm64.deb
+Size: 521614
+MD5sum: d6add74e0c9d56edfa904ee5ec0d3342
+SHA1: 99f6334c69dc475c6138a28e79417ecb72b6e385
+SHA256: 8d06df198d3341cefceaec7dbcfefe83288d6fdb96fb259788034d70dc445ba8
 Section: Tweaks
 Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自定义的悬浮球，点击即可返回上一层。
  依赖 Bottom-x 底部横条返回插件（感谢大佬开发），在其基础上新增悬浮球交互。
@@ -125,13 +127,16 @@ Description: 依赖 Bottom-x 底部横条返回插件，为其新增一个可自
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
  .
  【6.59 SmartDeck Home】
- - 开放 iOS 16 安装，提供 RootHide 与标准 rootless 两种安装�
+ - 开放 iOS 16 安装，本包使用标准 rootless /var/jb 安装布局
  - 设置页可显示；键盘弹出时隐藏，收起恢复；桌面隐藏
  - 优化自定义容器、嵌套导航和分栏根页面识别，优先系统 Home 路径
  - SmartDeck 0.4.8 保留原生 Home 图标，单次请求逐层返回托管 App，到底层后回九宫格。其他 App 与 PullOver-X 悬浮球保持原样
  .
  【依赖】
  - com.colorblack.bottomx.ios17（Bottom-x 底部横条返回）
+X-Install-Environment: standard-rootless-var-jb
+X-Screencore-Adapter: 10-12-exact-binary.1
+X-Screencore-Adapter-Input-Sha256: b6c3c02ec3f359f019fc74fb23c8a6022f233f6d46878e0b66b13ff8689f566d
 Name: Bottom-x 悬浮球
 Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.png
