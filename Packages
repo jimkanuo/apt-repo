@@ -819,10 +819,10 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
 Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
 Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.11.pulloverjump_iphoneos-arm64e.deb
-Size: 978688
-MD5sum: 2006f1047614be8a5fdba12376eee7f3
-SHA1: 715aafb3d59b53c9d99760a5e44d6c1c6120505e
-SHA256: 47b85fa3bc0701afb70d36296277fe9b3f1f62d2dc34192d9e4d10e244cffa38
+Size: 978686
+MD5sum: 26ea2f0102546e0ffb0ace8c50b1b513
+SHA1: 1146b2d778ff5d2797217689829a41b1c0e557d6
+SHA256: c10788a5056e895088fa92b17cea74b9fa27054e4b63594754511aa302b35832
 Section: Tweaks
 Description: Scheduler .7 with native .6 switches, PullOver-style app jumps and the Bottom-x 6.59 bridge.
 X-Floating-Ball-Bridge-Version: 0.3.0
