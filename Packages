@@ -780,6 +780,58 @@ Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
 
+Package: com.susudear.screencore
+Version: 2.0.3+windowscheduler.11.pulloverjump
+Architecture: iphoneos-arm64
+Maintainer: kanuo
+Installed-Size: 3188
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.11.pulloverjump_iphoneos-arm64.deb
+Size: 978760
+MD5sum: ae2bc72a5318b0aca1fad5bf9d54f672
+SHA1: 30bb36f8ec922c522b10e6b393ce996319d3fc0e
+SHA256: c01e21bf2d31e0e67e30d21729515aa6fd674c84dfed086f0b15c77b4cb7f937
+Section: Tweaks
+Description: Scheduler .7 with native .6 switches, PullOver-style app jumps and the Bottom-x 6.59 bridge.
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Rollback-Base-Sha256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Window-Scheduler-Author: qianuo
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Window-Scheduler-Version: 0.1.6
+Name: ScreenCore-窗口调度版
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/screencore/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
+
+Package: com.susudear.screencore
+Version: 2.0.3+windowscheduler.11.pulloverjump
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 3188
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
+Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.11.pulloverjump_iphoneos-arm64e.deb
+Size: 978688
+MD5sum: 2006f1047614be8a5fdba12376eee7f3
+SHA1: 715aafb3d59b53c9d99760a5e44d6c1c6120505e
+SHA256: 47b85fa3bc0701afb70d36296277fe9b3f1f62d2dc34192d9e4d10e244cffa38
+Section: Tweaks
+Description: Scheduler .7 with native .6 switches, PullOver-style app jumps and the Bottom-x 6.59 bridge.
+X-Floating-Ball-Bridge-Version: 0.3.0
+X-Rollback-Base-Sha256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
+X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Window-Scheduler-Author: qianuo
+X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
+X-Window-Scheduler-Version: 0.1.6
+Name: ScreenCore-窗口调度版
+Author: kanuo
+Icon: https://jimkanuo.github.io/apt-repo/depiction/screencore/icon.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
+
 Package: com.wkk.settingsrevamp
 Version: 2.1.1
 Architecture: iphoneos-arm64e

@@ -1,0 +1,196 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/screencore/banner_header.jpg",
+  "tintColor": "#4A9EFF",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionImageView",
+          "URL": "https://jimkanuo.github.io/apt-repo/depiction/screencore/banner.jpg",
+          "width": 390,
+          "height": 208,
+          "cornerRadius": 12,
+          "alignment": 1,
+          "xPadding": 0
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**ScreenCore-窗口调度版**\n\n分屏而已 —— 也让分屏真正好用。\n\n这是 **ScreenCore 2.0.3** 的窗口调度增强版。在原版分屏小窗基础上，为每一扇窗口增加了**左上角图标按钮**、**侧边收藏栏**、**一体化拖动**与**跳转小窗**，并接入 **QuickLaunch** 快捷栏与 **Bottom-x** 悬浮球，让分屏从「能开」变成「顺手」。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "> **致原作者**\n>\n> 本插件核心为 **SuSu（苏苏）** 开发的 ScreenCore 2.0.3，原版源码与设计版权归 **苏苏** 所有。\n> 本版在原版基础上做窗口调度增强，**原版全部组件原样保留**，未做任何削弱或替换。\n>\n> **感谢苏苏做出这么好的分屏插件。**",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "兼容性"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "兼容系统",
+          "text": "iOS 15.0 – 17.3.1"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持架构",
+          "text": "roothide (arm64e) / rootless (arm64 + arm64e)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "包标识",
+          "text": "com.susudear.screencore"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "必需依赖",
+          "text": "com.opa334.AltList"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "快速上手"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 安装本包（按越狱环境选对应架构），**重启 SpringBoard**\n2. 打开 **设置 → ScreenCore**，在「应用」里勾选允许分屏的 App\n3. 打开任一已勾选的 App，从屏幕边缘滑出分屏，即可看到小窗\n4. 小窗**左上角**出现该 App 图标 → 点它全屏 / 再点还原\n5. **长按左上角图标** → 弹出侧边收藏栏；再长按隐藏\n6. **设置 → ScreenCore 窗口调度** 里可调收藏应用、顺序、图标大小与透明度",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "核心功能"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **左上角应用图标按钮** —— 每扇分屏卡片左上角显示当前 App 的 24pt 图标，**无底色**，触摸范围扩展但限制在卡片可见区域内；图标完全透明时依然可以点击，窗口激活、全屏、原生布局重置都不会让它消失\n- **一键全屏 / 还原** —— 点左上角图标把卡片铺满分屏宿主屏幕，再点一次精确还原原来的尺寸和位置；横竖屏旋转后自动调整到可见范围内\n- **侧边收藏栏（长按唤出）** —— 长按左上角图标弹出收藏栏，再长按隐藏；**点击应用、点窗口内容或其他区域都不会误收起**，切换 App 时保留展开状态与滚动位置\n- **收藏栏一体化拖动** —— 收藏栏显示时长按栏内空白或应用图标拖动，**卡片和收藏栏锁定相对位置一起移动**，同一位移、同受屏幕边界限制，松手保存\n- **收藏栏自适应贴边** —— 窗口缩放后立即按当前卡片边缘重新贴边，不再沿用旧宽度的偏移\n- **PullOver-X 同款视觉** —— 窄幅毛玻璃、16pt 连续圆角、细白边框、淡高光、无阴影；浅色 / 深色 / 降低透明度全部适配\n- **固定十格长度** —— 收藏栏固定十个图标位（含间距内边距）；少于十个保留栏长，多于十个可滚动；横屏或大图标放不下时以屏幕高度为上限\n- **点击回弹动画** —— 收藏应用点击后有 0.32 秒压缩、上跳、回弹；点当前应用或重复点击也有反馈；开启「减弱动态效果」自动跳过\n- **原生切换响应** —— 沿用原版窗口切换流程与动画曲线，连续点击保留最后一次选择；放大窗口切换只用透明度过渡",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "⭐ 配合 QuickLaunch 快捷栏联动"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**这是本版最值得说的部分 —— 快捷栏点一下，App 直接开成分屏小窗。**\n\n装好 **QuickLaunch** 后，它的快捷栏与贴边胶囊里点击任一 App，**不再只是全屏打开，而是直接在 ScreenCore 里开出一张分屏卡片**。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**怎么用**\n\n1. 安装 **QuickLaunch**（本源有，建议 0.1.44 及以上）\n2. 安装时选择打开方式为 **「ScreenCore 窗口」**\n3. 之后在快捷栏 / 胶囊点任意 App → 直接开成分屏小窗\n4. 开出来的小窗，**左上角图标、全屏切换、收藏栏全都可用**",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**联动是怎么实现的**\n\nQuickLaunch 侧内置了一个 ScreenCore 适配器（`QLScreenCoreLauncher`）。点击快捷栏时它**不直接调用启动**，而是先做运行时签名校验：\n\n- 用 `methodSignatureForSelector` 逐项核对 ScreenCore 管理器的**参数个数、每个参数类型、返回值类型**\n- 选择器在目标 iOS 版本上不存在或签名不符 → **直接跳过**，回退成全屏打开（不会崩）\n- 签名匹配 → 调用 ScreenCore 开窗接口，返回失败时抛出明确错误而不是静默卡住",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**防止「自己跳自己」的路由保护**\n\nScreenCore 的窗口调度会把「App 自己触发的原生激活」误判成一次「App 跳转」，导致刚开的小窗被自己的启动流程重新路由、甚至被前台清理掉。本版加了保护：\n\n- 只保护 **QuickLaunch 主动发起**的开窗，其他外部链接、其他调用方**完全不受影响**\n- 用「开窗深度计数」标记：调用期间原生命令直接被拦截返回，不再二次建窗\n- 用「待处理开窗表」按 **bundleID + expires 时间戳**记录意图，**15 秒过期**\n- 开窗失败 / 过期 / 被其他管理器的待处理意图不会被误消费",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**⌨️ 键盘延迟创建的场景**（一个容易踩的坑）\n\nScreenCore 在「键盘还没收起」时，会把开窗推迟到键盘消失后再建卡片。此时适配器用**同一个 bundleID** 再次进入，因此：\n\n- 待处理意图带 **manager 归属校验** —— 只有当初那个管理器才能消费，避免串台\n- 已消费或已过期意图**不能影响另一次开窗**\n- 键盘收起后的延迟创建同样走受保护路径",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**⚠️ 关于点击无反应（请先读这段）**\n\n排查记录显示：在 **ScreenCore `.11.pulloverjump` + QuickLaunch 0.1.48** 的真机上，出现过**快捷栏和胶囊点击完全无反馈**的情况，且关闭悬浮球、关闭所有卡片后依旧。\n\n**该问题尚未定位到根因，也没有在真机验证修复。** 已排查的结论是：\n\n- 悬浮球桥接只查询托管应用与返回请求，**不创建窗口、不 Hook 通用触摸**\n- 窗口调度的触摸扩展只装在 **ScreenCore 自己的卡片类**上，不是全局 `UIWindow` / `UIView` Hook\n- 组合检查（含桥接加载）**293 项 0 失败**，但夹具无法替代真机触摸投递\n\n**如果你遇到同样问题**，请记录：快捷栏所属场景、是否收到触摸、是否执行按钮回调、是否调用 ScreenCore、建窗结果。没有触摸记录就先查场景绑定，有触摸无回调就查命中视图，有回调无卡片再查真实启动。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "其他增强"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **App 跳转小窗** —— 系统发起分享文件、打开链接、跨 App 启动时，接入原版跳转协调器，开成独立小窗；**跳转小窗不占普通浮窗名额**，不会触发数量淘汰、单窗口替换或自动边缘停靠\n- **保留来源状态** —— 分享源窗口已放大时保持放大，接收 App 以独立小窗展示；目标 App 已有窗口则复用并按跳转小窗管理\n- **Bottom-x 悬浮球适配** —— 为 SpringBoard 服务增加 ScreenCore 当前可见卡片的进程与场景关联，沿用原有协议与优先级；App 内返回继续由原版悬浮球执行。**此功能需要应用本身已装悬浮球插件**，不会额外创建第二个返回球\n- **键盘不干扰** —— 键盘弹出、避让、收起期间暂停强制全屏，让原版控制窗口位置与恢复时机；只读原版键盘状态，不接管键盘通知、窗口层、动画或输入焦点\n- **浮窗上限为 1 时自动单窗口** —— 原版上限为 1 时自动走单窗口替换路径，无需额外开关；另有独立开关「其他上限也使用单窗口」控制上限大于 1 时是否强制单窗口（默认关闭）\n- **多任务遮挡处理** —— 只把应用内部悬浮球等额外浮层显示在卡片上，主画面、输入焦点、输入框避让仍由原版处理，不重复托管主窗口层",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "设置项说明"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**设置 → ScreenCore**（原版设置，保留全部原有功能）\n\n| 分组 | 内容 |\n|---|---|\n| 通用 | 总开关 |\n| 应用 | 选择允许分屏的 App、调整已选顺序 |\n| 系统控制 | 系统级开关 |\n| 手势 | 触发设置、分屏设置 |\n| 配置 | 导出 / 导入 / 重置配置 |\n\n**设置 → ScreenCore 窗口调度**（本版新增）\n\n| 项目 | 说明 |\n|---|---|\n| 窗口调度 | 总开关 |\n| 收藏应用 | 选择收藏栏里显示哪些 App |\n| 收藏顺序 | 调整收藏栏排列顺序 |\n| 图标大小 | 左上角按钮与收藏栏图标尺寸 |\n| 收藏栏透明度 | 毛玻璃背景浓度 |\n| 按钮透明度 | 左上角按钮图标透明度 |\n| App 跳转弹窗 | 默认开启、即时生效 |\n| 其他上限也使用单窗口 | 默认关闭 |",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "注意事项"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **原版完整性自校验** —— ScreenCore 自带包完整性校验（读取 `/var/lib/dpkg/status`），**改动包体后若插件完全不生效，先怀疑这里**，而不是功能坏了\n- 本包**原版全部组件原样保留**（27 个文件内容与权限逐一校验一致），只替换了窗口调度动态库并追加悬浮球桥接\n- 窗口调度代码**未在越狱真机上验证**；模拟器使用替代场景、动画协调器与远端窗口层，**不能代表真机性能与崩溃修复效果**\n- **文件分享链路**（微信等分享文件 → 用其他应用打开 → 接收 App）涉及 SpringBoard 文件授权，模拟器无法执行，需真机确认\n- 跳转小窗的请求类型、文件授权与展示效果**仍需真机验证**\n- 不同版本的 ScreenCore 若改变私有接口，增强模块会**自动跳过相关接入**而不是强行套用\n- 首次安装后请**重启 SpringBoard**；建议同时安装配套的 Bottom-x 悬浮球以获得完整返回体验",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "2.0.3+windowscheduler.11"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "kanuo"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "原版",
+          "text": "SuSu（苏苏）"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "价格",
+          "text": "完全免费"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "鸣谢"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**特别感谢 SuSu（苏苏）**\n\nScreenCore 是苏苏的作品，也是 iOS 上少有的真正把分屏做扎实的插件 —— 分屏、浮窗、弧菜单、外接键盘、几十种系统工具，全都出自原版。\n\n**没有原版，就没有这个窗口调度版。** 感谢苏苏的付出，也请大家在使用时记得原作者的功劳。\n\n---\n\n如果你想支持原版，可以访问苏苏的源：`repo.susubaby.cn`",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
