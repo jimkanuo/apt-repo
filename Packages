@@ -790,22 +790,23 @@ Icon: https://jimkanuo.github.io/apt-repo/icon/snapbackup.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.snapbackup.json
 
 Package: com.susudear.screencore
-Version: 2.0.3+windowscheduler.12
-Architecture: iphoneos-arm64
+Version: 2.0.3+windowscheduler.12-1
+Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 3768
+Installed-Size: 3207
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
 Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
-Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12_iphoneos-arm64.deb
-Size: 1000874
-MD5sum: 6db0b30f239e0252164245d5534eb428
-SHA1: 04b998be67af93666b1b5aefb7298e4f28250378
-SHA256: 21961f11fbdf2959f3a24bc61bca75476add7158c7d10973426ed484c36dd566
+Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12-1_iphoneos-arm64e.deb
+Size: 920356
+MD5sum: d834494e430d9977f9bf1432cf09db8b
+SHA1: fecd02b7973478b9c26639e62f677342f7038c29
+SHA256: 38c76d3794f565891e4c6213c0fbe197d4f742a34f23a1e4dc75b38ba1e2d577
 Section: Tweaks
 Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
- 作者：kanuo；版本：windowscheduler.12。
+ 作者：kanuo；版本：windowscheduler.12-1。
  基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
  .
  功能与快捷操作：
  点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
@@ -820,14 +821,12 @@ Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转�
  设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
  完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
  安装后重启桌面。
+X-Core-Identity-Revision: expected-author-kanuo.1
 X-Floating-Ball-Bridge-Version: 0.3.0
-X-Install-Environment: standard-rootless-var-jb
-X-Release-Base-Sha256: 64fc26d41398f82dee8c641dc82a401d5dc908d5ef75deb55fb5af6334f8762e
+X-Release-Base-Sha256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
 X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
 X-Rollback-Base-Sha256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
 X-Rollback-Base-Version: 2.0.3+windowscheduler.7
-X-Rootless-Input-Sha256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
-X-Rootless-Revision: exact11-libroot-paths.1
 X-Window-Scheduler-Author: kanuo
 X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
 X-Window-Scheduler-Version: 0.1.6
@@ -837,22 +836,23 @@ Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
 
 Package: com.susudear.screencore
-Version: 2.0.3+windowscheduler.12
-Architecture: iphoneos-arm64e
+Version: 2.0.3+windowscheduler.12-1
+Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 3205
+Installed-Size: 3770
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
 Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
-Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12_iphoneos-arm64e.deb
-Size: 919838
-MD5sum: 0ce0e89abe491058a9eef4aa736daefb
-SHA1: f02de3f113c60d40beae05144a906b1a84242d22
-SHA256: e991271f44dd28cb52bdcf5963144725034f14b0093a8847fc6e6a1c64fbdcb9
+Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12-1_iphoneos-arm64.deb
+Size: 1001408
+MD5sum: 2094346f2445fa38caf0511f916a8823
+SHA1: dd4179baee3515fd84619bc80032e8b628f71a88
+SHA256: 0a75b568ee81e542f4b4901de2d4755f1a099200318e7af80ba40d066aed8288
 Section: Tweaks
 Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
- 作者：kanuo；版本：windowscheduler.12。
+ 作者：kanuo；版本：windowscheduler.12-1。
  基于 windowscheduler.11.pulloverjump，保留原有切换响应、启动失败保护、键盘避让和悬浮球适配。
+ 修复作者改名后与主模块预期信息不一致、导致分屏及触发区域调试无法启用的问题。
  .
  功能与快捷操作：
  点击卡片左上角应用图标放大，再次点击还原；长按显示或隐藏收藏栏。
@@ -867,11 +867,15 @@ Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转�
  设置：系统设置 → screencore-窗口调度版 → 分屏设置 → 窗口调度与收藏栏。
  完整功能与快捷操作说明已加入本插件设置首页下方和包内使用说明书。
  安装后重启桌面。
+X-Core-Identity-Revision: expected-author-kanuo.1
 X-Floating-Ball-Bridge-Version: 0.3.0
-X-Release-Base-Sha256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Install-Environment: standard-rootless-var-jb
+X-Release-Base-Sha256: 64fc26d41398f82dee8c641dc82a401d5dc908d5ef75deb55fb5af6334f8762e
 X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
 X-Rollback-Base-Sha256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
 X-Rollback-Base-Version: 2.0.3+windowscheduler.7
+X-Rootless-Input-Sha256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
+X-Rootless-Revision: exact11-libroot-paths.1
 X-Window-Scheduler-Author: kanuo
 X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
 X-Window-Scheduler-Version: 0.1.6
