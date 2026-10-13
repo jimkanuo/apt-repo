@@ -798,10 +798,10 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
 Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
 Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12_iphoneos-arm64.deb
-Size: 1000832
-MD5sum: f58b5e610f57613360df4aa87463af6c
-SHA1: a5f31bdc109c781c918d7ac72c42d15d6de90860
-SHA256: 8d99c25b8968e17a588a0826d94c3b712bf4e8db3a1b1e1c9dacdc84adba66df
+Size: 1000874
+MD5sum: 6db0b30f239e0252164245d5534eb428
+SHA1: 04b998be67af93666b1b5aefb7298e4f28250378
+SHA256: 21961f11fbdf2959f3a24bc61bca75476add7158c7d10973426ed484c36dd566
 Section: Tweaks
 Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
  作者：kanuo；版本：windowscheduler.12。
@@ -834,6 +834,7 @@ X-Window-Scheduler-Version: 0.1.6
 Name: screencore-窗口调度版
 Author: kanuo
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
 
 Package: com.susudear.screencore
 Version: 2.0.3+windowscheduler.12
@@ -844,10 +845,10 @@ Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
 Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
 Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12_iphoneos-arm64e.deb
-Size: 919790
-MD5sum: 0613b8f4862cf99262661bda9f3e1ed1
-SHA1: 20e0cc689a66843aef69a79afc9017cdc0ed4132
-SHA256: e371f66b90ef0d1e1681ac4534bb9f4b19091ff4f6d2b0c43b8fe483f3b62741
+Size: 919838
+MD5sum: 0ce0e89abe491058a9eef4aa736daefb
+SHA1: f02de3f113c60d40beae05144a906b1a84242d22
+SHA256: e991271f44dd28cb52bdcf5963144725034f14b0093a8847fc6e6a1c64fbdcb9
 Section: Tweaks
 Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
  作者：kanuo；版本：windowscheduler.12。
@@ -877,6 +878,7 @@ X-Window-Scheduler-Version: 0.1.6
 Name: screencore-窗口调度版
 Author: kanuo
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
+SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
 
 Package: com.wkk.settingsrevamp
 Version: 2.1.1
