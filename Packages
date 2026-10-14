@@ -209,50 +209,92 @@ Name: TrollCM
 Author: iosdump
 
 Package: com.minis.rainbowkeyboard
-Version: 1.0.26~lite4
-Architecture: iphoneos-arm64
-Maintainer: MoWang
-Installed-Size: 672
+Version: 1.0.26~lite40
+Architecture: iphoneos-arm64e
+Maintainer: kanuo
+Installed-Size: 696
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.26~lite4_iphoneos-arm64.deb
-Size: 225424
-MD5sum: 1e6d3275a236824f542b95cc2100559c
-SHA1: daf4dd79c68a82e489eda2501efbdbe83076e8fe
-SHA256: 26573a92ff0440dc9b3f2d43cd188b5919ad8658826b8731c102a53045fc4414
+Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.26~lite40_iphoneos-arm64e.deb
+Size: 262872
+MD5sum: 00f9b95622672dac09d055bca62c042e
+SHA1: 04fe554e61b857e53a934679d9a75753ad668e4d
+SHA256: 2120ddc7a1e0f14a48be44f8495e56805cbbfc96e8c887511bfd64c2dbe7a751
 Section: Tweaks
 Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
- 四种固定预设、三星风格扩散与霓虹圆环两种样式。
- 自定义键盘底色和键帽颜色，保留按下态及跨 App 配色兼容。
+ 四种固定预设、三星风格扩散与霓虹圆环两种样式，支持单独关闭扩散光效。
+ 微信输入法提供 11 套参考皮肤，包括冰晶玻璃、深色半透明、霓虹星河、花园半透明和彩色糖果键帽。
+ 键盘底色和键帽颜色分别开关，分别覆盖皮肤对应部分，保留按下态及跨 App 配色兼容。
+ 键帽按压反馈自动启用，独立于周边扩散开关：按下轻沉，松手微弹、亮光渐隐。
+ 每次点击使用一种鲜亮色相，亮光仅在当前键帽内部，不做周边发光或扩散。
+ 修复按压发光层误裁剪整片扩散光效，两种效果可以同时启用。
+ 修复全键盘首次按键预览被缓存为扩散遮挡区，切换布局后不再保留首按位置的光效缺口。
+ 修复功能键合成底图与图标一起隐藏，保留删除、空格、中英切换与大小写字样。
+ 键盘弹起主动刷新配色，原生键帽颜色修改同步更新渲染缓存，无需先按键。
+ 最多复用四组按键亮光，保持原始点击区域、文字和保存的键帽配色。
+ 总开关关闭时停止所有反馈；减少动态效果时不缩放，只保留局部亮光。
+ 移除实验背景形变功能及后端，普通透明度、磨砂与皮肤保留。
+ 100% 透明清除黑色遮罩和键帽填色，降低透明度逐步增加灰白磨砂，不再变黑。
+ 磨砂较强时自动使用深色字，通透时按系统明暗选择字色并提供局部对比阴影，自定义字色优先。
+ 保留系统磨砂与 contentView 安全挂载，减少透明玻璃重复叠层。
+ 新增“透明时保留皮肤与配色”开关，默认关闭，底部和键帽透明时仅显示中性玻璃。
+ 开启透明配色开关后，所选皮肤及自定义颜色才参与透明渲染，文字颜色保持独立。
+ 微信键帽文字及图标支持独立选色和开关，工具栏按钮保持原始外观。
+ 限定键盘背景处理的宿主范围，修复 TIM 等应用底部栏误着色。
+ 移除应用窗口扫描及重复键盘重绘，合并弹起与布局刷新，保留换色和键位切换更新。
+ 功能键覆盖普通图片、矢量图标、文字图层与八种组合状态，拦截按下时的旧颜色覆盖。
+ 修复糖果键帽被原生模糊层及小尺寸背景图片覆盖，保留普通和按下态色彩。
+ 九宫格光效排除左侧拼音选择栏、顶部功能区和符号切换键。
  键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。
  九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。
  最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。
- 移除键帽弹跳、调节滑条、诊断写盘和内置大预览图。
+ 不使用截图、显示刷新定时器、键帽外阴影或诊断写盘。
 Name: 彩虹键盘 · 轻量版
-Author: MoWang
+Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
 
 Package: com.minis.rainbowkeyboard
-Version: 1.0.26~lite4
-Architecture: iphoneos-arm64e
-Maintainer: MoWang
-Installed-Size: 384
+Version: 1.0.26~lite40
+Architecture: iphoneos-arm64
+Maintainer: kanuo
+Installed-Size: 1336
 Depends: mobilesubstrate, preferenceloader
-Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.26~lite4_iphoneos-arm64e.deb
-Size: 124734
-MD5sum: 26b35aa0240f3ab061251dd0cce1abd4
-SHA1: 8c7f3369411365a479874d5b379fb76efde50cb3
-SHA256: c1176b28963ec36da8914c5cc75d6f1e29f7189381e340647280a7b997a0dd20
+Filename: debs/备份源/com.minis.rainbowkeyboard_1.0.26~lite40_iphoneos-arm64.deb
+Size: 497538
+MD5sum: 6ad088c997ee8a2797080f359c52423d
+SHA1: b973f7729a41275f6e2551b1fb082a0b46f885a8
+SHA256: 6ae07893415a8a4ece50061db5c87a3b6cbcccaba02ea8c7e54eea3bee4e8545
 Section: Tweaks
 Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法
- 四种固定预设、三星风格扩散与霓虹圆环两种样式。
- 自定义键盘底色和键帽颜色，保留按下态及跨 App 配色兼容。
+ 四种固定预设、三星风格扩散与霓虹圆环两种样式，支持单独关闭扩散光效。
+ 微信输入法提供 11 套参考皮肤，包括冰晶玻璃、深色半透明、霓虹星河、花园半透明和彩色糖果键帽。
+ 键盘底色和键帽颜色分别开关，分别覆盖皮肤对应部分，保留按下态及跨 App 配色兼容。
+ 键帽按压反馈自动启用，独立于周边扩散开关：按下轻沉，松手微弹、亮光渐隐。
+ 每次点击使用一种鲜亮色相，亮光仅在当前键帽内部，不做周边发光或扩散。
+ 修复按压发光层误裁剪整片扩散光效，两种效果可以同时启用。
+ 修复全键盘首次按键预览被缓存为扩散遮挡区，切换布局后不再保留首按位置的光效缺口。
+ 修复功能键合成底图与图标一起隐藏，保留删除、空格、中英切换与大小写字样。
+ 键盘弹起主动刷新配色，原生键帽颜色修改同步更新渲染缓存，无需先按键。
+ 最多复用四组按键亮光，保持原始点击区域、文字和保存的键帽配色。
+ 总开关关闭时停止所有反馈；减少动态效果时不缩放，只保留局部亮光。
+ 移除实验背景形变功能及后端，普通透明度、磨砂与皮肤保留。
+ 100% 透明清除黑色遮罩和键帽填色，降低透明度逐步增加灰白磨砂，不再变黑。
+ 磨砂较强时自动使用深色字，通透时按系统明暗选择字色并提供局部对比阴影，自定义字色优先。
+ 保留系统磨砂与 contentView 安全挂载，减少透明玻璃重复叠层。
+ 新增“透明时保留皮肤与配色”开关，默认关闭，底部和键帽透明时仅显示中性玻璃。
+ 开启透明配色开关后，所选皮肤及自定义颜色才参与透明渲染，文字颜色保持独立。
+ 微信键帽文字及图标支持独立选色和开关，工具栏按钮保持原始外观。
+ 限定键盘背景处理的宿主范围，修复 TIM 等应用底部栏误着色。
+ 移除应用窗口扫描及重复键盘重绘，合并弹起与布局刷新，保留换色和键位切换更新。
+ 功能键覆盖普通图片、矢量图标、文字图层与八种组合状态，拦截按下时的旧颜色覆盖。
+ 修复糖果键帽被原生模糊层及小尺寸背景图片覆盖，保留普通和按下态色彩。
+ 九宫格光效排除左侧拼音选择栏、顶部功能区和符号切换键。
  键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。
  九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。
  最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。
- 移除键帽弹跳、调节滑条、诊断写盘和内置大预览图。
+ 不使用截图、显示刷新定时器、键帽外阴影或诊断写盘。
 Name: 彩虹键盘 · 轻量版
-Author: MoWang
+Author: kanuo
 Icon: https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.minis.rainbowkeyboard.json
 

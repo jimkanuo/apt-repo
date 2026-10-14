@@ -47,12 +47,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "1.0.26~lite4"
+          "text": "1.0.26~lite40"
         },
         {
           "class": "DepictionTableTextView",
           "title": "作者",
-          "text": "MoWang"
+          "text": "kanuo"
         },
         {
           "class": "DepictionTableTextView",
@@ -150,6 +150,18 @@
           "class": "DepictionMarkdownView",
           "markdown": "1. 安装后**注销一次**，并重新打开使用输入法的 App，清除仍驻留内存的旧版插件\n2. 进入 **设置 → 彩虹键盘 · 轻量版** 调整预设与配色\n3. 键盘底色、键帽颜色**都选择黑色**即可获得纯黑效果\n\n⚠️ 避免与修改同一键盘背景或键帽的其他主题**同时启用**。",
           "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "更新日志",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**1.0.26~lite40** · 当前版本\n- 修复**全键盘首次按压后留下的扩散光效缺口**\n- 临时按键预览框不再写入持久的扩散裁剪遮罩；预览框隐藏或移除即使没有布局回调，也不会在原位置留下黑色缺口\n- 预览框及其子视图仍不参与键位识别、按压反馈和触摸光效路由，兼容 popup / keypreview / keyballoon / keymagnifier 类名\n- 候选词、工具栏、九宫格拼音栏和符号键的原有光效排除全部保留\n\n**1.0.26~lite39**\n- 修复**微信输入法键帽之间连成片或偏移的深灰底块**\n- 清理已识别键帽祖先容器的填色；外层按钮底图与跨键背景纹理按当前可见键帽轮廓裁剪\n- 停用键帽背后的第二套兜底填色，霓虹几何改用内层可见键帽；触摸范围不变\n\n**1.0.26~lite33**\n- 限定键盘背景处理的宿主范围，修复 **TIM 等应用底部栏误着色**\n- 移除应用窗口扫描与重复键盘重绘，合并弹起与布局刷新\n"
         },
         {
           "class": "DepictionHeaderView",
