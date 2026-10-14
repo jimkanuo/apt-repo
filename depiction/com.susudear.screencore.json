@@ -161,7 +161,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**2.0.3+windowscheduler.12-5** · 当前版本\n- 修复左上角放大卡片后**底部点击与上划无法退出**\n- 沿用原版退出流程与上划开关、阈值；取消旧放大与收藏栏动画回调，不改变键盘避让、快捷切换和悬浮球适配\n\n**2.0.3+windowscheduler.12-4**\n- 新增 `ScreenCoreKeyboardCompatibility` 模块，修复**巨魔安装应用在小窗中只放大卡片、不显示键盘**\n- 复用原版键盘窗口与输入框避让，不改普通/跳转小窗比例、动画、启动保护与悬浮球\n\n**2.0.3+windowscheduler.12-3**\n- App 跳转小窗改用**原始场景尺寸与完整画面比例**，不再套用普通分屏的 16:9 预设\n- 复用已有窗口时同步原始比例；普通分屏、收藏切换与键盘避让保持原方案\n\n**2.0.3+windowscheduler.12-2**\n- 新增 `ScreenCoreSceneGeometryRecovery` 模块，修复**小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边**\n- 通过原版场景队列补发尺寸，不延迟切换；重新打开小窗时取消旧恢复\n\n**2.0.3+windowscheduler.12-1**\n- 修复 `.12` 作者改名后**主模块内部预期作者未同步**，导致分屏及触发区域调试无法启用的问题\n- 仅同步该常量并重新签名，包标识、图标地址、校验指令与其余程序文件全部保留\n\n**2.0.3+windowscheduler.12**\n- 以 `.11.pulloverjump` 为基础，更新名称、作者、版本与说明资源\n\n**2.0.3+windowscheduler.11.pulloverjump**\n- 为「App 跳转弹窗」接入 PullOver-X 挂起启动方案；保留 `.6` 原生切换响应、启动失败保护与 Bottom-x 6.59 悬浮球适配\n"
+          "markdown": "**2.0.3+windowscheduler.12-12** · 当前版本\n- 修复全屏后点击输入框，**内容与输入栏又止于约 16:9 高度、下方变黑**的问题\n- 覆盖 FBScene 设置更新的有 completion / 无 completion 两个入口，只在原生全屏成功、应用在前台且尚未重开小窗时生效\n- 只校正已知的 16:9 或全屏尺寸上的残留显示配置，**保留键盘高度、焦点、横竖屏与系统转场**\n- 返回图标和快捷入口重新创建小窗前解除保护；失败最多重试三次，不新增长期定时器\n\n**2.0.3+windowscheduler.12-5**\n- 修复左上角放大卡片后**底部点击与上划无法退出**\n- 沿用原版退出流程与上划开关、阈值；取消旧放大与收藏栏动画回调，不改变键盘避让、快捷切换和悬浮球适配\n\n**2.0.3+windowscheduler.12-4**\n- 新增 `ScreenCoreKeyboardCompatibility` 模块，修复**巨魔安装应用在小窗中只放大卡片、不显示键盘**\n- 复用原版键盘窗口与输入框避让，不改普通/跳转小窗比例、动画、启动保护与悬浮球\n\n**2.0.3+windowscheduler.12-3**\n- App 跳转小窗改用**原始场景尺寸与完整画面比例**，不再套用普通分屏的 16:9 预设\n- 复用已有窗口时同步原始比例；普通分屏、收藏切换与键盘避让保持原方案\n\n**2.0.3+windowscheduler.12-2**\n- 新增 `ScreenCoreSceneGeometryRecovery` 模块，修复**小窗退出后同一 App 全屏偶尔遗留 16:9 尺寸、底部出现黑边**\n- 通过原版场景队列补发尺寸，不延迟切换；重新打开小窗时取消旧恢复\n\n**2.0.3+windowscheduler.12-1**\n- 修复 `.12` 作者改名后**主模块内部预期作者未同步**，导致分屏及触发区域调试无法启用的问题\n- 仅同步该常量并重新签名，包标识、图标地址、校验指令与其余程序文件全部保留\n\n**2.0.3+windowscheduler.12**\n- 以 `.11.pulloverjump` 为基础，更新名称、作者、版本与说明资源\n\n**2.0.3+windowscheduler.11.pulloverjump**\n- 为「App 跳转弹窗」接入 PullOver-X 挂起启动方案；保留 `.6` 原生切换响应、启动失败保护与 Bottom-x 6.59 悬浮球适配\n"
         },
         {
           "class": "DepictionHeaderView",
@@ -173,7 +173,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "2.0.3+windowscheduler.12-5"
+          "text": "2.0.3+windowscheduler.12-12"
         },
         {
           "class": "DepictionTableTextView",
