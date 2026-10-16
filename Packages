@@ -681,23 +681,26 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.55
+Version: 0.1.58
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 1284
+Installed-Size: 1356
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.55_iphoneos-arm64.deb
-Size: 376910
-MD5sum: a9c698127733b2725d9904d1958b6b97
-SHA1: 517fce803743dd87152e29fdff12f190e1b4a09c
-SHA256: cf69aa1028a0200a15f81209faf8f6f65840c61483d494b19f6c57bc506d3770
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.58_iphoneos-arm64.deb
+Size: 404468
+MD5sum: 12f5d622490873b01ba0c4d6029cefc4
+SHA1: 9ae28ca732dc8a1463ab4d46ade1167d03669170
+SHA256: 34e10361594aabbcff0b6a320d21cbac06491f7cfba7d98a67eb0995ae2ce015
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
  Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
  Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
  Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
  Optionally retain one to three empty Home Screen pages after existing pages.
  Keep two overlays with separate apps and settings, adapting to portrait and landscape.
  Select any number of rail apps; scroll within a fixed eight-slot viewport.
@@ -713,23 +716,26 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.55
+Version: 0.1.58
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 708
+Installed-Size: 748
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.55_iphoneos-arm64e.deb
-Size: 225456
-MD5sum: 58e6d7226aa6a44f1091d098a66558bd
-SHA1: df2e463dde6ede789cf7a1ab29ed74c55e582797
-SHA256: 09260ee552deea35f6573fbd34a870aae8ddcdbec92b8361b7c229d89c876509
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.58_iphoneos-arm64e.deb
+Size: 242638
+MD5sum: 5ccdf5f654dae0402fbb24db5e4fbf37
+SHA1: 00ac3e1bed9a25604f793ae22263af7d58b15d03
+SHA256: d1654269372fba7ca3ad80959c498628772710088a9c0c24afceae4c3d865692
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
  Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
  Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
  Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
+ Choose left or right radial activation with mirrored swipe animation and debug touch regions.
+ Group related preferences into module pages, with optional timed hold to open radial apps fullscreen.
+ Automatically remove confirmed unavailable apps from all menus, preserving URLs and valid app records.
  Optionally retain one to three empty Home Screen pages after existing pages.
  Keep two overlays with separate apps and settings, adapting to portrait and landscape.
  Select any number of rail apps; scroll within a fixed eight-slot viewport.
