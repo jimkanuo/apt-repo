@@ -70,8 +70,14 @@
           "itemCornerRadius": 8,
           "itemSize": "{160, 346}",
           "screenshots": [
-            { "url": "https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/preview1.png", "accessibilityText": "悬浮球返回与点击光效" },
-            { "url": "https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/preview2.png", "accessibilityText": "设置面板 - 自定义图标与外观调节" }
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/preview1.png",
+              "accessibilityText": "悬浮球返回与点击光效"
+            },
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/preview2.png",
+              "accessibilityText": "设置面板 - 自定义图标与外观调节"
+            }
           ]
         },
         {
@@ -84,7 +90,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "版本",
-          "text": "6.59"
+          "text": "6.62"
         },
         {
           "class": "DepictionTableTextView",
@@ -117,6 +123,18 @@
           "class": "DepictionMarkdownView",
           "markdown": "本插件可作为 **SmartDeck（独立桌面）** 的托管返回键。安装 SmartDeck 后，其 App 的 Home 返回依赖本悬浮球，请确保两者同时安装。",
           "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "更新日志",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**6.62 · 当前版本**\n- 🔧 **键盘自动隐藏** —— 键盘出现时悬浮球自动隐藏，收起后恢复**同一窗口与位置**；系统和 App 两侧同时监听键盘，跨进程上报可见状态，多来源合并判断，停止上报 1.5 秒后过期\n- 🔧 **修复普通首页无法回桌面** —— 没有 `UINavigationController` 的普通首页，再次点击也能回桌面；SpringBoard 优先模拟系统 Home，再兼容 `SBUIController` 与工作区路径\n- **独立返回引擎** —— App 直接执行原生导航出栈、模态关闭、WKWebView 网页后退与 `accessibilityPerformEscape`；无可执行上一层时下一次点击请求 Home\n- 完整移除对原 Bottom-x 的**安装依赖**，以及返回盾搜索、点击派发、Home 派发与旧 App 内球返回入口\n- 全局指令带目标 PID、场景、世代、随机编号与 **750ms 有效期**；无接收器、重复、过期或超时的指令不会触发回桌面\n- 每次点击**按进程和场景转发**；目标切换或锁屏后不继续旧请求；键盘出现会取消未完成的返回请求与 Home 重试\n- 桌面点击无动作；锁屏、关闭总开关或暂停时隐藏\n- 保留 **SmartDeck 原生 Home** 与 **PullOver-X / ScreenCore 根层关闭路由**\n- 优化自定义容器、嵌套导航和分栏根页面识别，**优先系统 Home 路径**\n\n**6.61**\n- 去除对原 Bottom-x 的安装依赖与运行时回调，成为真正独立版；包名与偏好路径延续旧版，升级安装保留图片与设置\n\n"
         },
         {
           "class": "DepictionHeaderView",
