@@ -58,17 +58,17 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.69
-Architecture: iphoneos-arm64e
+Version: 6.70
+Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 1400
+Installed-Size: 1432
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.69_iphoneos-arm64e.deb
-Size: 638420
-MD5sum: 58232c4567d1008da7a301a3aa59cae2
-SHA1: db9416c272ae027f8e52eff0e813dea1b224faed
-SHA256: 14fbc4f12fa4da988a45cf92faf68913d63320611db47507f4ab1f1505c8c530
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.70_iphoneos-arm64.deb
+Size: 641598
+MD5sum: 6b4e8ed7d321cf48247758b418cc10f9
+SHA1: 122f531251b0ba6135b13daebf3775bcac9af1d0
+SHA256: 44ed6fa037d974cee85d67edcaa97d4b79a31715d03d97672f1eb69f6164563b
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -85,7 +85,12 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
  .
- 【6.69 系统工具修复】
+ 【6.70 双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
  - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
  - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
  - StayShot 改用实际分布式通知通道，失败提示具体工具名称
@@ -95,18 +100,18 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
  - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
  - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
- - 保留 6.67 的应用打开方式、快速滑动原位及无键盘切换位置修复
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
  .
  【保留的应用打开方式与位置稳定】
  - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
  - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
- - 自由模式已配置的快速滑动保持原位，慢拖仍可移动
+ - 未固定时拖动直接移动，已配置的四向动作暂停
  - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
  .
  【保留的固定位置与四向动作】
  - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
  - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
- - 自由模式快速滑动执行动作，慢拖移动；固定模式滑动只执行动作，不移动
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
  - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
  - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
  .
@@ -136,17 +141,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.69
-Architecture: iphoneos-arm64
+Version: 6.70
+Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 1400
+Installed-Size: 1432
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.69_iphoneos-arm64.deb
-Size: 638216
-MD5sum: 8c55a72dddb6ae1e9a650f631cdbfaea
-SHA1: d4ac0dbc1c87c57b3448b271c222b357d93bf12c
-SHA256: e212aadf8bfe010ce4e1fd929e5981f8a7bc06e7a503fb503dd8c5503716fdd4
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.70_iphoneos-arm64e.deb
+Size: 641848
+MD5sum: 65f37d966ff4274df8a995b93649ae58
+SHA1: 6c44c96bfca8f11b8183f0543782d80e52c4d07e
+SHA256: 85f4a640195b5154ada8f96d68f2d15366c4d87bd580af407bd82ba2c9b3982d
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -163,7 +168,12 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
  .
- 【6.69 系统工具修复】
+ 【6.70 双击固定位置】
+ - 双击悬浮球切换固定位置，与设置开关同步保存，单击返回和长按菜单保留
+ - 未固定时立即暂停四向动作，直接拖动调整；再次双击固定并恢复已配置动作
+ - 双击不会返回，切换时取消待处理导航；键盘隐藏、避让及收起回位保留
+ .
+ 【保留的系统工具修复】
  - 回到桌面接入三路 Home 后备并检查状态，多任务增加系统双击和新旧协调器兼容
  - 修复音量单例、静音对象、蓝牙电源状态、低电量框架及显示亮度调用
  - StayShot 改用实际分布式通知通道，失败提示具体工具名称
@@ -173,18 +183,18 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 系统工具增加 SHELLX 11.3 原有的 12 个动作，支持搜索和四个方向独立选择
  - 兼容已保存的 SHELLX prefs / App-prefs URL，改走插件拦截的桌面原生入口
  - 未加载 SHELLX 或接口不可用时提示失败，不误打开系统设置
- - 保留 6.67 的应用打开方式、快速滑动原位及无键盘切换位置修复
+ - 保留三种应用打开方式及无键盘切换位置修复，固定时四向动作保持原位
  .
  【保留的应用打开方式与位置稳定】
  - 仅打开应用新增全屏、PullOver-X 主卡、ScreenCore 小窗，四个方向分别保存
  - 主卡或小窗需要对应插件，接口不可用时自动回退全屏，普通启动无需 QuickLaunch
- - 自由模式已配置的快速滑动保持原位，慢拖仍可移动
+ - 未固定时拖动直接移动，已配置的四向动作暂停
  - 无键盘时普通界面切换与定时刷新不再重新限制位置，键盘隐藏及避让保留
  .
  【保留的固定位置与四向动作】
  - 新增固定当前位置开关，禁止手动移动，保留键盘隐藏、自动避让和收起回位
  - 上下左右滑动分别配置应用、系统工具、快捷指令或自定义 URL，默认不执行
- - 自由模式快速滑动执行动作，慢拖移动；固定模式滑动只执行动作，不移动
+ - 自由模式仅调整位置；固定模式滑动只执行动作，不移动
  - 应用和工具支持搜索，快捷指令支持列表和名称填写，URL 支持命名、编辑和删除
  - 普通应用、系统工具、快捷指令与 URL 启动内置实现，无原 Bottom-x 依赖
  .
