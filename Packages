@@ -820,17 +820,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.71
+Version: 0.1.72
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 1084
+Installed-Size: 1092
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.71_iphoneos-arm64e.deb
-Size: 362336
-MD5sum: db00c6be215c028a7d2cb5e88e1c893c
-SHA1: 4c908f7c0bbaa0a128e513f7f95f45b15232595f
-SHA256: 2c9a4747d03c4159ec9361f364bdc098213f8d85c0693df7a9e0516a06f18909
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.72_iphoneos-arm64e.deb
+Size: 365294
+MD5sum: e55a662bfee988f60d36b097f07e560f
+SHA1: 74996b2eef4489819b2caa1262ce457061795a11
+SHA256: d178b2cf50c7264dbc43d1e83360b6e346c24228831a8de7afaa805d23186df9
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
@@ -844,7 +844,8 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
  Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
  Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
  Shared square or circular icon frames across all quick menus and radial previews.
- Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Choose fullscreen, PullOver-X, ScreenCore or Open split windows independently for all menus.
+ Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
  Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
  Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
  Choose left or right radial activation with mirrored swipe animation and debug touch regions.
@@ -870,17 +871,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.71
+Version: 0.1.72
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 2012
+Installed-Size: 2020
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.71_iphoneos-arm64.deb
-Size: 628170
-MD5sum: ce3415849ad1ac236313137cc9247cfe
-SHA1: 66637acce5c7350514c3c16e78ce50e994b4283b
-SHA256: 05b059a9a90870f254def55d4c8123d2244434b74f803d445378ab341b1a03af
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.72_iphoneos-arm64.deb
+Size: 631988
+MD5sum: a58c831785aa4bf83e04025cf1e03eba
+SHA1: df259d50e5cd00c42d6fc1bfad5c9e23729f1958
+SHA256: 913783add3d1f1e14807bae16ccfd964f581d6ad6b576fd59deffec991d176c9
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
@@ -894,7 +895,8 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
  Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
  Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
  Shared square or circular icon frames across all quick menus and radial previews.
- Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
+ Choose fullscreen, PullOver-X, ScreenCore or Open split windows independently for all menus.
+ Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
  Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
  Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
  Choose left or right radial activation with mirrored swipe animation and debug touch regions.
