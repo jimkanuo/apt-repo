@@ -762,20 +762,30 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.62
+Version: 0.1.71
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 784
+Installed-Size: 1084
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.62_iphoneos-arm64e.deb
-Size: 253252
-MD5sum: eac18e60b38f2db6ceac88bb15040470
-SHA1: b6e54e746d95ac9756e5894145a8316ecb5bcf87
-SHA256: cdc2c8ae479a3dca7116b69ffe3554194de5a6c3e619a7b226e7a66593b95594
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.71_iphoneos-arm64e.deb
+Size: 362336
+MD5sum: db00c6be215c028a7d2cb5e88e1c893c
+SHA1: 4c908f7c0bbaa0a128e513f7f95f45b15232595f
+SHA256: 2c9a4747d03c4159ec9361f364bdc098213f8d85c0693df7a9e0516a06f18909
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Shared tool dispatch validates runtime method encodings and uses the same lock-state sources as overlay visibility.
+ Separate system tools, URLs and Shortcuts lists for each rail, capsule and radial menu.
+ Radial apps, tools, URLs and Shortcuts share consecutive slots across the same concentric rings.
+ Consecutive circular app and action slots with adjustable spacing; rail and capsule actions appear inline beside apps.
+ Shared custom URL images or name tiles in every menu.
+ Host-aware SpringBoard and LaunchServices URL dispatch with ordinary app fallback and failure feedback.
+ Customizable center icon with an independent app, tool, URL or Shortcut binding and photo/file artwork.
+ Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
+ Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
+ Shared square or circular icon frames across all quick menus and radial previews.
  Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
  Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
  Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
@@ -802,20 +812,30 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.62
+Version: 0.1.71
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 1424
+Installed-Size: 2012
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.62_iphoneos-arm64.deb
-Size: 422218
-MD5sum: c9444af568f0cd11a1580f457e97822b
-SHA1: bf7a65515fd5ed41ef248b2d0d5c5e42bb740910
-SHA256: 91eb82a3341f9f57980ecadf126552de750e4c2eca67acdc4fbdfd87e6f6bb99
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.71_iphoneos-arm64.deb
+Size: 628170
+MD5sum: ce3415849ad1ac236313137cc9247cfe
+SHA1: 66637acce5c7350514c3c16e78ce50e994b4283b
+SHA256: 05b059a9a90870f254def55d4c8123d2244434b74f803d445378ab341b1a03af
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Shared tool dispatch validates runtime method encodings and uses the same lock-state sources as overlay visibility.
+ Separate system tools, URLs and Shortcuts lists for each rail, capsule and radial menu.
+ Radial apps, tools, URLs and Shortcuts share consecutive slots across the same concentric rings.
+ Consecutive circular app and action slots with adjustable spacing; rail and capsule actions appear inline beside apps.
+ Shared custom URL images or name tiles in every menu.
+ Host-aware SpringBoard and LaunchServices URL dispatch with ordinary app fallback and failure feedback.
+ Customizable center icon with an independent app, tool, URL or Shortcut binding and photo/file artwork.
+ Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
+ Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
+ Shared square or circular icon frames across all quick menus and radial previews.
  Choose fullscreen, PullOver-X or ScreenCore floating windows independently for both overlays.
  Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
  Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
