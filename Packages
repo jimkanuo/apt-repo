@@ -820,17 +820,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.72
+Version: 0.1.73
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 1092
+Installed-Size: 1108
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.72_iphoneos-arm64e.deb
-Size: 365294
-MD5sum: e55a662bfee988f60d36b097f07e560f
-SHA1: 74996b2eef4489819b2caa1262ce457061795a11
-SHA256: d178b2cf50c7264dbc43d1e83360b6e346c24228831a8de7afaa805d23186df9
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.73_iphoneos-arm64e.deb
+Size: 367174
+MD5sum: 60a6a6d45062dd68b6a50b8f0827ab9d
+SHA1: d1d8f961c010119da058998123a98420cb5d3363
+SHA256: 0542575b4dfadc17f322c3ce12507e1d7adcfe0d86cd10f3ed8341eca2568bd4
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
@@ -844,8 +844,9 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
  Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
  Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
  Shared square or circular icon frames across all quick menus and radial previews.
- Choose fullscreen, PullOver-X, ScreenCore or Open split windows independently for all menus.
+ Choose fullscreen, PullOver-X, ScreenCore, Open or FV split windows independently for all menus.
  Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
+ Optional floatingView 1.6.0-6 bridge using its in-process app-opening notification.
  Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
  Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
  Choose left or right radial activation with mirrored swipe animation and debug touch regions.
@@ -871,17 +872,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.72
+Version: 0.1.73
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 2020
+Installed-Size: 2036
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.72_iphoneos-arm64.deb
-Size: 631988
-MD5sum: a58c831785aa4bf83e04025cf1e03eba
-SHA1: df259d50e5cd00c42d6fc1bfad5c9e23729f1958
-SHA256: 913783add3d1f1e14807bae16ccfd964f581d6ad6b576fd59deffec991d176c9
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.73_iphoneos-arm64.deb
+Size: 634594
+MD5sum: c22e9410ebd72e09f962837fd703fdda
+SHA1: 7527b693d50a2a1549c71b6162c7a4dd318d1b1a
+SHA256: c248f6158cba37d50344a4d52a7a733fe5b4128ef9f5e1d0c8f5d5b5bc469d11
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
@@ -895,8 +896,9 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
  Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
  Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
  Shared square or circular icon frames across all quick menus and radial previews.
- Choose fullscreen, PullOver-X, ScreenCore or Open split windows independently for all menus.
+ Choose fullscreen, PullOver-X, ScreenCore, Open or FV split windows independently for all menus.
  Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
+ Optional floatingView 1.6.0-6 bridge using its in-process app-opening notification.
  Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
  Circular menu supports unlimited selections, concentric rings, stronger adjustable bounce and persistent invisible touch regions.
  Choose left or right radial activation with mirrored swipe animation and debug touch regions.
