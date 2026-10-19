@@ -860,22 +860,26 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.76
-Architecture: iphoneos-arm64
+Version: 0.1.80
+Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 2192
+Installed-Size: 1940
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.76_iphoneos-arm64.deb
-Size: 693878
-MD5sum: 5f4014dd0418649d6df6db1935b527a4
-SHA1: a21dd130d98f7ff48e54ebeba420437d52a48a5e
-SHA256: 046fbde30e259cf3343d5471ed42aaaeddb302df556603b34cc6f91a234ac0c8
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.80_iphoneos-arm64e.deb
+Size: 631992
+MD5sum: 8a3dabb3e1f6622a83fb29a42ef54d60
+SHA1: aef71f0465621e7ac4d3f283cc0f21268f4ee1e5
+SHA256: 90b57a576df6fb31ef1c3c2436ca1304388b8750f968a5d34228bfc834074bb1
 Section: Tweaks
 Priority: optional
-Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Adds guarded optional SVP 1.4.2 opening and seventeen native toolbar actions in all menus.
  Adds automatic brightness, Night Shift, True Tone and independent region screenshot selection.
  Follow the foreground App interface orientation and independently choose recent background Apps or saved favorites per menu.
+ Capsule notification icons retain native notification actions and use a 1-120 second duration slider.
+ New notifications reveal the capsule in recent and favorite modes; ordinary and radial menus are unchanged.
+ Recent rail and capsule shrink to live App count, retaining viewport limits and overflow scrolling.
  Synchronizes cross-process menu preferences and shows a dedicated recent/favorite selection page.
  Compensates the actual overlay host transform to prevent duplicate landscape rotation.
  Preserves favorite Apps and actions when switching content sources.
@@ -890,7 +894,7 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
  Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
  Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
  Shared square or circular icon frames across all quick menus and radial previews.
- Choose fullscreen, PullOver-X, ScreenCore, Open or FV split windows independently for all menus.
+ Choose fullscreen, PullOver-X, ScreenCore, Open, FV or SVP split windows independently for all menus.
  Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
  Optional floatingView 1.6.0-6 bridge using its in-process app-opening notification.
  Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
@@ -918,22 +922,26 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.76
-Architecture: iphoneos-arm64e
+Version: 0.1.80
+Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 1200
+Installed-Size: 3012
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.76_iphoneos-arm64e.deb
-Size: 399622
-MD5sum: 71ae0b64f1522a00ff8aeb057110a171
-SHA1: 55d193d18608c62580a51107cd22f25f6e5ddea4
-SHA256: 1dbea5530446114a272e55355a9e5e62fb13cde4ab7ea1485081255b706ed2f3
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.80_iphoneos-arm64.deb
+Size: 948050
+MD5sum: 0c9c5e7ef49fbb2bc714f84b22cfb6a0
+SHA1: a00648096c2fe117edb18d96d1ad7826f8405326
+SHA256: 60d44bee1cbd217117622452ea6fedbd53e72999de3799b6f8dde37f72433126
 Section: Tweaks
 Priority: optional
-Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Adds guarded optional SVP 1.4.2 opening and seventeen native toolbar actions in all menus.
  Adds automatic brightness, Night Shift, True Tone and independent region screenshot selection.
  Follow the foreground App interface orientation and independently choose recent background Apps or saved favorites per menu.
+ Capsule notification icons retain native notification actions and use a 1-120 second duration slider.
+ New notifications reveal the capsule in recent and favorite modes; ordinary and radial menus are unchanged.
+ Recent rail and capsule shrink to live App count, retaining viewport limits and overflow scrolling.
  Synchronizes cross-process menu preferences and shows a dedicated recent/favorite selection page.
  Compensates the actual overlay host transform to prevent duplicate landscape rotation.
  Preserves favorite Apps and actions when switching content sources.
@@ -948,7 +956,7 @@ Description: Independent quick-launch rail and notification capsule for iOS 15.0
  Edit center photo/file artwork with circular preview, drag positioning, pinch or slider zoom, reset, cancel and save.
  Transparent center artwork with independent size, slow rotation, silhouette glow and outward light waves.
  Shared square or circular icon frames across all quick menus and radial previews.
- Choose fullscreen, PullOver-X, ScreenCore, Open or FV split windows independently for all menus.
+ Choose fullscreen, PullOver-X, ScreenCore, Open, FV or SVP split windows independently for all menus.
  Optional TrollOpenJB 1.5.2 bridge with runtime ABI checks, preserving its window limits.
  Optional floatingView 1.6.0-6 bridge using its in-process app-opening notification.
  Optional independent radial menu with progressive swipe reveal, bounce and haptic feedback.
