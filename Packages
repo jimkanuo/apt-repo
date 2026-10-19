@@ -58,17 +58,17 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.76
+Version: 6.79
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 1448
+Installed-Size: 1564
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.76_iphoneos-arm64.deb
-Size: 660526
-MD5sum: fd81d62b1193f0261f42ec6588553dac
-SHA1: bcd265ca4d751225667418d6a457767e4781039b
-SHA256: b45fada6f54e3cbb12736792fb91c9bde64372cd63d148047d5de4a7e1b62b0a
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.79_iphoneos-arm64.deb
+Size: 711372
+MD5sum: 27ab41c1b45d38613d28a5a64d4ead14
+SHA1: ca1511a1eb0cc963eb8507a283ae71e50d06df64
+SHA256: c11222242cf540feca29e292ff289496c6a302cbb8763678822100e90bfee433
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -85,7 +85,27 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
  .
- 【6.76 横屏四向手势坐标修复】
+ 【6.79 同步 QuickLaunch 系统工具】
+ - 新增 25 个工具，共 66 项，可搜索并独立配置四个方向
+ - 新增系统录屏与开麦录屏、截图编辑、独立区域截图框选复制和分享
+ - 新增 Siri、搜索、资源库、摇一摇、语音控制等辅助功能及 iPad 工具
+ - 新增 8 项 Open 窗口操作，以及自动亮度、夜览、原彩切换
+ - 运行时校验接口及设备支持，录屏等待回执，失败提示具体原�
+ - 无 QuickLaunch 安装依赖；Open 工具需要对应插件，保留全部原有功能
+ .
+ 【保留的 Open 分屏窗口返回】
+ - 点击悬浮球返回当前活动 Open 窗口的上一层，精确匹配应用进程与托管场景
+ - 原生导航首页再次点击仅收起当前窗口，不让底层 App 回桌面
+ - 多窗口跟随 Open 焦点，目标不明、切换或场景未连接时不误操作底层应用
+ - 保留键盘隐藏与避让、横屏手势、双击固定及原有打开方式
+ .
+ 【保留的 Open 分屏窗口】
+ - 应用打开方式新增 Open 分屏窗口，四个方向分别保存
+ - 参考 QuickLaunch 的 TrollOpenJB 1.5.2 接口，运行时检查兼容性
+ - 插件缺失或接口不兼容时全屏打开，提交后不重复启动，不绕过窗口限制
+ - 仅应用动作显示打开方式；保留横屏手势、键盘避让及原有功能
+ .
+ 【保留的横屏四向手势坐标修复】
  - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
  - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
  - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
@@ -170,17 +190,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.76
+Version: 6.79
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 1448
+Installed-Size: 1564
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.76_iphoneos-arm64e.deb
-Size: 660660
-MD5sum: 47bf3b1203e4bf1226d0da00fb709f84
-SHA1: c72d7f87e8022a35ff4dc2ffd355d5947a720c75
-SHA256: 237c5142340b5148756f12ab670da2a241c508da9141b4235fd4d8b93423f893
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.79_iphoneos-arm64e.deb
+Size: 711558
+MD5sum: 3e25fe3846c3d3eccb0ba76215298164
+SHA1: bfc0ef5f1b11a1967d341b21268cf792bb604feb
+SHA256: 34d25b6731b3b332e82400b6549f82414747e71b6d9acb60b3c853802f51ab3f
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -197,7 +217,27 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
  .
- 【6.76 横屏四向手势坐标修复】
+ 【6.79 同步 QuickLaunch 系统工具】
+ - 新增 25 个工具，共 66 项，可搜索并独立配置四个方向
+ - 新增系统录屏与开麦录屏、截图编辑、独立区域截图框选复制和分享
+ - 新增 Siri、搜索、资源库、摇一摇、语音控制等辅助功能及 iPad 工具
+ - 新增 8 项 Open 窗口操作，以及自动亮度、夜览、原彩切换
+ - 运行时校验接口及设备支持，录屏等待回执，失败提示具体原�
+ - 无 QuickLaunch 安装依赖；Open 工具需要对应插件，保留全部原有功能
+ .
+ 【保留的 Open 分屏窗口返回】
+ - 点击悬浮球返回当前活动 Open 窗口的上一层，精确匹配应用进程与托管场景
+ - 原生导航首页再次点击仅收起当前窗口，不让底层 App 回桌面
+ - 多窗口跟随 Open 焦点，目标不明、切换或场景未连接时不误操作底层应用
+ - 保留键盘隐藏与避让、横屏手势、双击固定及原有打开方式
+ .
+ 【保留的 Open 分屏窗口】
+ - 应用打开方式新增 Open 分屏窗口，四个方向分别保存
+ - 参考 QuickLaunch 的 TrollOpenJB 1.5.2 接口，运行时检查兼容性
+ - 插件缺失或接口不兼容时全屏打开，提交后不重复启动，不绕过窗口限制
+ - 仅应用动作显示打开方式；保留横屏手势、键盘避让及原有功能
+ .
+ 【保留的横屏四向手势坐标修复】
  - 按屏幕实际坐标识别四向滑动，再转换到当前界面方向
  - 完整计入窗口与根视图旋转，兼容前台横屏而桌面宿主竖屏
  - 左右横屏及恢复竖屏按画面方向执行，固定模式滑动不移动位置
