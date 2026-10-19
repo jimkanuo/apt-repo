@@ -19,7 +19,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Bottom-x 悬浮球**\\n\\n依赖 **Bottom-x 底部横条返回插件**（感谢大佬开发），在其基础上新增一个完全可自定义的悬浮球，点击即可返回上一层。",
+          "markdown": "**Bottom-x 悬浮球**\\n\\n**内置独立返回引擎，无需安装任何前置插件**，安装即用。早期版本曾基于 **Bottom-x 底部横条返回插件**（感谢大佬开发）扩展而来，自 6.61 起已完全独立——返回逻辑内置在悬浮球本体，与底部横条插件互不依赖，两者同时安装也不会冲突。",
           "useSpacing": true
         },
         {
@@ -145,7 +145,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "安装后请**手动 Respring 一次**，让 SpringBoard 重新加载插件。\\n\\n本插件依赖 **com.colorblack.bottomx.ios17**，请确保已安装 Bottom-x 底部横条返回插件。",
+          "markdown": "安装后请**手动 Respring 一次**，让 SpringBoard 重新加载插件。\\n\\n**无需安装 `com.colorblack.bottomx.ios17`（Bottom-x 底部横条返回插件）** —— 本插件已内置独立返回引擎，`Depends` 中不含该包。若你此前为旧版本装过它，可直接保留（不会冲突），也可在 Sileo 中卸载，悬浮球功能不受影响。",
           "useSpacing": true
         }
       ]
