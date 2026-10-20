@@ -58,17 +58,17 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.79
+Version: 6.83
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 1564
+Installed-Size: 1880
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.79_iphoneos-arm64.deb
-Size: 711372
-MD5sum: 27ab41c1b45d38613d28a5a64d4ead14
-SHA1: ca1511a1eb0cc963eb8507a283ae71e50d06df64
-SHA256: c11222242cf540feca29e292ff289496c6a302cbb8763678822100e90bfee433
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.83_iphoneos-arm64.deb
+Size: 820248
+MD5sum: 506e197a2ed5bc4eac4e21462e8335a0
+SHA1: e54a65181319191b1a6772a4f68af442cc700ed5
+SHA256: fd534e5db9cc253dab583d9c39112896c7166d43ce48ed2e7fcec2cbdcf4376c
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -78,14 +78,41 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
  - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
  - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ - 内置返回箭头图标，支持从相册或文件导入图片并编辑悬浮球外观
  .
  【使用说明】
  - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
  .
- 【6.79 同步 QuickLaunch 系统工具】
+ 【6.83 快捷指令列表读取修复】
+ - 修复仅支持旧数据库表结构导致无法获取本机快捷指令的问题
+ - 兼容 ZSHORTCUT / ZWORKFLOWID 与旧 ZWORKFLOW / ZIDENTIFIER
+ - 排除已删除及隐藏指令，使用实际运行标识，保留同名指令
+ - 数据库错误区分结构、访问、占用和解析失败，可复制读取详�
+ - 保留 6.82 图片编辑以及全部原有功能
+ .
+ 【6.82 图标文件导入与图片编辑】
+ - 从相册或文件导入，支持 PNG、JPEG、HEIC 等系统图片格式
+ - 拖动与双指缩放、10% 到 400% 缩放滑块，圆形透明预览
+ - 点击背景颜色去除相连区域，多次点选，容差、边缘平滑与羽化独立调节
+ - 支持撤销、重置和编辑当前图标，保存后生效，取消保留原图标
+ - 保留快捷指令、分屏返回、84 项工具、键盘和横屏功能
+ .
+ 【6.81 本机快捷指令与后台运行】
+ - 同步本机快捷指令列表，选择后加入指定 QuickLaunch 菜单
+ - 指令唯一标识保存，支持刷新、搜索、排序和删除
+ - 四向动作和菜单点击共用后台运行器，不再用 URL 跳转快捷指令 App
+ - 保留 Split View Pro 返回及 84 项系统工具
+ 【6.80 Split View Pro 联动】
+ - 全局球返回跟随普通浮窗及多屏主副窗口最近触摸的应用场景
+ - 精确校验进程、场景和宿主，切窗取消旧返回，不操作底层应用
+ - 应用首页保持窗口，关闭窗口可选择独立工具
+ - 新增 18 项 Split View Pro 工具，共 84 项，四方向独立配置
+ - 接入原生菜单、浮窗、应用搜索、分屏交换与关闭、截图录屏和系统开关
+ - 仅这些工具需要 Split View Pro 1.4.2，不依赖 QuickLaunch，保留全部原有功能
+ .
+ 【保留的 QuickLaunch 系统工具】
  - 新增 25 个工具，共 66 项，可搜索并独立配置四个方向
  - 新增系统录屏与开麦录屏、截图编辑、独立区域截图框选复制和分享
  - 新增 Siri、搜索、资源库、摇一摇、语音控制等辅助功能及 iPad 工具
@@ -190,17 +217,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.79
+Version: 6.83
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 1564
+Installed-Size: 1880
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.79_iphoneos-arm64e.deb
-Size: 711558
-MD5sum: 3e25fe3846c3d3eccb0ba76215298164
-SHA1: bfc0ef5f1b11a1967d341b21268cf792bb604feb
-SHA256: 34d25b6731b3b332e82400b6549f82414747e71b6d9acb60b3c853802f51ab3f
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.83_iphoneos-arm64e.deb
+Size: 820370
+MD5sum: c19696e9740be70fcd03bb1d61128a1f
+SHA1: 9b3114bbfa392cd391d104e77911a467f152f4fd
+SHA256: 7081549a812e80ef0c7cf897524c91f2d5d58ee4b005354a67f176a694395631
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -210,14 +237,41 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 桌面和 App 上方共用同一颗球，切换 App 不重新创建
  - 支持自由拖动、全局记忆位置，App 内不创建悬浮球窗口
  - 点击后悬浮球高亮至 100%，2 秒后自动恢复设置的透明度，不遮挡界面
- - 内置返回箭头图标，支持从相册选择图片替换整个悬浮球外观
+ - 内置返回箭头图标，支持从相册或文件导入图片并编辑悬浮球外观
  .
  【使用说明】
  - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
  .
- 【6.79 同步 QuickLaunch 系统工具】
+ 【6.83 快捷指令列表读取修复】
+ - 修复仅支持旧数据库表结构导致无法获取本机快捷指令的问题
+ - 兼容 ZSHORTCUT / ZWORKFLOWID 与旧 ZWORKFLOW / ZIDENTIFIER
+ - 排除已删除及隐藏指令，使用实际运行标识，保留同名指令
+ - 数据库错误区分结构、访问、占用和解析失败，可复制读取详�
+ - 保留 6.82 图片编辑以及全部原有功能
+ .
+ 【6.82 图标文件导入与图片编辑】
+ - 从相册或文件导入，支持 PNG、JPEG、HEIC 等系统图片格式
+ - 拖动与双指缩放、10% 到 400% 缩放滑块，圆形透明预览
+ - 点击背景颜色去除相连区域，多次点选，容差、边缘平滑与羽化独立调节
+ - 支持撤销、重置和编辑当前图标，保存后生效，取消保留原图标
+ - 保留快捷指令、分屏返回、84 项工具、键盘和横屏功能
+ .
+ 【6.81 本机快捷指令与后台运行】
+ - 同步本机快捷指令列表，选择后加入指定 QuickLaunch 菜单
+ - 指令唯一标识保存，支持刷新、搜索、排序和删除
+ - 四向动作和菜单点击共用后台运行器，不再用 URL 跳转快捷指令 App
+ - 保留 Split View Pro 返回及 84 项系统工具
+ 【6.80 Split View Pro 联动】
+ - 全局球返回跟随普通浮窗及多屏主副窗口最近触摸的应用场景
+ - 精确校验进程、场景和宿主，切窗取消旧返回，不操作底层应用
+ - 应用首页保持窗口，关闭窗口可选择独立工具
+ - 新增 18 项 Split View Pro 工具，共 84 项，四方向独立配置
+ - 接入原生菜单、浮窗、应用搜索、分屏交换与关闭、截图录屏和系统开关
+ - 仅这些工具需要 Split View Pro 1.4.2，不依赖 QuickLaunch，保留全部原有功能
+ .
+ 【保留的 QuickLaunch 系统工具】
  - 新增 25 个工具，共 66 项，可搜索并独立配置四个方向
  - 新增系统录屏与开麦录屏、截图编辑、独立区域截图框选复制和分享
  - 新增 Siri、搜索、资源库、摇一摇、语音控制等辅助功能及 iPad 工具
