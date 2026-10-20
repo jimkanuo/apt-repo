@@ -58,17 +58,17 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.83
+Version: 6.89
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 1880
+Installed-Size: 21960
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.83_iphoneos-arm64.deb
-Size: 820248
-MD5sum: 506e197a2ed5bc4eac4e21462e8335a0
-SHA1: e54a65181319191b1a6772a4f68af442cc700ed5
-SHA256: fd534e5db9cc253dab583d9c39112896c7166d43ce48ed2e7fcec2cbdcf4376c
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.89_iphoneos-arm64.deb
+Size: 21107930
+MD5sum: fd5666ea1cabc3005e977144f4a1b93c
+SHA1: 2fa0935cf474cda362c973755593499b5d309158
+SHA256: e5c2206daf125bdfec2f83e46ad8ab38a6f02f2c7741f1703cc74cd5265ab1b6
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -84,6 +84,40 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.89 宠物闲逛与随机互动】
+ - 新增闲逛模式，松手停止操作 5 秒后随机走动或跑动
+ - 走跑之间随机穿插全部九组标准动作，每轮打乱顺序后依次播放
+ - 触碰立即暂停，键盘、隐藏和旋转时暂停，恢复后重新等�
+ - 自动移动不写入手动保存位置，保留返回、固定位置及四向动作
+ .
+ 【6.88 完整宠物列表】
+ - 加入用户指定的 25 款 Petdex 动画宠物，噜噜保留一份
+ - 内置离线素材，列表独立缩略图与单宠物动画预览，支持滚动选择并记忆
+ - 保留图片导入编辑、返回、固定位置、四向动作及键盘行为
+ .
+ 【6.87 宠物显示修复】
+ - 使用 libroot 解析素材目录，兼容 TweakInject 加载路径及 RootHide 动态根目录
+ - 素材首次读取失败可重试，不再将宠物模式静默变成图片模式
+ - 宠物模式清除原图片自转动画，保留宠物逐帧互动
+ .
+ 【6.86 动画桌面宠物】
+ - 图标与桌面宠物模式切换，加入用户指定的 Petdex 噜噜水豚动画
+ - 本地逐帧播放待机、跳跃、挥手和拖动跑步，隐藏时停止播放
+ - 保留相册和文件导入、图片编辑、返回、固定位置、四向动作与长按菜单
+ .
+ 【6.85 横屏手势实际方向修复】
+ - App 无界面客户端主动上报实际 UIKit 场景方向，避免私有方向接口缺失后卡在竖屏
+ - 四向滑动、悬浮球布局及区域截图共用实际方向，左右横屏与恢复竖屏同步
+ - 按应用和进程隔离方向，上报过期、后台或版本不匹配时不采用
+ - App 未旋转时手机横放仍保持竖屏；保留键盘隐藏、避让及原有功能
+ .
+ 【6.84 跟随 App 实际界面方向】
+ - 横屏依据前台 App 场景已确认的界面方向，不依据手机姿态或全局请求方向
+ - App 保持竖屏时，手机横放不改变悬浮球布局、位置及四向手势
+ - App 真正旋转后，悬浮球显示、拖动边界及手势统一跟随画面方向
+ - 同一 App 场景暂不可读时保留上次方向，切换到未确认的新 App 默认竖屏
+ - 保留快捷指令读取、图片编辑、分屏返回、工具及键盘行为
  .
  【6.83 快捷指令列表读取修复】
  - 修复仅支持旧数据库表结构导致无法获取本机快捷指令的问题
@@ -217,17 +251,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.83
+Version: 6.89
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 1880
+Installed-Size: 21960
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.83_iphoneos-arm64e.deb
-Size: 820370
-MD5sum: c19696e9740be70fcd03bb1d61128a1f
-SHA1: 9b3114bbfa392cd391d104e77911a467f152f4fd
-SHA256: 7081549a812e80ef0c7cf897524c91f2d5d58ee4b005354a67f176a694395631
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.89_iphoneos-arm64e.deb
+Size: 21107820
+MD5sum: 583f5745a20023d61287fce7afbb64ae
+SHA1: 5b1eababe3a41452a921754077524d27d305bd97
+SHA256: ea1332f7a66387fdc14f2dce0cc4dc62a2c39e5c84184ab7603291ad36d39878
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -243,6 +277,40 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.89 宠物闲逛与随机互动】
+ - 新增闲逛模式，松手停止操作 5 秒后随机走动或跑动
+ - 走跑之间随机穿插全部九组标准动作，每轮打乱顺序后依次播放
+ - 触碰立即暂停，键盘、隐藏和旋转时暂停，恢复后重新等�
+ - 自动移动不写入手动保存位置，保留返回、固定位置及四向动作
+ .
+ 【6.88 完整宠物列表】
+ - 加入用户指定的 25 款 Petdex 动画宠物，噜噜保留一份
+ - 内置离线素材，列表独立缩略图与单宠物动画预览，支持滚动选择并记忆
+ - 保留图片导入编辑、返回、固定位置、四向动作及键盘行为
+ .
+ 【6.87 宠物显示修复】
+ - 使用 libroot 解析素材目录，兼容 TweakInject 加载路径及 RootHide 动态根目录
+ - 素材首次读取失败可重试，不再将宠物模式静默变成图片模式
+ - 宠物模式清除原图片自转动画，保留宠物逐帧互动
+ .
+ 【6.86 动画桌面宠物】
+ - 图标与桌面宠物模式切换，加入用户指定的 Petdex 噜噜水豚动画
+ - 本地逐帧播放待机、跳跃、挥手和拖动跑步，隐藏时停止播放
+ - 保留相册和文件导入、图片编辑、返回、固定位置、四向动作与长按菜单
+ .
+ 【6.85 横屏手势实际方向修复】
+ - App 无界面客户端主动上报实际 UIKit 场景方向，避免私有方向接口缺失后卡在竖屏
+ - 四向滑动、悬浮球布局及区域截图共用实际方向，左右横屏与恢复竖屏同步
+ - 按应用和进程隔离方向，上报过期、后台或版本不匹配时不采用
+ - App 未旋转时手机横放仍保持竖屏；保留键盘隐藏、避让及原有功能
+ .
+ 【6.84 跟随 App 实际界面方向】
+ - 横屏依据前台 App 场景已确认的界面方向，不依据手机姿态或全局请求方向
+ - App 保持竖屏时，手机横放不改变悬浮球布局、位置及四向手势
+ - App 真正旋转后，悬浮球显示、拖动边界及手势统一跟随画面方向
+ - 同一 App 场景暂不可读时保留上次方向，切换到未确认的新 App 默认竖屏
+ - 保留快捷指令读取、图片编辑、分屏返回、工具及键盘行为
  .
  【6.83 快捷指令列表读取修复】
  - 修复仅支持旧数据库表结构导致无法获取本机快捷指令的问题
