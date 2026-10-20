@@ -914,20 +914,21 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.82
+Version: 0.1.83
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 2148
+Installed-Size: 2172
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.82_iphoneos-arm64e.deb
-Size: 689860
-MD5sum: 3d67dd3f0632439456b056f6fd29ff57
-SHA1: 84b7befab4b176f8d0fdad453952cffa5140d40f
-SHA256: b54cfa1d25737f0c05fd6e01569ddc9d20760c686bb472c508c8f262d7b74c9c
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.83_iphoneos-arm64e.deb
+Size: 700490
+MD5sum: 930d0ad6f521ca4c07eaea9bd3a48293
+SHA1: 383cc29a75cb168ca55a1c82aa5e0fde7935b4ec
+SHA256: 9279d2e7f479cde7183ca5d619b711e6710d529c68d8a580c24c4adb9e7aa53c
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Adds five optional Iya split opening modes using its supplied SpringBoard integration API.
  Adds center image connected-background removal with tolerance, smoothing, feathering, undo and non-destructive edit persistence.
  Adds native installed Shortcuts selection and background execution by unique identifier, without opening the Shortcuts app.
  Adds guarded optional SVP 1.4.2 opening and seventeen native toolbar actions in all menus.
@@ -978,20 +979,21 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.82
+Version: 0.1.83
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 3332
+Installed-Size: 3356
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.82_iphoneos-arm64.deb
-Size: 1041936
-MD5sum: 234104ada5ef585b272c713bfd805e76
-SHA1: 79051c9d6d9d934dd2194862e921cea5ade9ed58
-SHA256: 8fde04e720f8ffe7005360582d1c31d7af5a5ae26fe6eeae23557b70b6a4fcd3
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.83_iphoneos-arm64.deb
+Size: 1054594
+MD5sum: 4b2072b44f844ba429f6582c669a8ffc
+SHA1: 04422830630ef834d8538c1cb55a27774d58cc12
+SHA256: f12c216f2dfbc2718cf49e0bd9e84fe80d413e12690abd1fff15409d52bfddb6
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Adds five optional Iya split opening modes using its supplied SpringBoard integration API.
  Adds center image connected-background removal with tolerance, smoothing, feathering, undo and non-destructive edit persistence.
  Adds native installed Shortcuts selection and background execution by unique identifier, without opening the Shortcuts app.
  Adds guarded optional SVP 1.4.2 opening and seventeen native toolbar actions in all menus.
