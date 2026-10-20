@@ -860,20 +860,22 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/smartdeck/icon-v3.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.qianuo.smartdeck.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.80
+Version: 0.1.82
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 1940
+Installed-Size: 2148
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.80_iphoneos-arm64e.deb
-Size: 631992
-MD5sum: 8a3dabb3e1f6622a83fb29a42ef54d60
-SHA1: aef71f0465621e7ac4d3f283cc0f21268f4ee1e5
-SHA256: 90b57a576df6fb31ef1c3c2436ca1304388b8750f968a5d34228bfc834074bb1
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.82_iphoneos-arm64e.deb
+Size: 689860
+MD5sum: 3d67dd3f0632439456b056f6fd29ff57
+SHA1: 84b7befab4b176f8d0fdad453952cffa5140d40f
+SHA256: b54cfa1d25737f0c05fd6e01569ddc9d20760c686bb472c508c8f262d7b74c9c
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 RootHide.
+ Adds center image connected-background removal with tolerance, smoothing, feathering, undo and non-destructive edit persistence.
+ Adds native installed Shortcuts selection and background execution by unique identifier, without opening the Shortcuts app.
  Adds guarded optional SVP 1.4.2 opening and seventeen native toolbar actions in all menus.
  Adds automatic brightness, Night Shift, True Tone and independent region screenshot selection.
  Follow the foreground App interface orientation and independently choose recent background Apps or saved favorites per menu.
@@ -922,20 +924,22 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.quicklaunch.tweak.json
 
 Package: com.quicklaunch.tweak
-Version: 0.1.80
+Version: 0.1.82
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 3012
+Installed-Size: 3332
 Depends: firmware (>= 15.0), firmware (<= 17.3.1), mobilesubstrate, preferenceloader, uikittools
 Conflicts: com.quicklaunch.tweak-rootful
-Filename: debs/备份源/com.quicklaunch.tweak_0.1.80_iphoneos-arm64.deb
-Size: 948050
-MD5sum: 0c9c5e7ef49fbb2bc714f84b22cfb6a0
-SHA1: a00648096c2fe117edb18d96d1ad7826f8405326
-SHA256: 60d44bee1cbd217117622452ea6fedbd53e72999de3799b6f8dde37f72433126
+Filename: debs/备份源/com.quicklaunch.tweak_0.1.82_iphoneos-arm64.deb
+Size: 1041936
+MD5sum: 234104ada5ef585b272c713bfd805e76
+SHA1: 79051c9d6d9d934dd2194862e921cea5ade9ed58
+SHA256: 8fde04e720f8ffe7005360582d1c31d7af5a5ae26fe6eeae23557b70b6a4fcd3
 Section: Tweaks
 Priority: optional
 Description: Independent quick-launch rail and notification capsule for iOS 15.0-17.3.1 rootless.
+ Adds center image connected-background removal with tolerance, smoothing, feathering, undo and non-destructive edit persistence.
+ Adds native installed Shortcuts selection and background execution by unique identifier, without opening the Shortcuts app.
  Adds guarded optional SVP 1.4.2 opening and seventeen native toolbar actions in all menus.
  Adds automatic brightness, Night Shift, True Tone and independent region screenshot selection.
  Follow the foreground App interface orientation and independently choose recent background Apps or saved favorites per menu.
