@@ -58,17 +58,17 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.89
+Version: 6.90
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 21960
+Installed-Size: 21992
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.89_iphoneos-arm64.deb
-Size: 21107930
-MD5sum: fd5666ea1cabc3005e977144f4a1b93c
-SHA1: 2fa0935cf474cda362c973755593499b5d309158
-SHA256: e5c2206daf125bdfec2f83e46ad8ab38a6f02f2c7741f1703cc74cd5265ab1b6
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.90_iphoneos-arm64.deb
+Size: 21115924
+MD5sum: 1d386da6dc3ea5ee974ad687af550a06
+SHA1: 92070d22767cb76c2bf3f986e6c5f3770a9eff88
+SHA256: 268dda4bb2334a1150c0a3b4695bc43abfb4c8d1aac4c19691eef681ed06d392
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -84,6 +84,12 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.90 补齐应用打开方式】
+ - 参照 QuickLaunch 新增 FV、SVP 及一芽的五种明确打开模式，共 11 项且无重复
+ - 一芽支持上下、左右、浮窗 1、浮窗 2 和 Stage，分别保存到四向应用动作
+ - 接口不可用时全屏回退；请求已提交或状态不确定时不重复启动
+ - 保留原有打开方式、宠物闲逛、返回、键盘及图片编辑
  .
  【6.89 宠物闲逛与随机互动】
  - 新增闲逛模式，松手停止操作 5 秒后随机走动或跑动
@@ -251,17 +257,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.89
+Version: 6.90
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 21960
+Installed-Size: 21992
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.89_iphoneos-arm64e.deb
-Size: 21107820
-MD5sum: 583f5745a20023d61287fce7afbb64ae
-SHA1: 5b1eababe3a41452a921754077524d27d305bd97
-SHA256: ea1332f7a66387fdc14f2dce0cc4dc62a2c39e5c84184ab7603291ad36d39878
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.90_iphoneos-arm64e.deb
+Size: 21115894
+MD5sum: 12b6dea868be39d18cb84cf923a75402
+SHA1: c4d06d202ca280cdacbeb5ee6de6c8771974cdc7
+SHA256: da3acce963f2e717eaa576e409a5a5f53c9c9d226254b4416684fb317606ce8f
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -277,6 +283,12 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.90 补齐应用打开方式】
+ - 参照 QuickLaunch 新增 FV、SVP 及一芽的五种明确打开模式，共 11 项且无重复
+ - 一芽支持上下、左右、浮窗 1、浮窗 2 和 Stage，分别保存到四向应用动作
+ - 接口不可用时全屏回退；请求已提交或状态不确定时不重复启动
+ - 保留原有打开方式、宠物闲逛、返回、键盘及图片编辑
  .
  【6.89 宠物闲逛与随机互动】
  - 新增闲逛模式，松手停止操作 5 秒后随机走动或跑动
