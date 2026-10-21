@@ -58,17 +58,17 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.90
+Version: 6.91
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 21992
+Installed-Size: 36216
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.90_iphoneos-arm64.deb
-Size: 21115924
-MD5sum: 1d386da6dc3ea5ee974ad687af550a06
-SHA1: 92070d22767cb76c2bf3f986e6c5f3770a9eff88
-SHA256: 268dda4bb2334a1150c0a3b4695bc43abfb4c8d1aac4c19691eef681ed06d392
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.91_iphoneos-arm64.deb
+Size: 35597228
+MD5sum: f73bb3e9e0949bd2ce99ce5770f77deb
+SHA1: 019474f3a719d9d161b59141b120878cf23ee48d
+SHA256: 975737a6254b27465f8be3bbf21cf797267356e9b2300c82e6a52e9fa5c89bda
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -84,6 +84,11 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.91 横屏位置与宠物扩展】
+ - 按 App 实际界面方向和窗口已有旋转补偿，修复侧边悬浮球重复旋转到顶部
+ - 新增 15 款指定 Petdex 动画宠物，共 40 款，保留原选择和离线动画
+ - 保留十一种打开方式、闲逛互动、键盘隐藏避让、四向手势和返回
  .
  【6.90 补齐应用打开方式】
  - 参照 QuickLaunch 新增 FV、SVP 及一芽的五种明确打开模式，共 11 项且无重复
@@ -257,17 +262,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.90
+Version: 6.91
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 21992
+Installed-Size: 36216
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.90_iphoneos-arm64e.deb
-Size: 21115894
-MD5sum: 12b6dea868be39d18cb84cf923a75402
-SHA1: c4d06d202ca280cdacbeb5ee6de6c8771974cdc7
-SHA256: da3acce963f2e717eaa576e409a5a5f53c9c9d226254b4416684fb317606ce8f
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.91_iphoneos-arm64e.deb
+Size: 35596972
+MD5sum: c950fbcf1f204b5293772cd2f08005f0
+SHA1: 71dfc7335424282bf2a4aff5be5c022fb77f81ef
+SHA256: 372eb6af4582d65a3106bdab800cce4d02ab42caae7a602b7add862e82e60d68
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -283,6 +288,11 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.91 横屏位置与宠物扩展】
+ - 按 App 实际界面方向和窗口已有旋转补偿，修复侧边悬浮球重复旋转到顶部
+ - 新增 15 款指定 Petdex 动画宠物，共 40 款，保留原选择和离线动画
+ - 保留十一种打开方式、闲逛互动、键盘隐藏避让、四向手势和返回
  .
  【6.90 补齐应用打开方式】
  - 参照 QuickLaunch 新增 FV、SVP 及一芽的五种明确打开模式，共 11 项且无重复
