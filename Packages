@@ -58,17 +58,17 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.94
+Version: 6.96
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 2848
+Installed-Size: 2840
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.94_iphoneos-arm64.deb
-Size: 1582814
-MD5sum: 70914b33a3016213a2a0f18ccc751792
-SHA1: 0f911d936bbc0f4d18963bbbd8a213e033c82acd
-SHA256: 546923c680fb58a51bc098cd73b782bc19e04120b9641f6e10b6698bf53ec06f
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.96_iphoneos-arm64.deb
+Size: 1573590
+MD5sum: 5c9536a241b082037266301fdb05f2dc
+SHA1: d71697528ba30d6324200ac9405170eec4498186
+SHA256: 288e085199da3c0e433f12e8e86b9ee5d1c4fdd26a84267f131ad97b3a9621e1
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -84,6 +84,14 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.96 解锁后轮换宠物】
+ - 宠物设置新增轮换模式，默认关闭；锁屏再解锁后按列表顺序切换，末尾循环
+ - 保留手动选择；图片模式或悬浮球关闭时不轮换，设置预览和列表勾选同步
+ - 重复状态通知不连跳，重启桌面不误切换；保留悬浮球位置和原有功能
+ .
+ 【6.95 设置入口图标尺寸】
+ - 设置列表入口改为 29 点图标，提供 1x、2x、3x 图片，修复图标过大
  .
  【6.94 独立宠物列表】
  - 宠物列表独立为选择页面，主页面只保留列表入口和网址导入
@@ -278,17 +286,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.94
+Version: 6.96
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 2848
+Installed-Size: 2840
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.94_iphoneos-arm64e.deb
-Size: 1582882
-MD5sum: 8968fb747c18718febc71efce6734467
-SHA1: 0c3d88281bf9e9d7a940078fa636d1cec90e31e2
-SHA256: 9065d15ad0a02a1a5f8a44c213467081d81c2427c1ce3a59d81061ced264d4df
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.96_iphoneos-arm64e.deb
+Size: 1573700
+MD5sum: e639216acdc64de90ff70b48930b5c1d
+SHA1: 1c1c676afe20cbe63ee36ba18f2515691a7254bb
+SHA256: 21833fc36c79c6888384a8ed94142add5962a2c3d01b18998a74847b674d74b9
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -304,6 +312,14 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.96 解锁后轮换宠物】
+ - 宠物设置新增轮换模式，默认关闭；锁屏再解锁后按列表顺序切换，末尾循环
+ - 保留手动选择；图片模式或悬浮球关闭时不轮换，设置预览和列表勾选同步
+ - 重复状态通知不连跳，重启桌面不误切换；保留悬浮球位置和原有功能
+ .
+ 【6.95 设置入口图标尺寸】
+ - 设置列表入口改为 29 点图标，提供 1x、2x、3x 图片，修复图标过大
  .
  【6.94 独立宠物列表】
  - 宠物列表独立为选择页面，主页面只保留列表入口和网址导入
