@@ -1333,18 +1333,18 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/splitviewpro/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.sunshinesong.split-view-pro.json
 
 Package: com.susudear.screencore
-Version: 2.0.3+windowscheduler.12-21
+Version: 2.0.3+windowscheduler.12-24
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 4468
+Installed-Size: 4506
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
 Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
-Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12-21_iphoneos-arm64.deb
-Size: 1185158
-MD5sum: 04a312cc129f492039f33cae8b191dc9
-SHA1: ad01480451746d05d952cd1cf96ce784b40b79ab
-SHA256: cadc9765855548ea2c5cc59a3d93b5b9b523f2de5af6a833434ee05bbe05b3ab
+Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12-24_iphoneos-arm64.deb
+Size: 1194258
+MD5sum: 4bad60c82c9affede21da84c42f6302e
+SHA1: beb959d6d42588f60774727be8c9c2a0ad990ce3
+SHA256: 7430a50d5c0432341957bccfaf47ceb5f57bfedd53f4076f6e368e5de0621f36
 Section: Tweaks
 Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
  作者：kanuo；版本：windowscheduler.12-12。
@@ -1407,8 +1407,14 @@ Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转�
  保留原有键盘、悬浮球、灵动岛动画及启动失败保护，不增加固定等待。
  底部点击和上滑统一收进灵动岛后执行原生关闭，结束隐藏小窗托管。
  仅快速呼出使用灵动岛起点，其他入口保留 .12-17 原生出入场；保留键盘、悬浮球与启动失败保护。
-X-Aspect-Ratio: native,16:9,5:3; per-session-canvas.1
-X-Aspect-Ratio-Base-Sha256: 6ec9554333767f5dfe3f4b2c2a6fc3cbd299603b3a26fc8b9ce40c158e468836
+ 新增 16:10、18:10 普通分屏比例，沿用 16:9 键盘显示、输入框避让及收起还原。
+ 同步真实应用画布、全屏输入和退出尺寸恢复；切换比例免注销，已有小窗保留原比例。
+ 保留 .12-21 灵动岛动画范围，其他出入场动画、键盘兼容和悬浮球适配保持原有实现。
+ 恢复原有浮窗柔和阴影，硬黑边改为底部聚焦的柔和投影；聚焦阴影深浅 0–100%，默认 40%。
+ 新增实时圆角半径滑条 0–60，默认 24；全屏保持直角，支持缩放与返回小窗。
+ 保留 .12-22 全部窗口比例、键盘避让、悬浮球及原有动画范围。
+X-Aspect-Ratio: native,16:9,5:3,16:10,18:10; per-session-canvas.1
+X-Aspect-Ratio-Base-Sha256: 0ecd946fe8210a79f69b117a809a96eaa6036dd9bbcbb61187d5b4f3405b7552
 X-Core-Identity-Revision: expected-author-kanuo.1
 X-Edge-Peek: live-transform.mirrored-sides.gain1-8.max-screen4.return-animation.1
 X-Edge-Peek-Base-Sha256: 1ff51ada1bd3ab5fb66cf2e6e413f00288ed6297dc2371e7abe1a6339ce69368
@@ -1445,27 +1451,30 @@ X-Rollback-Base-Version: 2.0.3+windowscheduler.7
 X-Rootless-Input-Sha256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
 X-Rootless-Revision: exact11-libroot-paths.1
 X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Window-Frame: focused-shadow.opacity0-100.live-radius0-60.2
+X-Window-Frame-Base-Sha256: 25c1a2491d0237dbaf104ebd289a7c7557fb2667a60ad471b22d83673d2489f8
 X-Window-Scheduler-Author: kanuo
 X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
 X-Window-Scheduler-Version: 0.1.6
+X-Window-Shadow: native-shadow-preserved.with-bottom-focused-shadow.2
 Name: screencore-窗口调度版
 Author: kanuo
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
 
 Package: com.susudear.screencore
-Version: 2.0.3+windowscheduler.12-21
+Version: 2.0.3+windowscheduler.12-24
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 3537
+Installed-Size: 3559
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
 Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
-Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12-21_iphoneos-arm64e.deb
-Size: 1019312
-MD5sum: 8ddbb50ffb782dabc4719e0b9566e5d3
-SHA1: 754bf1f75039fcbbd0aced3fea01dfd138e7f79e
-SHA256: 44ef8ece7e633595d24a0a6379aa0e40cd28ed027a115caf763a2f1aa695608c
+Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12-24_iphoneos-arm64e.deb
+Size: 1025572
+MD5sum: 4f96dd954016a6350abce40aeeff3a6d
+SHA1: 737a907d0de20d0fa2b1d8b5b26f6f7a8ab6a7cd
+SHA256: b2b31e3488c8b2724b7eb2a804a317d398fafd112f890a075395eaddd8e6efe9
 Section: Tweaks
 Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
  作者：kanuo；版本：windowscheduler.12-12。
@@ -1528,8 +1537,14 @@ Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转�
  保留原有键盘、悬浮球、灵动岛动画及启动失败保护，不增加固定等待。
  底部点击和上滑统一收进灵动岛后执行原生关闭，结束隐藏小窗托管。
  仅快速呼出使用灵动岛起点，其他入口保留 .12-17 原生出入场；保留键盘、悬浮球与启动失败保护。
-X-Aspect-Ratio: native,16:9,5:3; per-session-canvas.1
-X-Aspect-Ratio-Base-Sha256: 999511221a633e8ab0c5316df778574832b0877949e81de1ebfc0c065d6208f0
+ 新增 16:10、18:10 普通分屏比例，沿用 16:9 键盘显示、输入框避让及收起还原。
+ 同步真实应用画布、全屏输入和退出尺寸恢复；切换比例免注销，已有小窗保留原比例。
+ 保留 .12-21 灵动岛动画范围，其他出入场动画、键盘兼容和悬浮球适配保持原有实现。
+ 恢复原有浮窗柔和阴影，硬黑边改为底部聚焦的柔和投影；聚焦阴影深浅 0–100%，默认 40%。
+ 新增实时圆角半径滑条 0–60，默认 24；全屏保持直角，支持缩放与返回小窗。
+ 保留 .12-22 全部窗口比例、键盘避让、悬浮球及原有动画范围。
+X-Aspect-Ratio: native,16:9,5:3,16:10,18:10; per-session-canvas.1
+X-Aspect-Ratio-Base-Sha256: 5ec1fc7e5e318cb821f4054b1896b3a076767057c0322a0c308c73496ce3f2f5
 X-Core-Identity-Revision: expected-author-kanuo.1
 X-Edge-Peek: live-transform.mirrored-sides.gain1-8.max-screen4.return-animation.1
 X-Edge-Peek-Base-Sha256: e6162a232679122468fd9b044c146b80a70012c13528653b959898661e62f034
@@ -1563,9 +1578,12 @@ X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
 X-Rollback-Base-Sha256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
 X-Rollback-Base-Version: 2.0.3+windowscheduler.7
 X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Window-Frame: focused-shadow.opacity0-100.live-radius0-60.2
+X-Window-Frame-Base-Sha256: ee3347687d22acc4906f7780f980aeab2098073457fa7f33cb4e46862cd3285a
 X-Window-Scheduler-Author: kanuo
 X-Window-Scheduler-Revision: rollback7-native6-pulloverjump.1
 X-Window-Scheduler-Version: 0.1.6
+X-Window-Shadow: native-shadow-preserved.with-bottom-focused-shadow.2
 Name: screencore-窗口调度版
 Author: kanuo
 Icon: https://repo.susubaby.cn/icons/ScreenCore.png
