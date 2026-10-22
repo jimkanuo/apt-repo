@@ -58,17 +58,17 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.91
+Version: 6.94
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 36216
+Installed-Size: 2848
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.91_iphoneos-arm64.deb
-Size: 35597228
-MD5sum: f73bb3e9e0949bd2ce99ce5770f77deb
-SHA1: 019474f3a719d9d161b59141b120878cf23ee48d
-SHA256: 975737a6254b27465f8be3bbf21cf797267356e9b2300c82e6a52e9fa5c89bda
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.94_iphoneos-arm64.deb
+Size: 1582814
+MD5sum: 70914b33a3016213a2a0f18ccc751792
+SHA1: 0f911d936bbc0f4d18963bbbd8a213e033c82acd
+SHA256: 546923c680fb58a51bc098cd73b782bc19e04120b9641f6e10b6698bf53ec06f
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -84,6 +84,22 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.94 独立宠物列表】
+ - 宠物列表独立为选择页面，主页面只保留列表入口和网址导入
+ - 列表支持编辑删除、左滑删除，删除当前宠物后自动回退噜噜
+ - 主页面同步当前宠物与数量，保留网址引导、导入和全部原有功能
+ .
+ 【6.93 手机本地宠物管理】
+ - 设置增加 Petdex 网址输入和提交，自动下载、校验、转换并保存为手机本地动画
+ - 导入后自动启用；支持取消、重复导入更新、左滑删除，离线播放无需联网
+ - 安装包只保留噜噜默认宠物，升级前迁移旧版内置素材，后续更新保留本地下载
+ - 保留图片导入编辑、九组动画、闲逛、横屏、键盘、手势和返回
+ .
+ 【6.92 宠物列表调整】
+ - 新增 17 款指定 Petdex 动画，删除指定的 14 款宠物，当前共 43 款
+ - 已选宠物不在新列表时自动显示第一只噜噜，设置预览和勾选同步回退
+ - 保留其余宠物选择、图片导入编辑、横屏、闲逛、键盘及返回手势
  .
  【6.91 横屏位置与宠物扩展】
  - 按 App 实际界面方向和窗口已有旋转补偿，修复侧边悬浮球重复旋转到顶部
@@ -262,17 +278,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.91
+Version: 6.94
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 36216
+Installed-Size: 2848
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.91_iphoneos-arm64e.deb
-Size: 35596972
-MD5sum: c950fbcf1f204b5293772cd2f08005f0
-SHA1: 71dfc7335424282bf2a4aff5be5c022fb77f81ef
-SHA256: 372eb6af4582d65a3106bdab800cce4d02ab42caae7a602b7add862e82e60d68
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.94_iphoneos-arm64e.deb
+Size: 1582882
+MD5sum: 8968fb747c18718febc71efce6734467
+SHA1: 0c3d88281bf9e9d7a940078fa636d1cec90e31e2
+SHA256: 9065d15ad0a02a1a5f8a44c213467081d81c2427c1ce3a59d81061ced264d4df
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -288,6 +304,22 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 安装后请手动 Respring 一次，让 SpringBoard 重新加载插件
  - 设置路径：设置 > 悬浮球
  - 如需恢复默认图标与位置，点击「恢复默认大小、透明度和位置」
+ .
+ 【6.94 独立宠物列表】
+ - 宠物列表独立为选择页面，主页面只保留列表入口和网址导入
+ - 列表支持编辑删除、左滑删除，删除当前宠物后自动回退噜噜
+ - 主页面同步当前宠物与数量，保留网址引导、导入和全部原有功能
+ .
+ 【6.93 手机本地宠物管理】
+ - 设置增加 Petdex 网址输入和提交，自动下载、校验、转换并保存为手机本地动画
+ - 导入后自动启用；支持取消、重复导入更新、左滑删除，离线播放无需联网
+ - 安装包只保留噜噜默认宠物，升级前迁移旧版内置素材，后续更新保留本地下载
+ - 保留图片导入编辑、九组动画、闲逛、横屏、键盘、手势和返回
+ .
+ 【6.92 宠物列表调整】
+ - 新增 17 款指定 Petdex 动画，删除指定的 14 款宠物，当前共 43 款
+ - 已选宠物不在新列表时自动显示第一只噜噜，设置预览和勾选同步回退
+ - 保留其余宠物选择、图片导入编辑、横屏、闲逛、键盘及返回手势
  .
  【6.91 横屏位置与宠物扩展】
  - 按 App 实际界面方向和窗口已有旋转补偿，修复侧边悬浮球重复旋转到顶部
