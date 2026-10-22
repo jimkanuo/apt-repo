@@ -1333,18 +1333,18 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/splitviewpro/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.sunshinesong.split-view-pro.json
 
 Package: com.susudear.screencore
-Version: 2.0.3+windowscheduler.12-17
+Version: 2.0.3+windowscheduler.12-21
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 4378
+Installed-Size: 4468
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
 Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
-Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12-17_iphoneos-arm64.deb
-Size: 1144104
-MD5sum: 0ded10f668cd916433148533172e6ed6
-SHA1: 36ee2a4795d73f13002619928d1866b2be0713ca
-SHA256: cec7bd74acd3bc734f6b49b88952efdc5a51b4f439d295aad070c8f527893b45
+Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12-21_iphoneos-arm64.deb
+Size: 1185158
+MD5sum: 04a312cc129f492039f33cae8b191dc9
+SHA1: ad01480451746d05d952cd1cf96ce784b40b79ab
+SHA256: cadc9765855548ea2c5cc59a3d93b5b9b523f2de5af6a833434ee05bbe05b3ab
 Section: Tweaks
 Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
  作者：kanuo；版本：windowscheduler.12-12。
@@ -1396,9 +1396,22 @@ Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转�
  移除 4:3，保留原始比例、16:9、5:3；旧 4:3 设置自动迁移为 5:3。
  切换比例不再自动注销，确认后关闭并重新打开普通小窗生效；已打开小窗保持自己的比例。
  保留原设置保存及同步通知、手动注销、键盘与输入框避让和悬浮球适配。
+ 左右侧边向内滑动可实时临时放大，松手平滑恢复；侧边滑动替代移动。
+ 新增放大灵敏度滑条 1–8，默认 2；显示宽高分别不超过屏幕对应尺寸的 4 倍。
+ 保留 .12-17 的比例免注销、原有键盘避让、悬浮球适配和启动保护。
+ 底部向上滑动松手将小窗临时收进灵动岛，保留原应用会话。
+ QuickLaunch 圆形菜单未成全圆时松手立即恢复上次收起窗口；曾成全圆则保持原选 App 逻辑。
+ 进出带缩放、位移和淡入淡出；保留 .12-18 侧边临时放大及原有键盘与悬浮球适配。
+ QuickLaunch 按实际成圆状态判断快速呼出，扩大未成圆松手的可用范围。
+ 记录上次成功打开的 App，底部点击关闭后仍可重新呼出；已有窗口复用。
+ 保留原有键盘、悬浮球、灵动岛动画及启动失败保护，不增加固定等待。
+ 底部点击和上滑统一收进灵动岛后执行原生关闭，结束隐藏小窗托管。
+ 仅快速呼出使用灵动岛起点，其他入口保留 .12-17 原生出入场；保留键盘、悬浮球与启动失败保护。
 X-Aspect-Ratio: native,16:9,5:3; per-session-canvas.1
 X-Aspect-Ratio-Base-Sha256: 6ec9554333767f5dfe3f4b2c2a6fc3cbd299603b3a26fc8b9ce40c158e468836
 X-Core-Identity-Revision: expected-author-kanuo.1
+X-Edge-Peek: live-transform.mirrored-sides.gain1-8.max-screen4.return-animation.1
+X-Edge-Peek-Base-Sha256: 1ff51ada1bd3ab5fb66cf2e6e413f00288ed6297dc2371e7abe1a6339ce69368
 X-Favorite-Standalone: independent-policy-normal-split-geometry.1
 X-Favorite-Standalone-Base-Sha256: f76ac941e43f74f0c57dff7b93ea3907d6af4e739b3497b865c555c3e2fa09a7
 X-Floating-Ball-Bridge-Version: 0.3.0
@@ -1410,6 +1423,10 @@ X-Fullscreen-Rendered-Base-Sha256: 311a97ab829ac8dbcdd53964dab86477b1b30576a23e6
 X-Fullscreen-Rendered-Canvas: instance-settings-hosted-resize-ack-validation.1
 X-Geometry-Base-Sha256: e9cabb058422ab075eac379c15438bf6a962e86bccfa870ee7bc62cc8b286028
 X-Install-Environment: standard-rootless-var-jb
+X-Island-Native-Close: tap.upward.native-close.island-reentry.1
+X-Island-Native-Close-Base-Sha256: 9337e212690b7db01dd89a6922f68b0a549e58a0a286e31803d4e878b87e0417
+X-Island-Return: quicklaunch.partial-circle.release-only.live-layer.1
+X-Island-Return-Base-Sha256: 76d12fe7881aa670d48c803cba862da8f0ed818384b3fce40fabde218ad9a926
 X-Keyboard-Base-Sha256: 1c77fd6f0c7c721d645a293c16d7b8cf6fa15178fd31adfd426b8c1812492fd4
 X-Keyboard-Compatibility: scene-identity-and-bounded-readiness.2
 X-Native-Fullscreen-Base-Sha256: 74aa276a95ac2633d2ecf174254bc04b9aded83084d61109cb9fffe723cdfaf8
@@ -1419,6 +1436,8 @@ X-Native-Fullscreen-Return-Animation: reverse-native-presentation.1
 X-Native-Fullscreen-Scene-State: scoped-input-layout.1
 X-Native-Jump-Base-Sha256: ff0edfa8b9ce6ee38054136a0e2da0d69004907dad70e00d8b8f24f74fa171fc
 X-Native-Jump-Geometry: popup-only-native-size.1
+X-Quick-Recall: visual-circle.release-only.last-successful-app.closed-reopen.1
+X-Quick-Recall-Base-Sha256: ea86c6685947647de6e0309e68da1685d8cab97ca753b2dc38739ebd9628401d
 X-Release-Base-Sha256: 64fc26d41398f82dee8c641dc82a401d5dc908d5ef75deb55fb5af6334f8762e
 X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
 X-Rollback-Base-Sha256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
@@ -1435,18 +1454,18 @@ Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
 
 Package: com.susudear.screencore
-Version: 2.0.3+windowscheduler.12-17
+Version: 2.0.3+windowscheduler.12-21
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 3495
+Installed-Size: 3537
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
 Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
-Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12-17_iphoneos-arm64e.deb
-Size: 996352
-MD5sum: d654708aa9cc9d2a24048f0d81642f42
-SHA1: 6ddb42cfd70bb5914953c67a7a3b0c3ff83018f4
-SHA256: 8d2f0a389967471598f7c81321f5d269690f5610eae44e67934ec215bc7a8603
+Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12-21_iphoneos-arm64e.deb
+Size: 1019312
+MD5sum: 8ddbb50ffb782dabc4719e0b9566e5d3
+SHA1: 754bf1f75039fcbbd0aced3fea01dfd138e7f79e
+SHA256: 44ef8ece7e633595d24a0a6379aa0e40cd28ed027a115caf763a2f1aa695608c
 Section: Tweaks
 Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
  作者：kanuo；版本：windowscheduler.12-12。
@@ -1498,9 +1517,22 @@ Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转�
  移除 4:3，保留原始比例、16:9、5:3；旧 4:3 设置自动迁移为 5:3。
  切换比例不再自动注销，确认后关闭并重新打开普通小窗生效；已打开小窗保持自己的比例。
  保留原设置保存及同步通知、手动注销、键盘与输入框避让和悬浮球适配。
+ 左右侧边向内滑动可实时临时放大，松手平滑恢复；侧边滑动替代移动。
+ 新增放大灵敏度滑条 1–8，默认 2；显示宽高分别不超过屏幕对应尺寸的 4 倍。
+ 保留 .12-17 的比例免注销、原有键盘避让、悬浮球适配和启动保护。
+ 底部向上滑动松手将小窗临时收进灵动岛，保留原应用会话。
+ QuickLaunch 圆形菜单未成全圆时松手立即恢复上次收起窗口；曾成全圆则保持原选 App 逻辑。
+ 进出带缩放、位移和淡入淡出；保留 .12-18 侧边临时放大及原有键盘与悬浮球适配。
+ QuickLaunch 按实际成圆状态判断快速呼出，扩大未成圆松手的可用范围。
+ 记录上次成功打开的 App，底部点击关闭后仍可重新呼出；已有窗口复用。
+ 保留原有键盘、悬浮球、灵动岛动画及启动失败保护，不增加固定等待。
+ 底部点击和上滑统一收进灵动岛后执行原生关闭，结束隐藏小窗托管。
+ 仅快速呼出使用灵动岛起点，其他入口保留 .12-17 原生出入场；保留键盘、悬浮球与启动失败保护。
 X-Aspect-Ratio: native,16:9,5:3; per-session-canvas.1
 X-Aspect-Ratio-Base-Sha256: 999511221a633e8ab0c5316df778574832b0877949e81de1ebfc0c065d6208f0
 X-Core-Identity-Revision: expected-author-kanuo.1
+X-Edge-Peek: live-transform.mirrored-sides.gain1-8.max-screen4.return-animation.1
+X-Edge-Peek-Base-Sha256: e6162a232679122468fd9b044c146b80a70012c13528653b959898661e62f034
 X-Favorite-Standalone: independent-policy-normal-split-geometry.1
 X-Favorite-Standalone-Base-Sha256: c09cf505d87431c352c80b52dfdf435801a3422b77cd0ee875ab481e35e55b34
 X-Floating-Ball-Bridge-Version: 0.3.0
@@ -1511,6 +1543,10 @@ X-Fullscreen-Native-Canvas: physical-screen-reversible-queued-geometry.1
 X-Fullscreen-Rendered-Base-Sha256: e68c9aa0f0da74a9601ef610ef3db3e9ef6a29042b7a60ea3c7ae24235bd45ba
 X-Fullscreen-Rendered-Canvas: instance-settings-hosted-resize-ack-validation.1
 X-Geometry-Base-Sha256: 619767fdd4d744203cef45ca1d5cd370b5f9a5521850034a21ddf3523a7c2701
+X-Island-Native-Close: tap.upward.native-close.island-reentry.1
+X-Island-Native-Close-Base-Sha256: 7b353b2ddf77e44670048e23343c25a17e2ee0bb95925952ae23e4d82f24aa3c
+X-Island-Return: quicklaunch.partial-circle.release-only.live-layer.1
+X-Island-Return-Base-Sha256: 74085fb00c17c77e682898c612f5f0b81a6c11b1d9785a45a3c8082ee25e43d9
 X-Keyboard-Base-Sha256: 19a90341e8511ab23a40f8f1ca23d3410a72cac82690501f9b7924bf3f33ef3b
 X-Keyboard-Compatibility: scene-identity-and-bounded-readiness.2
 X-Native-Fullscreen-Base-Sha256: 52c3ba9af8bb6d2b7dd5c42428ff7f73b3ab48518d2d56448a732f0804c5ead3
@@ -1520,6 +1556,8 @@ X-Native-Fullscreen-Return-Animation: reverse-native-presentation.1
 X-Native-Fullscreen-Scene-State: scoped-input-layout.1
 X-Native-Jump-Base-Sha256: 2bc5d7e4c7c8ab8b0fe6117bc5fbd98a784701d429016984ce6a570ac54b131e
 X-Native-Jump-Geometry: popup-only-native-size.1
+X-Quick-Recall: visual-circle.release-only.last-successful-app.closed-reopen.1
+X-Quick-Recall-Base-Sha256: 75ab5199f8dcef7fa67d1a2d80e829afebae527a013e572cc00d12b64556a47d
 X-Release-Base-Sha256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
 X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
 X-Rollback-Base-Sha256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
