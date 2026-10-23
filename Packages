@@ -1369,18 +1369,18 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/splitviewpro/icon.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.sunshinesong.split-view-pro.json
 
 Package: com.susudear.screencore
-Version: 2.0.3+windowscheduler.12-24
+Version: 2.1.0
 Architecture: iphoneos-arm64
 Maintainer: kanuo
-Installed-Size: 4506
+Installed-Size: 4545
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
 Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
-Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12-24_iphoneos-arm64.deb
-Size: 1194258
-MD5sum: 4bad60c82c9affede21da84c42f6302e
-SHA1: beb959d6d42588f60774727be8c9c2a0ad990ce3
-SHA256: 7430a50d5c0432341957bccfaf47ceb5f57bfedd53f4076f6e368e5de0621f36
+Filename: debs/备份源/com.susudear.screencore_2.1.0_iphoneos-arm64.deb
+Size: 1213964
+MD5sum: bd8c5a81df4053319439d52a7511b4b6
+SHA1: a01f2882d2067d42116a5b050af0d7526d264f97
+SHA256: a9461c51ebb95197a9da634396130e2d303251068475a28e4490d4c0de30813c
 Section: Tweaks
 Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
  作者：kanuo；版本：windowscheduler.12-12。
@@ -1449,8 +1449,21 @@ Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转�
  恢复原有浮窗柔和阴影，硬黑边改为底部聚焦的柔和投影；聚焦阴影深浅 0–100%，默认 40%。
  新增实时圆角半径滑条 0–60，默认 24；全屏保持直角，支持缩放与返回小窗。
  保留 .12-22 全部窗口比例、键盘避让、悬浮球及原有动画范围。
+ 文件分享等待接收小窗画面和入场就绪再投递，复用已打开目标窗口，避免普通启动覆盖分享页面。
+ 保留文件 URL、Actions、沙盒授权和回调；启动失败完整请求回退系统打开一次。
+ 保留 .12-24 键盘避让、快捷栏、悬浮球、窗口动画、比例、阴影和圆角设置。
+ 新增点击顶部通知横条用小窗打开开关，默认关闭、即时生效，独立于 App 跳转弹窗。
+ 保留系统通知跳转动作、来源及回调；复用已打开小窗，启动失败回退系统一次。
+ 保留 .12-25 分享修复、键盘避让、快捷栏、悬浮球、动画、比例及阴影设置。
+ 修复分享、通知启动等待期间的系统栈回调生命周期，避免延迟交付导致 SpringBoard 安全模式。
+ 保留通知小窗开关、文件分享及此前功能；安装后重新启动 SpringBoard 生效。
+ .12-28 修正此前通知独立小窗行为：横幅通知改用所选比例的普通分屏，遵循窗口数量及单窗口模式。
+ 原版通知分屏开关与调度通知开关均可启用；通知不再创建原始比例跳转小窗，文件分享保留独立小窗。
+ 保留 .12-27 回调生命周期修复、启动失败保护及原有键盘、快捷栏、悬浮球和动画；安装后重新启动 SpringBoard。
 X-Aspect-Ratio: native,16:9,5:3,16:10,18:10; per-session-canvas.1
 X-Aspect-Ratio-Base-Sha256: 0ecd946fe8210a79f69b117a809a96eaa6036dd9bbcbb61187d5b4f3405b7552
+X-Callback-Lifetime: copy-native-completion.copy-queued-delivery.once.release.1
+X-Callback-Lifetime-Base-Sha256: e11118d5183f5af780b7b0c35c0e6035f9e06035f48fa49344bf94f1cafc69d5
 X-Core-Identity-Revision: expected-author-kanuo.1
 X-Edge-Peek: live-transform.mirrored-sides.gain1-8.max-screen4.return-animation.1
 X-Edge-Peek-Base-Sha256: 1ff51ada1bd3ab5fb66cf2e6e413f00288ed6297dc2371e7abe1a6339ce69368
@@ -1478,6 +1491,10 @@ X-Native-Fullscreen-Return-Animation: reverse-native-presentation.1
 X-Native-Fullscreen-Scene-State: scoped-input-layout.1
 X-Native-Jump-Base-Sha256: ff0edfa8b9ce6ee38054136a0e2da0d69004907dad70e00d8b8f24f74fa171fc
 X-Native-Jump-Geometry: popup-only-native-size.1
+X-Notification-Popup: banner-only.default-off.live.independent.host-ready.native-payload.1
+X-Notification-Popup-Base-Sha256: 1c9c1b96474d1b81955a2a16ce5d37bb92fd6572c11869f68241d0d1bce323e4
+X-Notification-Split: ordinary.selected-ratio.native-pref.limits.original-animation.host-ready.1
+X-Notification-Split-Base-Sha256: 6eb880a626a2e224327547ed99639889ce2d38febc372c90e7b8361552c5f948
 X-Quick-Recall: visual-circle.release-only.last-successful-app.closed-reopen.1
 X-Quick-Recall-Base-Sha256: ea86c6685947647de6e0309e68da1685d8cab97ca753b2dc38739ebd9628401d
 X-Release-Base-Sha256: 64fc26d41398f82dee8c641dc82a401d5dc908d5ef75deb55fb5af6334f8762e
@@ -1487,6 +1504,8 @@ X-Rollback-Base-Version: 2.0.3+windowscheduler.7
 X-Rootless-Input-Sha256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
 X-Rootless-Revision: exact11-libroot-paths.1
 X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Share-Handoff: host-ready.single-native-request.reuse-existing.failure-fallback.1
+X-Share-Handoff-Base-Sha256: 587ef9652b337e67a1ef2213b1ad32a60331fb9ba528a8fcaff49a86b2614751
 X-Window-Frame: focused-shadow.opacity0-100.live-radius0-60.2
 X-Window-Frame-Base-Sha256: 25c1a2491d0237dbaf104ebd289a7c7557fb2667a60ad471b22d83673d2489f8
 X-Window-Scheduler-Author: kanuo
@@ -1499,18 +1518,18 @@ Icon: https://repo.susubaby.cn/icons/ScreenCore.png
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.susudear.screencore.json
 
 Package: com.susudear.screencore
-Version: 2.0.3+windowscheduler.12-24
+Version: 2.1.0
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 3559
+Installed-Size: 3582
 Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
 Conflicts: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
 Replaces: com.qianuo.screencore.windowscheduler, com.qianuo.screencore.ballcompat
-Filename: debs/备份源/com.susudear.screencore_2.0.3+windowscheduler.12-24_iphoneos-arm64e.deb
-Size: 1025572
-MD5sum: 4f96dd954016a6350abce40aeeff3a6d
-SHA1: 737a907d0de20d0fa2b1d8b5b26f6f7a8ab6a7cd
-SHA256: b2b31e3488c8b2724b7eb2a804a317d398fafd112f890a075395eaddd8e6efe9
+Filename: debs/备份源/com.susudear.screencore_2.1.0_iphoneos-arm64e.deb
+Size: 1036982
+MD5sum: b0400e7b72b68ba252ee63612cca9529
+SHA1: a0c0fd6069f0885f347b611304128d3d21509b94
+SHA256: 85526068c3f6889049dff6a86040e3240ae412295f1e1b219f64ab9391c9ac68
 Section: Tweaks
 Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转小窗。
  作者：kanuo；版本：windowscheduler.12-12。
@@ -1579,8 +1598,21 @@ Description: 浮窗管理、收藏切换、单窗口替换和独立 App 跳转�
  恢复原有浮窗柔和阴影，硬黑边改为底部聚焦的柔和投影；聚焦阴影深浅 0–100%，默认 40%。
  新增实时圆角半径滑条 0–60，默认 24；全屏保持直角，支持缩放与返回小窗。
  保留 .12-22 全部窗口比例、键盘避让、悬浮球及原有动画范围。
+ 文件分享等待接收小窗画面和入场就绪再投递，复用已打开目标窗口，避免普通启动覆盖分享页面。
+ 保留文件 URL、Actions、沙盒授权和回调；启动失败完整请求回退系统打开一次。
+ 保留 .12-24 键盘避让、快捷栏、悬浮球、窗口动画、比例、阴影和圆角设置。
+ 新增点击顶部通知横条用小窗打开开关，默认关闭、即时生效，独立于 App 跳转弹窗。
+ 保留系统通知跳转动作、来源及回调；复用已打开小窗，启动失败回退系统一次。
+ 保留 .12-25 分享修复、键盘避让、快捷栏、悬浮球、动画、比例及阴影设置。
+ 修复分享、通知启动等待期间的系统栈回调生命周期，避免延迟交付导致 SpringBoard 安全模式。
+ 保留通知小窗开关、文件分享及此前功能；安装后重新启动 SpringBoard 生效。
+ .12-28 修正此前通知独立小窗行为：横幅通知改用所选比例的普通分屏，遵循窗口数量及单窗口模式。
+ 原版通知分屏开关与调度通知开关均可启用；通知不再创建原始比例跳转小窗，文件分享保留独立小窗。
+ 保留 .12-27 回调生命周期修复、启动失败保护及原有键盘、快捷栏、悬浮球和动画；安装后重新启动 SpringBoard。
 X-Aspect-Ratio: native,16:9,5:3,16:10,18:10; per-session-canvas.1
 X-Aspect-Ratio-Base-Sha256: 5ec1fc7e5e318cb821f4054b1896b3a076767057c0322a0c308c73496ce3f2f5
+X-Callback-Lifetime: copy-native-completion.copy-queued-delivery.once.release.1
+X-Callback-Lifetime-Base-Sha256: 6e9f45ba8884516854ad6feba846af29a507183a513d1807b267faa5d3aa53f2
 X-Core-Identity-Revision: expected-author-kanuo.1
 X-Edge-Peek: live-transform.mirrored-sides.gain1-8.max-screen4.return-animation.1
 X-Edge-Peek-Base-Sha256: e6162a232679122468fd9b044c146b80a70012c13528653b959898661e62f034
@@ -1607,6 +1639,10 @@ X-Native-Fullscreen-Return-Animation: reverse-native-presentation.1
 X-Native-Fullscreen-Scene-State: scoped-input-layout.1
 X-Native-Jump-Base-Sha256: 2bc5d7e4c7c8ab8b0fe6117bc5fbd98a784701d429016984ce6a570ac54b131e
 X-Native-Jump-Geometry: popup-only-native-size.1
+X-Notification-Popup: banner-only.default-off.live.independent.host-ready.native-payload.1
+X-Notification-Popup-Base-Sha256: 441cc97916c58e49a53b4e87410555286f4c0a7b594966bdf92bfa18937d569f
+X-Notification-Split: ordinary.selected-ratio.native-pref.limits.original-animation.host-ready.1
+X-Notification-Split-Base-Sha256: e1076fd5d1882c5114f516f118049a3e2fbe3a23c3e03c4b5057b6f06b8a4788
 X-Quick-Recall: visual-circle.release-only.last-successful-app.closed-reopen.1
 X-Quick-Recall-Base-Sha256: 75ab5199f8dcef7fa67d1a2d80e829afebae527a013e572cc00d12b64556a47d
 X-Release-Base-Sha256: c063fab8acfed990afd7bb91e12947553b7fe593d026687c8afba4f99bac1457
@@ -1614,6 +1650,8 @@ X-Release-Base-Version: 2.0.3+windowscheduler.11.pulloverjump
 X-Rollback-Base-Sha256: 1182a594a4de6eb1cde9a3249ae1d94ab89a4bd1d142f432bd6dc0f422113a58
 X-Rollback-Base-Version: 2.0.3+windowscheduler.7
 X-Scene-Geometry-Recovery: native-close-16x9.1
+X-Share-Handoff: host-ready.single-native-request.reuse-existing.failure-fallback.1
+X-Share-Handoff-Base-Sha256: 48e538e0e85410939a9b0b482eb8a74993b11b15fb36a9ee0367c1938c93b0ef
 X-Window-Frame: focused-shadow.opacity0-100.live-radius0-60.2
 X-Window-Frame-Base-Sha256: ee3347687d22acc4906f7780f980aeab2098073457fa7f33cb4e46862cd3285a
 X-Window-Scheduler-Author: kanuo
