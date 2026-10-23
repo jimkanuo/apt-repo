@@ -58,17 +58,17 @@ Author: Axs <qiaozhini000@163.com>
 Icon: https://axs66.github.io/pro/icon/snapper.png
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.96
+Version: 6.98
 Architecture: iphoneos-arm64
 Maintainer: kanuo
 Installed-Size: 2840
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.96_iphoneos-arm64.deb
-Size: 1573590
-MD5sum: 5c9536a241b082037266301fdb05f2dc
-SHA1: d71697528ba30d6324200ac9405170eec4498186
-SHA256: 288e085199da3c0e433f12e8e86b9ee5d1c4fdd26a84267f131ad97b3a9621e1
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.98_iphoneos-arm64.deb
+Size: 1575622
+MD5sum: 027f52d55f75ad45f907ec55483f16f6
+SHA1: a4514b28700c537e02f925c93e877f983204caac
+SHA256: 237803370cc60ee33fc1fe7cd344820e1aeb9c40080eea827a912ad36515d24d
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -89,6 +89,16 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 宠物设置新增轮换模式，默认关闭；锁屏再解锁后按列表顺序切换，末尾循环
  - 保留手动选择；图片模式或悬浮球关闭时不轮换，设置预览和列表勾选同步
  - 重复状态通知不连跳，重启桌面不误切换；保留悬浮球位置和原有功能
+ .
+ 【6.98 修复 Petdex 历史资料 ID 不一致】
+ - 修复 spritesheet-37 等清单 slug 与详情 JSON 内部 ID 不一致导致的导入失败
+ - 以 Petdex manifest 精确 slug 作为本地宠物 ID，并校验详情名称与清单名称一致
+ - 拒绝非法详情 ID、错误名称及不匹配的资料，保留 URL 安全校验和离线播放
+ .
+ 【6.97 宠物网址符号兼容】
+ - 修复 Petdex 网址含连字符、百分号编码连字符、Unicode 连字符或其他合法符号时无法识别
+ - 按解码后的 URL 路径提取宠物 ID，拒绝路径穿越和控制字符，保留 manifest 精确匹配
+ - 保留轮换模式、独立宠物列表、网址导入、本地离线动画及全部原有功能
  .
  【6.95 设置入口图标尺寸】
  - 设置列表入口改为 29 点图标，提供 1x、2x、3x 图片，修复图标过大
@@ -286,17 +296,17 @@ Icon: https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/avatar.
 SileoDepiction: https://jimkanuo.github.io/apt-repo/depiction/com.colorblack.bottomx.floatingball.json
 
 Package: com.colorblack.bottomx.floatingball
-Version: 6.96
+Version: 6.98
 Architecture: iphoneos-arm64e
 Maintainer: kanuo
-Installed-Size: 2840
+Installed-Size: 2856
 Depends: mobilesubstrate | ellekit, preferenceloader, firmware (>= 16.0), firmware (<< 18.0)
 Conflicts: com.kanuo.floatballx
-Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.96_iphoneos-arm64e.deb
-Size: 1573700
-MD5sum: e639216acdc64de90ff70b48930b5c1d
-SHA1: 1c1c676afe20cbe63ee36ba18f2515691a7254bb
-SHA256: 21833fc36c79c6888384a8ed94142add5962a2c3d01b18998a74847b674d74b9
+Filename: debs/备份源/com.colorblack.bottomx.floatingball_6.98_iphoneos-arm64e.deb
+Size: 1575900
+MD5sum: faab35a4f5a9b385fba8c6a2329f8017
+SHA1: 7c8587ee3f94b1c0b763a8c3ed3b21f9f493bd90
+SHA256: 841eb0cf243a0aa4469feca95296217bfbfe7e6d628d9bc31acc09d6099980f3
 Section: Tweaks
 Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 App 的上一层。
  内置独立返回引擎，无需安装原 Bottom-x 底部横条插件；保留 SmartDeck 协议。
@@ -317,6 +327,16 @@ Description: SpringBoard 统一显示一颗全局悬浮球，点击返回当前 
  - 宠物设置新增轮换模式，默认关闭；锁屏再解锁后按列表顺序切换，末尾循环
  - 保留手动选择；图片模式或悬浮球关闭时不轮换，设置预览和列表勾选同步
  - 重复状态通知不连跳，重启桌面不误切换；保留悬浮球位置和原有功能
+ .
+ 【6.98 修复 Petdex 历史资料 ID 不一致】
+ - 修复 spritesheet-37 等清单 slug 与详情 JSON 内部 ID 不一致导致的导入失败
+ - 以 Petdex manifest 精确 slug 作为本地宠物 ID，并校验详情名称与清单名称一致
+ - 拒绝非法详情 ID、错误名称及不匹配的资料，保留 URL 安全校验和离线播放
+ .
+ 【6.97 宠物网址符号兼容】
+ - 修复 Petdex 网址含连字符、百分号编码连字符、Unicode 连字符或其他合法符号时无法识别
+ - 按解码后的 URL 路径提取宠物 ID，拒绝路径穿越和控制字符，保留 manifest 精确匹配
+ - 保留轮换模式、独立宠物列表、网址导入、本地离线动画及全部原有功能
  .
  【6.95 设置入口图标尺寸】
  - 设置列表入口改为 29 点图标，提供 1x、2x、3x 图片，修复图标过大
