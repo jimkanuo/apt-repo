@@ -1,0 +1,155 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/stheno/banner_header.png",
+  "tintColor": "#FFB166",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionImageView",
+          "URL": "https://jimkanuo.github.io/apt-repo/depiction/stheno/banner.png",
+          "width": 390,
+          "height": 208,
+          "cornerRadius": 12,
+          "alignment": 1,
+          "xPadding": 0
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Stheno** 是一款把 App 直接以小窗形式悬浮在系统桌面上的多任务插件 —— 长按图标即可跳转、缩放、收藏。\n\n本版本为 **去除验证版（2.0）**：仅去除原先的激活验证，其余功能与原作者版本保持一致。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "> ⚠️ **只去除了验证，实际有没有效果请自行测试。** 各设备越狱环境、插件组合差异较大，本版本未经真机验收，不保证在所有环境下可用。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "基本信息"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件名称",
+          "text": "Stheno-去除验证版"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "原版作者",
+          "text": "Crassna"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "打包者",
+          "text": "kanuo"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本号",
+          "text": "2.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "包标识",
+          "text": "com.nx.stheno"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持架构",
+          "text": "roothide (arm64e) / rootless (arm64)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "必需依赖",
+          "text": "dev.theos.orion ・ iOS 16.1 以上"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "汉化/改动",
+          "text": "仅去除激活验证，功能未改动"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "本次改动"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**2.0 · 去除验证版**\n- 🔓 **移除激活验证** —— 不再要求输入激活码或绑定设备\n- ✅ **其余功能保持原样** —— 小窗跳转、缩放、收藏栏、键盘与相机模块均未改动\n- 📦 原包结构与资源逐字节保留，**仅控制信息变更**（名称 / 作者 / 版本号）\n- ⚠️ **实际效果请自行测试** —— 未经真机验收，不同设备与插件组合下表现可能不同",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "功能说明"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **小窗多任务** —— 长按其他 App 图标，以悬浮小窗打开\n- **拖拽与缩放** —— 小窗可自由移动、缩放、贴边\n- **快捷收藏栏** —— 把常用 App 收进收藏栏，一键切换\n- **键盘与相机模块** —— 独立的 `SthenoKeyboard` / `SthenoCamera` 子模块\n- **原生设置界面** —— 系统设置中的 Stheno 分类可直接调整各项参数",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "安装说明"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 按设备越狱环境选择对应安装包：**roothide 选 arm64e**，**rootless 选 arm64**\n2. Sileo 安装后，**重启 SpringBoard**（Respring）\n3. 打开 **设置 → Stheno**，按需配置\n4. 长按桌面 App 图标即可测试小窗功能",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "注意事项"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 本包**未经真机验收**，属于自测分享性质，**不保证可用性**\n- 若出现崩溃或卡死，请卸载后 Respring 恢复\n- 原版版权归原作者 **Crassna** 所有，本版本仅为个人测试与学习用途\n- 请勿用于商业分发，支持原作者请购买正版",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "详细信息"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "兼容系统",
+          "text": "iOS 16.1 及以上"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "包名",
+          "text": "com.nx.stheno"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构",
+          "text": "iphoneos-arm64 / iphoneos-arm64e"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "安装方式",
+          "text": "Sileo 直接安装"
+        }
+      ]
+    }
+  ]
+}
