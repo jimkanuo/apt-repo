@@ -1,7 +1,7 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/chatassist/banner_header.jpg",
-  "tintColor": "#00958D",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/chatassist/banner_header_new.png",
+  "tintColor": "#00BFA5",
   "class": "DepictionTabView",
   "tabs": [
     {
@@ -10,7 +10,7 @@
       "views": [
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/depiction/chatassist/banner.jpg",
+          "URL": "https://jimkanuo.github.io/apt-repo/depiction/chatassist/banner_new.png",
           "width": 390,
           "height": 208,
           "cornerRadius": 12,
@@ -19,19 +19,90 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**聊伴 ChatAssist**\n\n框选屏幕上的聊天内容，本机 OCR 识别文字，再通过**你自备的 AI 接口**生成多条候选回复。\n\n**点击候选回复只复制，不代替你发送。** 不读取聊天数据库，不需要为微信 / QQ / Soul 等 App 单独适配消息结构。",
+          "markdown": "**聊伴 ChatAssist** —— 把 AI 接进你的聊天窗口。\n\n截图框选聊天内容，本机 OCR 识别文字，再通过**你自己填写的 AI 接口**生成候选回复。支持微信聊天页内直接分析、点发送，也支持任意聊天 App 的框选识别。",
           "useSpacing": true
         },
         {
           "class": "DepictionHeaderView",
-          "title": "⚠️ 请文明使用"
+          "title": "⚠️ 适用范围（务必先看）"
         },
         {
           "class": "DepictionSeparatorView"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "本插件**仅供个人学习与效率辅助使用**。\n\n- 请勿用于**骚扰、诈骗、冒充他人、批量营销**或其他违法违规用途\n- **使用本插件产生的一切不良行为与后果，由使用者自行承担，作者概不负责**\n- 请遵守你所在地区的法律法规及相关平台的服务条款",
+          "markdown": "### 这个包只支持**原版微信**\n\n主插件内置的微信页内功能，注入目标固定为 **`com.tencent.xin`（原版微信）**，只对原版微信生效。\n\n### 以下 3 类需要额外注入辅助插件\n\n- **多开微信 / 微信分身** → 需单独注入微信分身辅助\n- **Soul** → 需单独注入 Soul 辅助\n- **TIM** → 需单独注入 TIM 辅助\n\n> 🚫 **不装辅助插件，这 3 个软件内不会出现任何 ChatAssist 界面。** 不是插件坏了，是没注入。\n\n> ✅ 截图 OCR / 框选识别是**全局功能**，任意 App 都能用，不需要辅助插件。\n",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "> 辅助插件**不在本包内**，也不在本源单独提供。属于进阶用法，需要自行手动注入对应 App 的 IPA/dylib，并重启 SpringBoard。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "🛡️ 请文明使用"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "本插件只做一件事：**把你的聊天内容交给 AI，帮你写回复**。\n\n- **不会自动发消息** —— 所有回复都需要你手动点击发送\n- **不会读取聊天数据库** —— 只读当前页面已加载的文字\n- **不自动回复、不后台保活** —— 0.1.67 已移除联系人自动回复与后台保活\n- 请勿用于骚扰、诈骗、批量轰炸等违规用途，后果自负",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "基本信息"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "插件名称",
+          "text": "聊伴 ChatAssist"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "0.1.67 实验版"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "包标识",
+          "text": "com.qianuo.chatassist"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15.0 及以上"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持架构",
+          "text": "roothide (arm64e) / rootless (arm64)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "依赖",
+          "text": "preferenceloader · uikittools"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "AI 接口",
+          "text": "需自备（OpenAI 兼容 / 中转站均可）"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "核心功能"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 📸 **截图选区 OCR** —— 框选聊天区域，支持拖动移动、四角缩放、选区外拖出新区域\n- 🔍 **三种识别模式** —— 本机 Vision OCR / 模型 OCR / 本机失败后自动用模型\n- 💬 **AI 候选回复** —— 可选 1–10 条，每条标注角色，**47 套内置提示词模板**\n- ✏️ **自由编辑** —— 模板可自行新增、编辑、排序、删除\n- 🪟 **微信页内助手** —— 输入栏上方星光按钮，查看意图 / 情绪 / 建议，点发送提交当前对象\n- 🧠 **聊天记忆** —— 会话记忆独立同步，按应用 / 账号 / 联系人隔离\n- 👤 **人物画像** —— 手动分析生成，含星座、备注\n- 🎨 **窗口皮肤** —— 经典玻璃 / 液态玻璃 A 通透 / 液态玻璃 B 柔和\n- 📋 **一键复制 / 可选自动粘贴** —— 复制后可按设置直接填入输入框",
           "useSpacing": true
         },
         {
@@ -43,99 +114,12 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**0.1.39 · 当前版本**\n- 修复「复制后收起」：开启该选项时，MyDock 派发、系统粘贴派发或内存填入成功后，窗口按原动画缩回屏幕边缘竖条，**键盘打开时也生效**\n- 保留实际结果提示；「已触发粘贴」不等于确认文字已插入。失焦、失败、超时或结果不明时继续展开显示原因\n- 不收起聊天键盘、不自动发送，保留原有皮肤与键盘避让\n\n**0.1.38**\n- 辅助模块初始化与粘贴通信修复：改为主队列读取 App 身份，启动完成/重回前台可重试初始化\n- 注入过滤器保留 UIKit，并补充 UIKitCore、Soul、微信匹配\n- 粘贴协议升级 v4：复制时附带短时随机类型标记，避免新旧模块同时粘贴\n- 复制标记最多有效 5 秒，每次请求等待确认最多约 2 秒\n\n**0.1.37**\n- 优先复用已安装 MyDock 的键盘粘贴按钮（校验动作来自已加载的 MyDock.dylib）\n- 未找到时退回系统粘贴动作；都不行才尝试内存填入通道\n- 不模拟坐标点击、不调用全选/撤销/收键盘/发送\n\n**0.1.36**\n- 自动填入改为一次性 `CFMessagePort` 内存传递，不再读取通用剪贴板\n- 请求绑定目标 App + 短时标识 + 当前焦点输入框，只允许读取一次，最大 32 KB，不写临时文件\n- 窗口底部留在键盘顶部以上 104 点，给聊天输入栏留空间\n\n**0.1.35 · 新增「点击回复语自动到输入框」的可靠实现**\n- 复制回复前先确定目标 App，寻找前台场景中**真正获得焦点的输入控件**，改用文本输入接口填写并检查实际结果\n- 自动填入时把换行替换为空格，避免 App 把换行当发送；剪贴板上的原回复保持不变\n- 三种皮肤往返切换重建材质，灰度统一为 1%–100%\n\n**0.1.34 · 新增液态玻璃皮肤**\n- 设置 → 窗口外观 → 窗口皮肤：**经典玻璃 / 液态玻璃 A · 通透 / 液态玻璃 B · 柔和**，默认经典，切换即时生效不清空回复\n- 液态皮肤在 iOS 26 使用原生玻璃；**iOS 15–17 尝试独立的 ChatAssistGlass 渲染模块**（改编自 SBLiquidGlass，只注册聊伴自己的材质）\n- 新增 ChatAssistInput 辅助模块；新增「复制后粘贴到输入框」开关（**默认关闭**）\n\n**旧版本要点**：0.1.33 底部自动回复开关 · 0.1.32 呼出默认贴边 · 0.1.31 百度/必应/360 自动切换 + 最低系统降至 iOS 15.0 · 0.1.30 首次启动页 + 完全退出切换\n",
+          "markdown": "**0.1.67 · 当前版本 · 移除自动回复与后台保活**\n- 🔻 **移除联系人自动回复** —— 删除自动生成和发送队列、授权续期、进程保活断言及对应设置入口\n- 🧹 **旧档案自动迁移** —— 自动回复相关字段会被清除，聊天存档、人物画像、星座、备注、API 与模板完整保留\n- 🖼 **截图复制后自动识别保留可用** —— 窗口开关更名为「自动识图」\n- ✍️ **聊天建议仍由用户手动发送** —— 或修改后发送，不再有任何自动行为\n- 🧠 **会话记忆独立为消息事件触发** —— 执行同步，不发起模型请求、不自动发送\n- 📦 **套装版本**：主包 0.1.67 / 微信分身 0.1.66 / Soul 0.1.65 / TIM 0.1.67\n\n**0.1.66** · 微信分身辅助更新，玻璃模块从 0.1.66 原样保留\n\n**0.1.64 · 童锦程灵感聊天**\n- 回复角色新增「童锦程灵感 · 松弛接梗」，完整分析模板新增「童锦程灵感 · 接梗分析」\n- 可分别选择、编辑、删除，不改变原有默认选择；随机池、角色标签、N＋3 和逐条显示沿用原流程\n\n**0.1.63 · 新增独立 TIM 辅助**\n- TIM 依据 4.1.0 IPA 适配，单独注入 `ChatAssistTIM`，本地认证通道连接主包\n- 普通好友私聊最多读取 20 条已加载文字；群聊、临时、机器人、匿名与频道不接入\n- 移除主服务每 3 秒消息检查与内嵌面板每 2 秒心跳，改用事件驱动，降低闲置开销\n\n**0.1.62 · Soul 补齐快速回复**\n- Soul 页内默认「快速回复」，可切换「完整分析」和「提问模式」，增加「逐条显示」\n- 只显示已完整接收的候选，可提前手动发送已完成的一条\n\n**0.1.61 · 微信优先获取回复**\n- 微信页内默认「快速回复」：一次请求只生成 N 条顺着聊 + 固定 3 条新话题\n- 「完整分析」保留原模板和完整输出；支持流式逐条显示\n\n**0.1.60 · 请求等待与超时定位**\n- 微信分析请求改为连续 120 秒未收到数据结束、总等待最多 180 秒\n- HTTP 408 / 504 / 524 明确标记为中转站提前结束\n\n**0.1.56 · Soul 普通文字过滤修复**\n**0.1.55 · Soul 首屏消息、独立新话题条数与提问模式**\n**0.1.54 · 关闭保留分析、Soul 独立接入与自然新话题**\n**0.1.53 · 分析排版与窗口高度**\n**0.1.52 · 分屏微信的页内分析适配**\n**0.1.51 · 上下文读取与昵称修复、微信分析窗口外观**\n**0.1.50 · 独立聊天分析模板、群聊记忆与内容分析**\n**0.1.49 · 分批画像、成功进度与失败修复**\n**0.1.48 · 人物画像与星座统一由深度分析师生成**\n\n",
           "useSpacing": true
         },
         {
-          "class": "DepictionHeaderView",
-          "title": "兼容性"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "兼容系统",
-          "text": "iOS 15.0 – 17.3.1"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "支持架构",
-          "text": "roothide (arm64e) · rootless (arm64)"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "版本",
-          "text": "0.1.39"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "作者",
-          "text": "kanuo"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "价格",
-          "text": "完全免费"
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "核心功能"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
           "class": "DepictionMarkdownView",
-          "markdown": "- **屏幕选区 OCR** —— 框选聊天区域，支持拖动移动、四角缩放，也可在选区外拖出新区域\n- **三种识别模式** —— 本机 Vision OCR / 模型 OCR / 本机失败后用模型\n- **候选回复** —— 可选 1 / 3 / 10 条，内置 46 套提示词模板，可自行新增、编辑、复制、排序\n- **只复制不发送** —— 点击候选回复仅写入剪贴板，不代替用户发送、不改写草稿\n- **窗口皮肤** —— 经典玻璃 / 液态玻璃 A · 通透 / 液态玻璃 B · 柔和，切换即时生效；灰度 1%～100%\n- **回复语直达输入框** —— 开启「复制后粘贴到输入框」后，**先点一下聊天输入框，再点窗口里的回复语**，会自动粘贴进输入框（**不发送**）\n- **悬浮窗口** —— 可拖动、贴边收起，宽高 65%～98% / 38%～85%，打开键盘时自动上移避让输入栏\n- **边缘标签** —— 点击展开；向内横滑超过约 60 点展开；上下拖动移位；拖到另一边换边\n- **持续扫描** —— 默认 5 秒间隔（可设 3～30 秒），需连续两次 OCR 结果一致才提交，画面不变不重复请求\n- **智能清理杂项** —— 去掉群标题、通知横幅、独立时间、输入栏等界面文字，保留聊天正文\n- **联网查询（可选）** —— 按百度、必应、360 依次尝试获取摘要，全部失败会明确说明原因，不伪造结果\n- **主动问答** —— 输入文字或粘贴图片直接提问，支持「聊天模式 / 生图模式」切换\n- **截图模式** —— 从剪贴板粘贴截图，默认不上传图片，仅把文字发给 API",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "API 配置"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "使用 **HTTPS + Bearer API Key + OpenAI 兼容 Chat Completions** 协议。\n\n内置预设：\n\n| 服务 | 接口地址 |\n| --- | --- |\n| DeepSeek | `api.deepseek.com/chat/completions` |\n| OpenAI | `api.openai.com/v1/chat/completions` |\n| Gemini 兼容入口 | `generativelanguage.googleapis.com/v1beta/openai/...` |\n| Kimi | `api.moonshot.cn/v1/chat/completions` |\n| 豆包 / 火山方舟 | `ark.cn-beijing.volces.com/api/v3/chat/completions` |\n| 百度千帆 v2 | `qianfan.baidubce.com/v2/chat/completions` |\n\n也可填写任意自定义兼容服务地址。「手动获取模型」会向 `/models` 发送请求拉取可用模型列表。\n\n**密钥保存在系统钥匙串，设置文件不保存密钥。**",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "隐私说明"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "- 默认**本机 OCR**，不上传图片；启用模型 OCR 并授权后才发送裁切后的选区图片\n- 选区图片仅留在内存，退出、清空会话、切换 App 或锁屏时清除，**不写磁盘**\n- **不读取聊天数据库**，不记录 API 响应正文、聊天文字或密钥日志\n- 不累积历史记录，仅使用当前可见区域；不会自动滚屏读取历史或点击发送\n- 网络使用临时 session，不写 URLCache，不保存 Cookie\n- 复制内容设置 5 分钟过期，不开启通用剪贴板同步",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "呼出方式"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "**边缘标签**：首次主动打开后出现，退出后隐藏。\n\n**URL 绑定**（可填在其他插件的「打开 URL」动作里）：\n\n| 动作 | 地址 |\n| --- | --- |\n| 打开助手窗口 | `chatassist://open` |\n| 展开 / 收起切换 | `chatassist://toggle` |\n| 打开 API 与提示词设置 | `chatassist://settings` |\n| 收起并暂停 | `chatassist://hide` |\n| 退出并隐藏边缘图标 | `chatassist://exit` |\n\n设置 → Tweaks → 聊伴 ChatAssist → 手势 / URL 呼出 可一键复制这些地址。",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "已知边界"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "- **本版为实验版，尚未完成真机验收**：SpringBoard 跨 App 取屏、跨 App 置顶、真机键盘、实际 API 账号及与其他插件共存仍需真机验证\n- **自动粘贴需开启开关**：默认关闭，需在设置里打开「复制后粘贴到输入框」；**必须先点一下输入框**再点回复语，否则没有焦点不会填入\n- **「已触发粘贴」不等于文字已插入**：第三方 App 可能弹系统粘贴权限；超时、失焦、已取消的请求不会补填，也不会自动重试\n- **液态玻璃渲染需重启用户空间**：iOS 15–17 的自定义折射由独立 ChatAssistGlass 模块驱动，需通过越狱工具重启用户空间重新加载 backboardd；未就绪时自动回落兼容材质\n- 安装后需**重启 SpringBoard**，并彻底关闭再打开目标聊天 App，让辅助模块进入目标进程\n- 首次仅面向**竖屏**；横屏、受保护内容、多屏、多场景、视频画面、复杂群聊及其他插件叠层不保证支持\n- 同一 App 内切换聊天对象、页面或分屏内容时，通用 OCR **不能可靠识别**，切换后需点清空会话并重新框选\n- 仅提供 roothide 安装包，不是通用 IPA\n- 若插件导致 SpringBoard 异常，请在越狱环境禁用或进入安全模式卸载",
+          "markdown": "**0.1.39**\n- 修复「复制后收起」：开启该选项时，MyDock 派发、系统粘贴派发或内存填入成功后，窗口按原动画缩回屏幕边缘竖条，**键盘打开时也生效**\n- 保留实际结果提示；「已触发粘贴」不等于确认文字已插入。失焦、失败、超时或结果不明时继续展开显示原因\n- 不收起聊天键盘、不自动发送，保留原有皮肤与键盘避让\n\n**0.1.38**\n- 辅助模块初始化与粘贴通信修复：改为主队列读取 App 身份，启动完成/重回前台可重试初始化\n- 注入过滤器保留 UIKit，并补充 UIKitCore、Soul、微信匹配\n- 粘贴协议升级 v4：复制时附带短时随机类型标记，避免新旧模块同时粘贴\n- 复制标记最多有效 5 秒，每次请求等待确认最多约 2 秒\n\n**0.1.37**\n- 优先复用已安装 MyDock 的键盘粘贴按钮（校验动作来自已加载的 MyDock.dylib）\n- 未找到时退回系统粘贴动作；都不行才尝试内存填入通道\n- 不模拟坐标点击、不调用全选/撤销/收键盘/发送\n\n**0.1.36**\n- 自动填入改为一次性 `CFMessagePort` 内存传递，不再读取通用剪贴板\n- 请求绑定目标 App + 短时标识 + 当前焦点输入框，只允许读取一次，最大 32 KB，不写临时文件\n- 窗口底部留在键盘顶部以上 104 点，给聊天输入栏留空间\n\n**0.1.35 · 新增「点击回复语自动到输入框」的可靠实现**\n- 复制回复前先确定目标 App，寻找前台场景中**真正获得焦点的输入控件**，改用文本输入接口填写并检查实际结果\n- 自动填入时把换行替换为空格，避免 App 把换行当发送；剪贴板上的原回复保持不变\n- 三种皮肤往返切换重建材质，灰度统一为 1%–100%\n\n**0.1.34 · 新增液态玻璃皮肤**\n- 设置 → 窗口外观 → 窗口皮肤：**经典玻璃 / 液态玻璃 A · 通透 / 液态玻璃 B · 柔和**，默认经典，切换即时生效不清空回复\n- 液态皮肤在 iOS 26 使用原生玻璃；**iOS 15–17 尝试独立的 ChatAssistGlass 渲染模块**（改编自 SBLiquidGlass，只注册聊伴自己的材质）\n- 新增 ChatAssistInput 辅助模块；新增「复制后粘贴到输入框」开关（**默认关闭**）\n\n**旧版本要点**：0.1.33 底部自动回复开关 · 0.1.32 呼出默认贴边 · 0.1.31 百度/必应/360 自动切换 + 最低系统降至 iOS 15.0 · 0.1.30 首次启动页 + 完全退出切换\n",
           "useSpacing": true
         },
         {
@@ -147,7 +131,19 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "1. 安装后**正常注销一次**（本插件注入 SpringBoard）\n2. 进入 **设置 → Tweaks → 聊伴 ChatAssist**，确认「启用聊伴」已开启\n3. 打开 **API 与提示词设置**，选择预设或填写自定义地址，填入自己的 API Key 并测试连接\n4. 回到聊天 App，通过边缘标签或 URL 呼出助手窗口\n\n**卸载前建议先在窗口设置中点「删除全部 API 密钥」**，再通过包管理器卸载 `com.qianuo.chatassist` 并注销。",
+          "markdown": "1. 按越狱环境选择安装包：**roothide 选 arm64e 包**，**rootless 选 arm64 包**\n2. Sileo 安装完成后 **Respring**\n3. 打开桌面上的 **ChatAssist** 启动器，或在设置里进入「聊伴 ChatAssist」完成配置\n4. 填入你的 **AI 接口地址 + API Key**（OpenAI 兼容格式或中转站均可）\n5. 回到微信聊天页，输入栏上方出现星光按钮即可使用\n\n> 多开微信 / Soul / TIM 用户：还需单独注入对应辅助插件才会生效。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "注意事项"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 本版本为 **实验版**，已通过本机编译与模拟器验证，**真机跨 App 取屏、键盘、API 账号及与其他插件共存仍需自行验证**\n- **只支持原版微信**（`com.tencent.xin`）的页内功能；多开微信 / Soul / TIM 需注入辅助插件\n- AI 接口需要你自备，**产生的费用由你承担**\n- 请勿用于骚扰、诈骗或任何违规用途\n- 出现异常可卸载后 Respring 恢复",
           "useSpacing": true
         }
       ]
