@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>PullOver-X 窗口调度版</title>
+<style>
+  :root{
+    --bg:#0b0e15; --card:#141821; --card2:#1a1f2b;
+    --txt:#f2f5fa; --txt2:#9aa6bc; --txt3:#6b7688;
+    --accent:#4a92ff; --accent2:#8ec2ff;
+    --line:rgba(255,255,255,.09);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{
+    background:var(--bg); color:var(--txt);
+    font-family:-apple-system,"PingFang SC","Helvetica Neue",sans-serif;
+    font-size:15px; line-height:1.65; padding-bottom:40px;
+    -webkit-font-smoothing:antialiased;
+  }
+  @media (prefers-color-scheme:light){
+    :root{--bg:#f5f6f8;--card:#fff;--card2:#f0f2f5;--txt:#12151c;--txt2:#5c6779;--txt3:#8b94a6;--line:rgba(0,0,0,.08)}
+  }
+
+  /* ── 顶部横幅：完全由 HTML 控制，不依赖 Sileo 图片缩放 ── */
+  .hero{
+    position:relative; width:100%;
+    padding:26px 22px 22px;
+    background:
+      radial-gradient(120% 140% at 8% 10%, rgba(74,146,255,.30) 0%, rgba(74,146,255,0) 62%),
+      linear-gradient(135deg,#1b2436 0%,#0d1119 58%,#090b11 100%);
+    border-bottom:1px solid var(--line);
+    display:flex; align-items:center; gap:18px;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:""; position:absolute; inset:0;
+    background:radial-gradient(90% 120% at 100% 0%, rgba(120,180,255,.14) 0%, transparent 60%);
+    pointer-events:none;
+  }
+  .hero-text{flex:1 1 auto; min-width:0; position:relative; z-index:1}
+  .hero-title{
+    font-size:30px; font-weight:800; letter-spacing:-.4px;
+    color:#fff; line-height:1.15;
+    text-shadow:0 2px 14px rgba(0,0,0,.45);
+  }
+  .hero-sub{
+    margin-top:7px; font-size:15px; font-weight:600; color:var(--accent2);
+    letter-spacing:.5px;
+  }
+  .hero-feat{
+    margin-top:9px; font-size:12.5px; color:#93a0b8; line-height:1.5;
+    word-break:break-word;
+  }
+  .hero-icon{
+    flex:0 0 auto; width:88px; height:88px; border-radius:20px;
+    box-shadow:0 10px 28px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.10) inset;
+    position:relative; z-index:1;
+  }
+
+  /* ── 卡片区块 ── */
+  .wrap{padding:18px 16px 0}
+  .card{
+    background:var(--card); border-radius:14px; padding:16px 16px 4px;
+    border:1px solid var(--line); margin-bottom:14px;
+  }
+  .card h2{
+    font-size:16.5px; font-weight:700; color:var(--txt);
+    margin-bottom:10px; letter-spacing:-.2px;
+    display:flex; align-items:center; gap:8px;
+  }
+  .card h2 .dot{
+    width:4px; height:16px; border-radius:2px; background:var(--accent);
+    display:inline-block; flex:0 0 auto;
+  }
+  .card p{color:var(--txt2); font-size:14.5px; margin-bottom:14px}
+  .card p strong{color:var(--txt); font-weight:600}
+
+  /* ── 截图横滑 ── */
+  .shots{
+    display:flex; gap:11px; overflow-x:auto; padding:2px 16px 18px;
+    scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch;
+    margin:0 -16px;
+  }
+  .shots::-webkit-scrollbar{display:none}
+  .shots img{
+    width:158px; flex:0 0 auto; border-radius:11px;
+    scroll-snap-align:start;
+    box-shadow:0 5px 18px rgba(0,0,0,.42);
+    border:1px solid var(--line);
+    display:block;
+  }
+
+  /* ── 更新日志 ── */
+  .log{list-style:none}
+  .log li{
+    position:relative; padding:0 0 16px 26px;
+    border-left:2px solid var(--line); margin-left:5px;
+  }
+  .log li:last-child{border-left-color:transparent; padding-bottom:6px}
+  .log li::before{
+    content:""; position:absolute; left:-7px; top:4px;
+    width:12px; height:12px; border-radius:50%;
+    background:var(--accent); border:3px solid var(--card);
+    box-shadow:0 0 0 2px rgba(74,146,255,.28);
+  }
+  .log .t{font-size:14.5px; font-weight:700; color:var(--txt); margin-bottom:5px; display:block}
+  .log .d{font-size:14px; color:var(--txt2); line-height:1.68}
+
+  /* ── 警示框 ── */
+  .warn{
+    background:linear-gradient(135deg,rgba(255,180,60,.13),rgba(255,140,40,.07));
+    border:1px solid rgba(255,180,60,.30);
+    border-radius:12px; padding:13px 15px; margin-bottom:14px;
+  }
+  .warn .wt{
+    font-size:14.5px; font-weight:700; color:#ffc960; margin-bottom:7px;
+    display:flex; align-items:center; gap:7px;
+  }
+  .warn ul{list-style:none; padding-left:0}
+  .warn li{
+    font-size:13.5px; color:#d8c9a8; padding-left:16px; position:relative;
+    margin-bottom:5px; line-height:1.6;
+  }
+  .warn li::before{
+    content:"•"; position:absolute; left:3px; color:#ffb840; font-weight:700;
+  }
+
+  /* ── 信息表 ── */
+  .info{list-style:none; margin-bottom:12px}
+  .info li{
+    display:flex; justify-content:space-between; align-items:flex-start;
+    padding:11px 0; border-bottom:1px solid var(--line); gap:16px;
+  }
+  .info li:last-child{border-bottom:none}
+  .info .k{color:var(--txt3); font-size:14px; flex:0 0 auto}
+  .info .v{color:var(--txt); font-size:14px; text-align:right; font-weight:500}
+
+  /* ── 页脚 ── */
+  .foot{
+    text-align:center; padding:22px 20px 10px;
+    color:var(--txt3); font-size:12.5px; line-height:1.7;
+  }
+  .foot .heart{color:#ff6b81}
+  .badge{
+    display:inline-block; padding:4px 11px; border-radius:20px;
+    background:rgba(74,146,255,.15); color:var(--accent2);
+    font-size:12px; font-weight:700; letter-spacing:.4px; margin-bottom:10px;
+    border:1px solid rgba(74,146,255,.25);
+  }
+</style>
+</head>
+<body>
+
+<!-- 顶部横幅：HTML 自绘，任何屏幕宽度都不会裁切文字 -->
+<div class="hero">
+  <div class="hero-text">
+    <div class="hero-title">PullOver-X</div>
+    <div class="hero-sub">窗口调度版</div>
+    <div class="hero-feat">上下分屏 · 悬浮卡片 · 视频画中画 · 液态玻璃</div>
+  </div>
+  <img class="hero-icon" src="https://jimkanuo.github.io/apt-repo/icon/pullover.png" alt="PullOver-X">
+</div>
+
+<div class="wrap">
+
+  <!-- 简介 -->
+  <div class="card">
+    <h2><span class="dot"></span>插件简介</h2>
+    <p><strong>为越狱设备打造的窗口管理与分屏调度插件。</strong><br>
+    支持上下垂直分屏、悬浮卡片、视频画中画框、收藏栏快速切换，并将整体视觉精修至液态玻璃质感。</p>
+  </div>
+
+  <!-- 截图预览 -->
+  <div class="card" style="padding-bottom:0">
+    <h2><span class="dot"></span>效果预览</h2>
+  </div>
+  <div class="shots">
+    <img src="https://jimkanuo.github.io/apt-repo/screenshots/pulloverx-1.jpg" alt="悬浮卡片与收藏栏">
+    <img src="https://jimkanuo.github.io/apt-repo/screenshots/pulloverx-2.jpg" alt="设置面板">
+    <img src="https://jimkanuo.github.io/apt-repo/screenshots/pulloverx-3.jpg" alt="上下分屏">
+    <img src="https://jimkanuo.github.io/apt-repo/screenshots/pulloverx-4.jpg" alt="半屏模式">
+  </div>
+
+  <!-- 更新日志 -->
+  <div class="card">
+    <h2><span class="dot"></span>版本 1.8.19 更新日志</h2>
+    <ul class="log">
+      <li>
+        <span class="t">1、快捷方式</span>
+        <span class="d">主卡双击收藏栏转全屏，长按 app 跳转第二副窗口；副窗口底部按住可以移动位置，两个角拖拉可放大缩小以及调整合适的尺寸；副窗口顶部有多个功能键，方便切换你想要的场景。长按第二个 app 可以移动卡片位置，点击第一个图标可以进入半屏模式。</span>
+      </li>
+      <li>
+        <span class="t">2、注意事项</span>
+        <span class="d">左手模式必须开启，固定把手必须开启，键盘避让应用必须全勾选，不要问为什么，按照要求设置就行了。如果半屏模式出现灰色阴影或者无法回到桌面，请注销一下手机。</span>
+      </li>
+      <li>
+        <span class="t">3、写在最后</span>
+        <span class="d">本次插件开发暂告一段落，后续大幅迭代优化的空间较小。插件完全免费开放使用，如果遇到 BUG 或者体验瑕疵，还请大家多多包涵。</span>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 注意事项警示 -->
+  <div class="warn">
+    <div class="wt">⚠️ 使用前必读</div>
+    <ul>
+      <li>左手模式<strong>必须开启</strong></li>
+      <li>固定把手<strong>必须开启</strong></li>
+      <li>键盘避让应用<strong>必须全勾选</strong></li>
+      <li>半屏模式出现灰色阴影或无法回桌面，<strong>注销手机</strong>即可</li>
+    </ul>
+  </div>
+
+  <!-- 详细信息 -->
+  <div class="card">
+    <h2><span class="dot"></span>详细信息</h2>
+    <ul class="info">
+      <li><span class="k">版本</span><span class="v">1.8.19</span></li>
+      <li><span class="k">兼容系统</span><span class="v">iOS 14.0 及以上</span></li>
+      <li><span class="k">支持架构</span><span class="v">roothide (arm64e) · rootless (arm64)</span></li>
+      <li><span class="k">作者</span><span class="v">kanuo</span></li>
+      <li><span class="k">价格</span><span class="v">完全免费</span></li>
+    </ul>
+  </div>
+
+  <div class="foot">
+    <div class="badge">FREE · 免费开源</div><br>
+    由 <strong>kanuo</strong> 制作 · 感谢每一位使用者的支持<br>
+    遇到问题欢迎反馈，我会尽力改进 <span class="heart">♥</span>
+  </div>
+
+</div>
+</body>
+</html>

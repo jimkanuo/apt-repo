@@ -1,0 +1,181 @@
+{
+  "minVersion": "0.1",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/banner_header.jpg",
+  "tintColor": "#8A4BD0",
+  "class": "DepictionTabView",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionImageView",
+          "URL": "https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/banner.jpg",
+          "width": 390,
+          "height": 208,
+          "cornerRadius": 12,
+          "alignment": 1,
+          "xPadding": 0
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**让每一次输入，都有光。**\n\n为 iOS **原生键盘**与**微信输入法**带来纯黑键帽、彩色粗边框和沿键缝传播的霓虹光效。\n\n本版为**轻量版**：固定霓虹预设与键盘配色，去除繁重的高级参数与内置预览，聚焦流畅、省电的键盘光效。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "> 本包标识符与原完整版一致，会**覆盖升级**旧版（1.0.20~samsung12 及更早），不会并存安装。旧的自定义预设回退到「快速点击」，旧霓虹键帽样式回退到「三星风格扩散」。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "兼容性"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "适配系统",
+          "text": "iOS 17.0（重点适配）"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持架构",
+          "text": "roothide (arm64e) · rootless (arm64, 通用 arm64+arm64e)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.0.26~lite40"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "kanuo"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "价格",
+          "text": "完全免费"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "提供 **RootHide (iphoneos-arm64e)** 和 **Rootless (iphoneos-arm64)** 两个独立安装包，**请只安装符合当前越狱环境的版本**。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "主要功能"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **四种灯光预设** —— 柔和水波、鲜艳彩虹、快速点击（默认）、均衡霓虹\n- **两种光效样式** —— 三星风格扩散（粗彩色键框 + 键缝背光）、霓虹圆环（环状扩散）\n- **键盘底色 / 键帽颜色** —— 自定义，默认均为纯黑；配色开关可关闭，恢复系统原生键盘颜色\n- **搜索词渐变** —— 独立开关，支持自定义双色渐变或单色，原生与微信使用相同颜色，关闭时清理已绘制渐变\n- **首选输入法** —— 可选不指定 / 微信输入法 / iOS 原生键盘，每次键盘弹出、后台恢复、输入法重载时强制执行\n- **按下态配色** —— 原生键盘与微信键盘按下时保留霓虹反馈\n- **微信键盘完整支持** —— 26 个键帽全部纳入光效与纯黑配色，几何扫描向外找到完整键盘\n- **九宫格 / 全键盘实时刷新** —— 语言 / 符号布局在 9 格与 26 格间切换时立即重建粗霓虹边框\n- **跨 App 配色同步** —— 各 App 内设置保持一致，兼容 QQ 浅色模式\n\n开启系统「减弱动态效果」时，改为 0.20s 淡出，不做缩放扩散。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "固定预设参数"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "| 预设 | 不透明度 | 亮度 | 饱和度 | 基础时长 | 扩散倍率 |\n| --- | --- | --- | --- | --- | --- |\n| 柔和水波 | 0.40 | 0.80 | 0.40 | 0.60s | 1.50 |\n| 鲜艳彩虹 | 0.75 | 1.00 | 1.00 | 0.55s | 2.20 |\n| 快速点击（默认） | 0.60 | 0.95 | 0.72 | 0.25s | 1.30 |\n| 均衡霓虹 | 0.65 | 0.95 | 0.72 | 0.55s | 2.00 |\n\n实际光效时长为基础时长加 0.40s，扩散半径为 90pt 乘倍率。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "轻量版精简"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "相比原完整版，本版移除以换取更小的体积与更低的资源占用：\n\n- 霓虹键帽弹跳 / 快照\n- 全部参数滑条、诊断写盘\n- 设置内大预览图与详情页面\n\n仅设置页和小图标随包安装，旧高级参数由白名单过滤，不再参与运行。候选词渐变已恢复为独立开关（见主要功能）。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "效果预览"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{160, 213}",
+          "screenshots": [
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/preview1.png",
+              "accessibilityText": "纯黑键帽与霓虹扩散"
+            },
+            {
+              "url": "https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/preview2.png",
+              "accessibilityText": "键帽与底色自定义"
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "预览图来自插件在 iOS 模拟器中的实际渲染。画面仅展示效果，布局与效果随系统和输入法版本变化。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "性能边界"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 最多复用两组光效、共 12 个光效图层（含遮罩），**不随键数和累计点击数增长**\n- 不逐键创建阴影，不使用逐帧 CPU 动画，不为每次点击排队清理任务\n- 普通模式光效触发间隔至少 40ms；低电量或高温时降为单组、至少 100ms\n- 单次光效提交超过 3ms 时，装饰动画暂缓 80ms；**输入事件始终先交给 UIKit，不节流文字输入**\n- 键盘退出窗口及收到内存警告时释放光效，闲置时不运行动画\n\n这些是开销上限与降级措施，并不代表已证明所有 App 均无卡顿。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "安装与设置"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 安装后**注销一次**，并重新打开使用输入法的 App，清除仍驻留内存的旧版插件\n2. 进入 **设置 → 彩虹键盘 · 轻量版** 调整预设与配色\n3. 键盘底色、键帽颜色**都选择黑色**即可获得纯黑效果\n\n⚠️ 避免与修改同一键盘背景或键帽的其他主题**同时启用**。",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "更新日志",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**1.0.26~lite40** · 当前版本\n- 修复**全键盘首次按压后留下的扩散光效缺口**\n- 临时按键预览框不再写入持久的扩散裁剪遮罩；预览框隐藏或移除即使没有布局回调，也不会在原位置留下黑色缺口\n- 预览框及其子视图仍不参与键位识别、按压反馈和触摸光效路由，兼容 popup / keypreview / keyballoon / keymagnifier 类名\n- 候选词、工具栏、九宫格拼音栏和符号键的原有光效排除全部保留\n\n**1.0.26~lite39**\n- 修复**微信输入法键帽之间连成片或偏移的深灰底块**\n- 清理已识别键帽祖先容器的填色；外层按钮底图与跨键背景纹理按当前可见键帽轮廓裁剪\n- 停用键帽背后的第二套兜底填色，霓虹几何改用内层可见键帽；触摸范围不变\n\n**1.0.26~lite33**\n- 限定键盘背景处理的宿主范围，修复 **TIM 等应用底部栏误着色**\n- 移除应用窗口扫描与重复键盘重绘，合并弹起与布局刷新\n"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "隐私与说明"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 本版已**移除诊断写盘**，不记录输入文字、候选内容或按键图像\n- 预览图来自插件在 iOS 模拟器中的实际渲染\n- **「三星风格」仅用于描述视觉效果，本插件并非三星官方产品**\n- 原项目作者信息保留为 MoWang\n\n**已验证边界**：适配重点为 iOS 17.0 的原生键盘与微信输入法。模拟器测试不能替代 iOS 17.0、越狱 / 巨魔 App 和微信输入法真机测试；其他系统和输入法版本未全面验证。",
+          "useSpacing": true
+        }
+      ]
+    }
+  ]
+}
