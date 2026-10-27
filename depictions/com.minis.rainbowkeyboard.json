@@ -1,6 +1,6 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/banner_header.jpg",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depictions/rainbowkeyboard/banner_header.jpg",
   "tintColor": "#8A4BD0",
   "class": "DepictionTabView",
   "tabs": [
@@ -10,7 +10,7 @@
       "views": [
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/banner.jpg",
+          "URL": "https://jimkanuo.github.io/apt-repo/depictions/rainbowkeyboard/banner.jpg",
           "width": 390,
           "height": 208,
           "cornerRadius": 12,
@@ -113,11 +113,11 @@
           "itemSize": "{160, 213}",
           "screenshots": [
             {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/preview1.png",
+              "url": "https://jimkanuo.github.io/apt-repo/depictions/rainbowkeyboard/preview1.png",
               "accessibilityText": "纯黑键帽与霓虹扩散"
             },
             {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/rainbowkeyboard/preview2.png",
+              "url": "https://jimkanuo.github.io/apt-repo/depictions/rainbowkeyboard/preview2.png",
               "accessibilityText": "键帽与底色自定义"
             }
           ]

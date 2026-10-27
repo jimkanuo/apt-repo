@@ -1,6 +1,6 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/banner_header.jpg",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depictions/quicklaunch/banner_header.jpg",
   "tintColor": "#3DD6C0",
   "class": "DepictionTabView",
   "tabs": [
@@ -10,7 +10,7 @@
       "views": [
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/banner.jpg",
+          "URL": "https://jimkanuo.github.io/apt-repo/depictions/quicklaunch/banner.jpg",
           "width": 390,
           "height": 208,
           "cornerRadius": 12,
@@ -60,7 +60,7 @@
         },
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/preview1.png",
+          "URL": "https://jimkanuo.github.io/apt-repo/depictions/quicklaunch/preview1.png",
           "width": 390,
           "height": 244,
           "cornerRadius": 10,
@@ -74,7 +74,7 @@
         },
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/preview2.png",
+          "URL": "https://jimkanuo.github.io/apt-repo/depictions/quicklaunch/preview2.png",
           "width": 390,
           "height": 244,
           "cornerRadius": 10,
@@ -88,7 +88,7 @@
         },
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/depiction/quicklaunch/preview3.png",
+          "URL": "https://jimkanuo.github.io/apt-repo/depictions/quicklaunch/preview3.png",
           "width": 390,
           "height": 244,
           "cornerRadius": 10,

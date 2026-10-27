@@ -1,6 +1,6 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/chatassist/banner_header_new.png",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depictions/chatassist/banner_header_new.png",
   "tintColor": "#00BFA5",
   "class": "DepictionTabView",
   "tabs": [
@@ -10,7 +10,7 @@
       "views": [
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/depiction/chatassist/banner_new.png",
+          "URL": "https://jimkanuo.github.io/apt-repo/depictions/chatassist/banner_new.png",
           "width": 390,
           "height": 208,
           "cornerRadius": 12,

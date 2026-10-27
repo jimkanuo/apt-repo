@@ -1,6 +1,6 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/dyadaptive/banner_header.jpg",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depictions/dyadaptive/banner_header.jpg",
   "tintColor": "#25F4EE",
   "class": "DepictionTabView",
   "tabs": [
@@ -10,7 +10,7 @@
       "views": [
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/depiction/dyadaptive/banner.jpg",
+          "URL": "https://jimkanuo.github.io/apt-repo/depictions/dyadaptive/banner.jpg",
           "width": 390,
           "height": 208,
           "cornerRadius": 12,

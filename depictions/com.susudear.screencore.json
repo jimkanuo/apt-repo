@@ -1,6 +1,6 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/screencore/banner_header.jpg",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depictions/screencore/banner_header.jpg",
   "tintColor": "#4A9EFF",
   "class": "DepictionTabView",
   "tabs": [
@@ -10,7 +10,7 @@
       "views": [
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/depiction/screencore/banner.jpg",
+          "URL": "https://jimkanuo.github.io/apt-repo/depictions/screencore/banner.jpg",
           "width": 390,
           "height": 208,
           "cornerRadius": 12,

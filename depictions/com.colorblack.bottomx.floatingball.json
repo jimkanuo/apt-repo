@@ -1,6 +1,6 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/banner_header-pet.png",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depictions/bottomx-floatingball/banner_header-pet.png",
   "tintColor": "#5AD8FF",
   "class": "DepictionTabView",
   "tabs": [
@@ -10,7 +10,7 @@
       "views": [
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/banner-pet.png",
+          "URL": "https://jimkanuo.github.io/apt-repo/depictions/bottomx-floatingball/banner-pet.png",
           "width": 390,
           "height": 208,
           "cornerRadius": 12,
@@ -71,11 +71,11 @@
           "itemSize": "{160, 346}",
           "screenshots": [
             {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/preview1.png",
+              "url": "https://jimkanuo.github.io/apt-repo/depictions/bottomx-floatingball/preview1.png",
               "accessibilityText": "悬浮球返回与点击光效"
             },
             {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/bottomx-floatingball/preview2.png",
+              "url": "https://jimkanuo.github.io/apt-repo/depictions/bottomx-floatingball/preview2.png",
               "accessibilityText": "设置面板 - 自定义图标与外观调节"
             }
           ]

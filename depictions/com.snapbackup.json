@@ -1,6 +1,6 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://jimkanuo.github.io/apt-repo/icon/snapbackup-banner.png",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup-banner.png",
   "tintColor": "#4A92FF",
   "class": "DepictionTabView",
   "tabs": [
@@ -10,7 +10,7 @@
       "views": [
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/icon/snapbackup-hero.png",
+          "URL": "https://jimkanuo.github.io/apt-repo/depictions/icon/snapbackup-hero.png",
           "width": 390,
           "height": 196,
           "cornerRadius": 0,

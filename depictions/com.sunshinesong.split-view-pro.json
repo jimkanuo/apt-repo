@@ -9,7 +9,7 @@
       "views": [
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/depiction/splitviewpro/banner.png",
+          "URL": "https://jimkanuo.github.io/apt-repo/depictions/splitviewpro/banner.png",
           "width": 1500,
           "height": 800,
           "alignment": 2,
@@ -55,15 +55,15 @@
           "itemSize": "{160, 346}",
           "screenshots": [
             {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/splitviewpro/preview1.png",
+              "url": "https://jimkanuo.github.io/apt-repo/depictions/splitviewpro/preview1.png",
               "accessibilityText": "分屏主界面"
             },
             {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/splitviewpro/preview2.png",
+              "url": "https://jimkanuo.github.io/apt-repo/depictions/splitviewpro/preview2.png",
               "accessibilityText": "arc 环形菜单"
             },
             {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/splitviewpro/preview3.png",
+              "url": "https://jimkanuo.github.io/apt-repo/depictions/splitviewpro/preview3.png",
               "accessibilityText": "设置面板"
             }
           ]

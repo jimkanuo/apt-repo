@@ -1,6 +1,6 @@
 {
   "minVersion": "0.1",
-  "headerImage": "https://jimkanuo.github.io/apt-repo/depiction/home26/banner_header.jpg",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depictions/home26/banner_header.jpg",
   "tintColor": "#3CC8B4",
   "class": "DepictionTabView",
   "tabs": [
@@ -10,7 +10,7 @@
       "views": [
         {
           "class": "DepictionImageView",
-          "URL": "https://jimkanuo.github.io/apt-repo/depiction/home26/banner.jpg",
+          "URL": "https://jimkanuo.github.io/apt-repo/depictions/home26/banner.jpg",
           "width": 390,
           "height": 208,
           "cornerRadius": 12,
@@ -64,11 +64,11 @@
           "itemSize": "{160, 332}",
           "screenshots": [
             {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/home26/preview1.png",
+              "url": "https://jimkanuo.github.io/apt-repo/depictions/home26/preview1.png",
               "accessibilityText": "设置首页：主开关 / 图标包管理器 / 图标生成引擎 / 例外应用"
             },
             {
-              "url": "https://jimkanuo.github.io/apt-repo/depiction/home26/preview2-v3.png",
+              "url": "https://jimkanuo.github.io/apt-repo/depictions/home26/preview2-v3.png",
               "accessibilityText": "应用抠图设置：自动抠图 / 背景容差 / 边界扩展 / 边缘柔化 / 前景强度 / 自定义图标图片"
             }
           ]
