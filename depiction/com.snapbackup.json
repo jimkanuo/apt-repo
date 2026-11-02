@@ -19,155 +19,36 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**SnapBackup 备份恢复** · 重装越狱前，把插件和配置原样带走\n\n越狱最疼的一刻是重装系统——几十个插件、一堆设置，全靠手动一个个装回来。SnapBackup 把它们连同软件源、偏好 plist 一起打包，重越狱后一次恢复。支持 rootless 与 RootHide 隐根，装完你只需要在 Sileo 里按一次确认。",
+          "markdown": "**SnapBackup 备份恢复**\n\n重越狱、换机、重装插件前，把插件和配置原样打包带走，装完一键恢复。支持 rootless 与 RootHide 隐根。",
           "useSpacing": true
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**① 备份全自动** — 勾好，点一次，归档 + 校验 + 封口自己走完\n**② 恢复全自动** — 自动校验、自动打开 Sileo 入队，你只按最后一个「确认」\n**③ 删除必须你点头** — 清理只列清单等你勾，风险项默认不选，不点确认不删",
+          "markdown": "**备份** — 一键把已装插件重新打成 deb，连同偏好 plist、软件源一起存进备份包。\n\n**恢复** — 自动校验后打开 Sileo 入队，你按一次「确认」就装回来；配置可单独恢复，不用先装插件。\n\n**跳过已安装** — 开关一开，装过的自动跳过，只补没装的。\n\n**装本地 deb** — 从文件选择器多选本地 deb，校验后一起入队。\n\n**失败能补备** — 备份失败的插件可以单独重试，直接补进原备份，不新建文件夹。\n\n**清理垃圾** — 扫描缓存、日志、临时文件，**全程手动勾选、确认后才删**，不会自动清空。",
           "useSpacing": true
         },
         {
           "class": "DepictionHeaderView",
-          "title": "它到底解决了什么"
+          "title": "清理功能（重点）"
         },
         {
           "class": "DepictionSeparatorView"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- **重越狱后不想一个个装**：备份里就有现场重打包的 deb，恢复时批量入队，不用去源里翻\n- **装完忘了调设置**：插件偏好 plist、Application Support、软件源列表一起备份，恢复时可单独还原\n- **不知道该勾哪些**：按已安装包的 Depends / Pre-Depends / Provides 自动算传递依赖，必需项自动勾选并锁住\n- **RootHide 路径绕晕**：自动解析真实 jbroot、读隐根容器的 apt 数据库，不受 `.jbroot-xxxx` 隔离目录干扰\n- **怕误删东西**：清理功能从不自动删，所有条目都要你亲手勾选、再确认",
+          "markdown": "**怎么用**：主页 →「清理缓存」→ 自动扫描 → 你勾选要清的 → 点确认删除。\n**不点确认，一个文件都不会删。**\n\n**默认勾选（安全可清）**\n- `/var/mobile/Library/Caches`、`Library/Logs`（含隐藏文件）\n- 每个 App 容器的 `Library/Caches`\n\n**默认不勾，需要你自己放开（风险项）**\n- 照片资料库 `Syndication.photoslibrary`、`Intents/Images`\n- StayShot / Snapper3 截图原图与缩略图、SnowBoard 主题\n- RootHidePatcher、各种 Inbox（只认 deb/dylib/zip/ipa/tipa/ipcc/png）\n- `MobileAsset`、`/var/db/uuidtext`、`/var/db/diagnostics`\n- `/tmp`、`/var/tmp` 里超过 24 小时没动过的文件\n\n**删除保护**\n- 只删本轮扫描登记过的路径，逐个复核设备号、inode、类型、修改时间\n- 不跟随符号链接，不删 socket / FIFO / 设备节点\n- 目录只清内容，保留目录本身和权限\n- SnapBackup 自己的数据永远跳过\n- 支持 Filza 定位到文件，也可以一键全选/全取消",
           "useSpacing": true
         },
         {
           "class": "DepictionHeaderView",
-          "title": "三种备份模式"
+          "title": "其他说明"
         },
         {
           "class": "DepictionSeparatorView"
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**轻量清单备份** — 只记插件清单与配置，体积小、速度快，适合日常存档。\n\n**完整离线备份** — 把已装插件现场重打包成 `.deb` 一并带走，换机、重装都能离线恢复。\n\n**仅配置备份** — 只备份偏好与软件源，装插件前先把设置捞回来。",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "恢复的三种姿势"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "**① 从备份恢复插件** — 校验备份完整性、包元数据与架构 → 自动打开 Sileo 加入原生队列 → 你确认安装。\n\n**② 只恢复配置** — 独立按钮，直接写回 plist 与软件源，不需要 root，也不用先装插件。\n\n**③ 批量安装本地 deb** — 3.8.3 新增：从文件选择器一次选多个 deb，校验后一起入队，同样走 Sileo 原生流程。",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "跳过已安装：不重复装，也不漏装"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "备份结果页的「跳过已安装插件」开关，新建备份和历史报告共用，记住你的选择。\n\n- 开启后，单项恢复遇到已装插件显示「已安装，已跳过」\n- 批量恢复时 helper 重新读一次 dpkg 数据库，把已装目标剔掉，只处理没装的\n- 全部被跳过时保留日志并正常结束，不弹 Sileo、不触发遗留任务\n- 读安装状态失败就停，**绝不把「读不到」当成「没装」**\n- 关掉开关即恢复原来的批量重装行为",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "清理：全程手动确认"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "清理从不自动执行，流程永远是 **扫描 → 你勾选 → 你确认 → 才删除**。\n\n**默认勾选（安全可清）**\n- `/var/mobile/Library/Caches/*`、`Library/Logs/*`（含隐藏项，保留目录本身）\n- 各 App 容器的 `Library/Caches`\n\n**默认不勾（风险项，要你自己放开）**\n- 照片资料库 `Syndication.photoslibrary`、`Intents/Images`\n- StayShot / Snapper3 的截图原图与缩略图、SnowBoard 主题数据\n- RootHidePatcher 与各 Inbox（`.deb/.dylib/.zip/.ipa/.tipa/.ipcc/.png` 白名单）\n- `/var/MobileAsset/AssetsV2`、`/var/db/uuidtext`、`/var/db/diagnostics`\n- `/tmp`、`/var/tmp` 下超过 24 小时没动过的文件\n\n**删除时的硬性保护**\n- 只认本轮扫描登记过的路径，逐项复核设备号、inode、类型、修改时间\n- 用目录 fd 逐层打开，不跟随符号链接，不删 socket / FIFO / 设备节点\n- 目录只清内容、保留顶层目录与权限\n- SnapBackup 自己的容器、缓存、日志、`.sb_` 工作文件永远跳过\n- 「手动确认项」开关可一次全勾或全取消，Filza 按钮不改变勾选状态",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "备份里到底装了什么"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "**插件**：`dpkg-query` 读已装包 → 按安装文件现场重建 `.deb`（保留维护脚本、权限、符号链接）；你手动选的原版 deb 按字节原样保存。\n\n**依赖**：自动收集已安装的传递依赖。APT、dpkg、越狱引导、注入框架这些受保护组件只记为环境依赖，不打包。\n\n**配置**：`Library/Preferences/*.plist`、`Library/Application Support`、RootHide 的 `var/mobile` 对应目录、非 Apple 的 root 偏好、`etc/apt` 软件源，以及 XXTouch `ports.json`、`Media/1ferver/tessdata`、Lua 脚本、OpenSSH launch plist。\n\n**元数据**：每个文件都记 SHA-256、权限、UID/GID、修改时间与大小；`manifest.json` 保存对应关系，`restore.ready` 作为封口校验。",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "归档与安全机制"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "- 备份先在 `.partial-*` 隐藏目录里做，全部成功才改名成正式备份；中途失败不会留下半个「看起来正常」的备份\n- 有失败项时状态标为「部分完成」，界面明确提示**不能用于完整恢复**\n- 恢复前校验完成标记、SHA-256、文件大小、包元数据、架构与配置路径\n- 只读所选备份，不回退扫描其他设备的 deb，不执行外部 APT 安装\n- 配置覆盖前保留副本，恢复记录写进 `_restore_logs`\n- RootHide 每次备份/恢复/预检前，先在备份目录用 `dpkg-deb` 试打一个最小包验证工具链，通过才正式动手",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "操作流程"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionSubheaderView",
-          "title": "① 备份",
-          "useBoldText": true
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "主页 →「一键备份」→ 选模式（全部插件 / 勾选的插件+配置 / 仅配置）→ 等完成。\n备份存在 `/var/mobile/Documents/SnapBackup/`。",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionSubheaderView",
-          "title": "② 恢复配置",
-          "useBoldText": true
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "主页 →「恢复配置」→ 选备份包 → 自动写回 plist 与软件源（无需 root，不用先装插件）。",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionSubheaderView",
-          "title": "③ 恢复插件",
-          "useBoldText": true
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "主页 →「恢复插件」→ 选备份包 → 自动打开 Sileo 加入队列 → 你在 Sileo 里按「确认」安装。",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionSubheaderView",
-          "title": "④ 批量安装本地 deb（3.8.3）",
-          "useBoldText": true
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "主页 →「批量安装本地插件」→ 选 deb 文件（可多选）→ 核对列表 → 加入 Sileo 队列 → 在 Sileo 确认。",
-          "useSpacing": true
-        },
-        {
-          "class": "DepictionHeaderView",
-          "title": "环境与注意"
-        },
-        {
-          "class": "DepictionSeparatorView"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "- **系统**：iOS 15.0 及以上\n- **架构**：rootless（arm64）与 RootHide 隐根（arm64e）分别打包，请装对应版本\n- **后台不常驻**：打开才执行，用完即走，不耗电\n- **装完请完全退出并重开 Sileo**，让新的导入扩展生效\n- **本地重打包有边界**：原始安装包已删除、文件已丢失或依赖未安装的情况，无法凭空补全，请优先保留完整离线备份",
+          "markdown": "- **系统**：iOS 15.0 及以上；rootless（arm64）与 RootHide（arm64e）分别安装\n- **备份位置**：`/var/mobile/Documents/SnapBackup/`\n- **不常驻后台**：打开才工作，不耗电\n- **装完请完全退出并重开 Sileo**",
           "useSpacing": true
         },
         {
@@ -203,11 +84,6 @@
           "class": "DepictionTableTextView",
           "title": "支持架构",
           "text": "rootless (arm64) · roothide (arm64e)"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "备份目录",
-          "text": "/var/mobile/Documents/SnapBackup/"
         },
         {
           "class": "DepictionTableTextView",
