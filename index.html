@@ -41,9 +41,10 @@ a.open { color: #007aff; text-decoration: underline; }
 <a class="open" id="open">Open in Irisin…</a>
 <script>
 const repository = "jimkanuo/apt-repo";
+const displayName = "卡诺专用源";
 const source = new URL(".", location.href).href;
 const [owner, name] = repository.split("/");
-document.getElementById("title").textContent = name || repository;
+document.getElementById("title").textContent = displayName;
 document.getElementById("address").textContent = source.replace(/^https?:[/][/]/, "").replace(/[/]+$/, "");
 document.getElementById("owner").textContent = "@" + owner;
 document.getElementById("open").href = "irisin://repository/add?url=" + encodeURIComponent(source);

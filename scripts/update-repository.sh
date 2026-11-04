@@ -16,6 +16,10 @@ done
 
 name="${REPOSITORY_NAME:-$(basename "$repository_root")}"
 owner="${REPOSITORY_OWNER:-$name}"
+# The title Sileo/Cydia show for the source. Kept apart from name and owner,
+# which drive the Codename and Origin fields.
+display_name="${REPOSITORY_DISPLAY_NAME:-卡诺的专用源}"
+display_description="${REPOSITORY_DESCRIPTION:-$display_name - 常用越狱插件备份}"
 work_dir="$(mktemp -d "$repository_root/.repo-build.XXXXXX")"
 trap 'rm -rf -- "$work_dir"' EXIT
 site_dir="$work_dir/site"
@@ -56,13 +60,13 @@ cp "$work_dir/Packages" "$work_dir/Packages.xz" "$work_dir/indexes/"
 # not hash itself.
 apt-ftparchive \
   -o APT::FTPArchive::Release::Origin="$owner" \
-  -o APT::FTPArchive::Release::Label="$name" \
+  -o APT::FTPArchive::Release::Label="$display_name" \
   -o APT::FTPArchive::Release::Suite="stable" \
   -o APT::FTPArchive::Release::Version="1.0" \
   -o APT::FTPArchive::Release::Codename="$name" \
   -o APT::FTPArchive::Release::Architectures="iphoneos-arm iphoneos-arm64 iphoneos-arm64e" \
   -o APT::FTPArchive::Release::Components="main" \
-  -o APT::FTPArchive::Release::Description="Packages from $owner" \
+  -o APT::FTPArchive::Release::Description="$display_description" \
   release "$work_dir/indexes" > "$work_dir/Release"
 
 if ((${#packages[@]} > 0)); then
