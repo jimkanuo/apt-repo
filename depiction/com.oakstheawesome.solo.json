@@ -42,7 +42,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**1.0.1-12 · 当前版本**\n- 🖱 **修复底部 Dock 点击后打开方式不生效** —— 原来只接了管理器的 `iconTapped:`，现在同时接 `SBIconView` 的 `_handleTap`、`_handleTapWithModifierFlags:` 与管理器的 `iconTapped:modifierFlags:`，运行时先核对完整 ABI\n- 🧭 **沿真实父视图找 Dock** —— 点击时向上查找 `SBDockIconListView`，避免 Dock 重建但布局缓存还没刷新时丢失打开方式\n- 🛡 **原有拦截全部保留** —— Dock／图标／管理器编辑状态、文件夹、下载中图标、系统禁止点击与禁止启动的检查照旧；全屏和侧栏外的点击仍走系统原流程\n- 🎛 **设置页全部保留** —— 原生 17 项打开方式、侧栏显隐与背景、快捷页、控制中心和时钟背景功能不变；不恢复侧栏 App 选择，也不改原版二进制\n- 🧪 67/67 项组件与模拟回归、22/22 项真实设置页测试、5/5 项 SpringBoardHome 方法签名核对、7/7 项静态包检查通过；**未在越狱真机验证**，实际调用链与第三方分屏效果仍需真机确认"
+          "markdown": "**1.0.1-12 · 当前版本**\n- 🖱 **新增 Dock 点击拦截** —— 在原有管理器回调之外，同时接上 `SBIconView` 的 `_handleTap`、`_handleTapWithModifierFlags:` 与管理器的 `iconTapped:modifierFlags:`，Dock 里的图标点下去也会按你设置的打开方式启动\n- 🧭 **Dock 定位改为沿父视图查找** —— 向上找到真正的 `SBDockIconListView`，避免 Dock 重建、布局缓存未刷新时识别不到而退回全屏\n- 👆 **侧边栏 App 点击补齐** —— 侧边栏里的图标同样走打开方式设置，不再只有快捷页生效\n- 🛡 **原有检查全部保留** —— 编辑模式、文件夹、下载中图标、系统禁止点击与禁止启动的判断照旧；全屏和设置项里的点击仍走系统原流程\n- 🎛 **设置项不变** —— 17 种打开方式、侧边栏显隐与底板、快捷页、控制中心模块、时钟背景全部保留\n- 🧪 67/67 项组件回归、22/22 项设置页、5/5 项方法签名、7/7 项静态包检查通过；**未在越狱真机验证**，实际注入效果需真机确认"
         },
         {
           "class": "DepictionSeparatorView"
@@ -80,7 +80,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "1. 先看自己的越狱类型：**RootHide/隐根** 装 arm64e 包，**rootless/无根** 装 arm64 包\n2. 安装后 **Respring**（注销重启桌面）\n3. 进入 **设置 → Solo** 打开「启用」总开关，再按需开启「启用 Solo 增强」\n4. 想改快捷页：设置 → Solo → 轮播 → 快捷\n\n**升级不会清空已有配置**，关闭「启用 Solo 增强」或原版总开关即可恢复原版界面。"
+          "markdown": "1. 先看自己的越狱类型：**RootHide / 隐根** 装 **arm64e** 包，**rootless / 无根** 装 **arm64** 包，二选一\n2. 安装后 **Respring**（注销重启桌面）\n3. 进入 **设置 → Solo** 打开「启用」总开关，再按需开启「启用 Solo 增强」\n4. 快捷页设置：设置 → Solo → 轮播 → 快捷\n5. 改完打开方式后建议再 Respring 一次，让 SpringBoard 重新读取 Dock 拦截\n\n**升级不会清空已有配置**，关掉「启用 Solo 增强」或原版总开关即可恢复原版界面。"
         },
         {
           "class": "DepictionHeaderView",
