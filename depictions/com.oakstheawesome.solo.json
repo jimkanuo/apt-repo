@@ -1,0 +1,96 @@
+{
+  "minVersion": "15.0",
+  "class": "DepictionTabView",
+  "headerImage": "https://jimkanuo.github.io/apt-repo/depictions/solo/icon.png",
+  "tintColor": "#FF8A5B",
+  "tabs": [
+    {
+      "tabname": "详情",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "solo-卡诺中文版"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "iPhone Duo 风格主屏幕 · 中文汉化 + 卡诺增强",
+          "useMargins": true
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 8
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**主屏幕轮播面板** —— 把小组件、媒体播放器、天气时钟、日历日程和快捷开关整合成一个可以上下翻页的轮播主屏，取代传统图标格子。\n\n**本版为卡诺中文版** —— 界面与设置项全部简体中文，并在原版基础上追加了下面这些提升。\n\n**⚠️ 隐根与无根二选一** —— 本插件同时提供 **隐根（RootHide）** 与 **无根（rootless）** 两个包，请按自己的越狱环境安装对应版本，**不要两个都装**。"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "主要功能"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**轮播主屏幕**\n- 外层上下翻页，沿用原版弹簧与中断手感；内层快捷图标左右翻页\n- 时钟模块可从**相册或文件**选背景，图片自动修正方向、压缩后保存\n- 三个矩形背景替换为磨砂层，透明度可调，**文字不跟着变淡**\n\n**快捷页**\n- 每页 **4×2**，图标与名称一起显示，图标尺寸 **20–64 点**可调\n- 支持 App、系统工具、控制中心模块、快捷指令和 URL，**数量不限**\n- 可多选、停用、删除、排序，每个 App 可**单独设置打开方式**\n- 六款底板样式：彩色磨砂、透明玻璃、月白、薄荷、樱雾、石墨\n\n**打开方式（17 种）**\n- 全屏、PullOver-X、ScreenCore、ScreenCore Duo、Open、FV、SVP、Myrtle、一芽系列、曾牛系列\n- 选中分屏或小窗后**不会在失败时静默退回全屏**，会提示所选方式与错误\n- 需要对应的第三方分屏插件已安装并启用\n\n**侧边栏**\n- 「隐藏侧边栏」开关，默认隐藏原生 Dock 图标、底板与加号入口\n- 显示时底板沿用快捷页选中的背景样式\n- 侧边栏 App 可单独设打开方式，与快捷页配置互相独立"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "更新日志"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**1.0.1-12 · 当前版本**\n- 🖱 **修复底部 Dock 点击后打开方式不生效** —— 原来只接了管理器的 `iconTapped:`，现在同时接 `SBIconView` 的 `_handleTap`、`_handleTapWithModifierFlags:` 与管理器的 `iconTapped:modifierFlags:`，运行时先核对完整 ABI\n- 🧭 **沿真实父视图找 Dock** —— 点击时向上查找 `SBDockIconListView`，避免 Dock 重建但布局缓存还没刷新时丢失打开方式\n- 🛡 **原有拦截全部保留** —— Dock／图标／管理器编辑状态、文件夹、下载中图标、系统禁止点击与禁止启动的检查照旧；全屏和侧栏外的点击仍走系统原流程\n- 🎛 **设置页全部保留** —— 原生 17 项打开方式、侧栏显隐与背景、快捷页、控制中心和时钟背景功能不变；不恢复侧栏 App 选择，也不改原版二进制\n- 🧪 67/67 项组件与模拟回归、22/22 项真实设置页测试、5/5 项 SpringBoardHome 方法签名核对、7/7 项静态包检查通过；**未在越狱真机验证**，实际调用链与第三方分屏效果仍需真机确认"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "信息"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "版本",
+          "text": "1.0.1-12"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "作者",
+          "text": "kanuo"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "支持系统",
+          "text": "iOS 15 – iOS 18"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "架构",
+          "text": "隐根 arm64e / 无根 arm64"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "安装说明"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "1. 先看自己的越狱类型：**RootHide/隐根** 装 arm64e 包，**rootless/无根** 装 arm64 包\n2. 安装后 **Respring**（注销重启桌面）\n3. 进入 **设置 → Solo** 打开「启用」总开关，再按需开启「启用 Solo 增强」\n4. 想改快捷页：设置 → Solo → 轮播 → 快捷\n\n**升级不会清空已有配置**，关闭「启用 Solo 增强」或原版总开关即可恢复原版界面。"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "注意事项"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- 分屏 / 小窗类打开方式**必须**装有对应的第三方插件，否则只会在失败时提示\n- **不要同时安装隐根包和无根包**，两者文件路径不同但功能相同，会互相干扰\n- 控制中心模块按设备实际安装的模块枚举，特殊的多控件模块可能仍需单独适配\n- 本轮改动基于本地编译与模拟器验证，**真机注入、触感与实际分屏效果仍需确认**"
+        }
+      ]
+    }
+  ]
+}
